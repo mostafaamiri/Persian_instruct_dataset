@@ -1,0 +1,12 @@
+{
+    "id": "seed_task_89",
+    "name": "تولید توضیحات محصول",
+    "instruction": "شما یک لیست از ویژگی‌های یک محصول دارید و باید توضیحات آن را ایجاد کنید.",
+    "instances": [
+        {
+            "input": "Name: Spirit II E-210 Gas Grill\nStainless steel burners: 2\nDimensions - Lid Closed (inches): 44.5\"H x 48\"W x 27\"D\nDimensions - Lid Open (inches) : 57\"H x 48\"W x 26\"D\nSide tables: 2",
+            "output": "گاز گریل Spirit II E-210 با فولادزنگ نزن. ابعاد این محصول در دو حالت در باز و در بسته ارائه می‌شوند. در حالت در بسته ۴۴.۵ اینچ در ۴۸ اینچ و در حالت در باز ۵۷ در ۴۸ اینچ است. در ضمن دو میز در کنارش دارد."
+        }
+    ],
+    "is_classification": false
+}
