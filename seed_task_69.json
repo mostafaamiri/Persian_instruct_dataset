@@ -1,0 +1,12 @@
+[
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که کار مورد نظر را انجام دهد.",
+        "input": " را درجمله ای مشخص  بیابید. x تعداد تکرار کلمه",
+        "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
+    },
+   {
+      "instruction": "برنامه ای در زبان پایتون بنویس که کار مورد نظر را انجام دهد.",
+        "input": "",
+        "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
+   }
+]
