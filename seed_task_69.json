@@ -5,8 +5,25 @@
         "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
     },
    {
-      "instruction": "برنامه ای در زبان پایتون بنویس که کار مورد نظر را انجام دهد.",
-        "input": "",
-        "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
-   }
+      "instruction": "برنامه ای در زبان پایتون بنویس که جمع دو عدد مورد نظر را انجام دهد",
+        "input": "x y",
+        "output": "def add_x_y(x, y):\n    add = 0\n    add = x + y\n         return add"
+   },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که ضرب دو عدد را محاسبه کند",
+        "input": "x y",
+        "output": "def multi_x_y(x, y):\n    multi = 1\n    add = x * y\n         return multi"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت شعاع دایره مساحت دایره را حساب کند",
+        "input": "r",
+        "output": "def masahat(x, y):\n    mas = 1\n    mas = 3.14 * 3.14 * r\n         return mas"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت شعاع دایره محیط دایره را حساب کند",
+        "input": "r",
+        "output": "def mohit(x, y):\n    moh = 1\n    moh =  3.14 * 2 * r\n         return moh"
+    },
+   
+    
 ]
