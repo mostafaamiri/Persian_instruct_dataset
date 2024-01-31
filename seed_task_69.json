@@ -1,7 +1,7 @@
 [
     {
         "instruction": "برنامه ای در زبان پایتون بنویس که کار مورد نظر را انجام دهد.",
-        "input": " را درجمله ای مشخص  بیابید. x تعداد تکرار کلمه",
+        "input": " را درجمله ای مشخص  بیابید x تعداد تکرار کلمه",
         "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
     },
    {
@@ -23,6 +23,36 @@
         "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت شعاع دایره محیط دایره را حساب کند",
         "input": "r",
         "output": "def mohit(x, y):\n    moh = 1\n    moh =  3.14 * 2 * r\n         return moh"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که بزرگترین مقسوم الیه مشتزک دو عدد را محاسبه کند",
+        "input": "x y",
+        "output": "def gcd(x, y):\n    gcd = 1\n     if x % y == 0: \n     return y \n     for k in range(int(y / 2), 0, -1): \n     if x % k == 0 and y % k == 0: gcd = k \n    break \n    return gcd"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت دنباله ای از اعداد تشخیص دهد آیا همه اعداد با هم متفاوت اند یا خیر",
+        "input": "x y z o p q k",
+        "output": "def test_distinct(data):\n    if len(data) == len(set(data)):\n      return True\n    else:\n      return False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که دو عدد را از هم کم کند ",
+        "input": "x y",
+        "output": "def sub_x_y(x, y):\n    sub = 0\n    sub = x - y\n         return sub"
+    },
+     {
+        "instruction": "برنامه ای در زبان پایتون بنویس که عدد اول را بر عدد دوم تقسیم کند",
+        "input": "x y",
+        "output": "def div_x_y(x, y):\n    div = 1\n    div = x / y\n         return div"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که ضلع یک مربع را گرفته و مساحت مربع را حساب کند",
+        "input": "x",
+        "output": "def mas_x_y(x, y):\n    mas = 1\n    mas = x * x\n         return mas"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که حجم مخروط را محاسبه کند",
+        "input": "r h",
+        "output": "def hajm_x_y(x, y):\n    hajm = 1\n    hajm = 3.14 * r * r * h\n         return hajm"
     },
    
     
