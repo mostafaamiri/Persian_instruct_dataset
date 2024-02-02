@@ -1,7 +1,4 @@
 [
-{"id": "seed_task_14", "name": "question_answering_generation_from_facts", "instruction": "Using the facts given, write a question-answer pair.", 
-"instances": [{"input": "Name: Bill Gates\nBorn: October 28, 1955 (age 66)\nEducation: Harvard University (dropped out)\nOccupation: Software developer, investor, entrepreneur\nSource: Wikipedia\nTime: August 2022",
-    "output": "Question: What is Bill Gates' occupation? \nAnswer: He is a software developer, investor, and entrepreneur."}], "is_classification": false}
     {
         "instruction": "با استفاده از حقیقت های مطرح شده، یک جفت سوال و جواب بنویسید. ",
         "input": "نام: بیل گیتس، تولد: 28 اکتبر 1955 (66 سال)، تحصیلات: دانشگاه هاروارد (انصراف داده)، شغل: توسعه دهنده نرم افزار، سرمایه گذار، کارآفرین",
