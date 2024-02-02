@@ -164,7 +164,7 @@
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا ضلع سوم مثلث قائم الزاویه را از دو ضلع مشخص به دست آورد.",
         "input": "opposite_side adjacent_side hypotenuse",
-        "output": "def pythagoras(opposite_side, adjacent_side, hypotenuse):\n    if opposite_side == str("x"):\n        return ("Opposite = " + str(((hypotenuse**2) - (adjacent_side**2))**0.5))\n    elif adjacent_side == str("x"):\n        return ("Adjacent = " + str(((hypotenuse**2) - (opposite_side**2))**0.5))\n    elif hypotenuse == str("x"):\n        return ("Hypotenuse = " + str(((opposite_side**2) + (adjacent_side**2))**0.5))\n    else:\n        return "You know the answer!" "
+        "output": "def pythagoras(opposite_side, adjacent_side, hypotenuse):\n    if opposite_side == str(\"x\"):\n        return (\"Opposite = \" + str(((hypotenuse**2) - (adjacent_side**2))**0.5))\n    elif adjacent_side == str(\"x\"):\n        return (\"Adjacent = \" + str(((hypotenuse**2) - (opposite_side**2))**0.5))\n    elif hypotenuse == str(\"x\"):\n        return (\"Hypotenuse = \" + str(((opposite_side**2) + (adjacent_side**2))**0.5))\n    else:\n        return \"You know the answer!\" "
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا مجموع تفاضل مطلق همه جفت های مجزا در یک آرایه معین را محاسبه کند (ترتیب غیر نزولی) ",
@@ -194,12 +194,12 @@
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا بررسی کنید که آیا یک عدد در یک محدوده معین قرار می گیرد یا خیر",
         "input": "nums",
-        "output": "def test_range(n):\n    if n in range(3, 9):\n        print("%s is in the range" % str(n))\n    else:\n        print("The number is outside the given range.")"
+        "output": "def test_range(n):\n    if n in range(3, 9):\n        print(\"%s is in the range\" % str(n))\n    else:\n        print(\"The number is outside the given range.\")"
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویس که رشته ای را بپذیرد و تعداد حروف بزرگ و کوچک را بشمارد.",
         "input": "nums",
-        "output": "def string_test(s):\n    d = {"UPPER_CASE": 0, "LOWER_CASE": 0}\n    for c in s:\n        if c.isupper():\n            d["UPPER_CASE"] += 1\n        elif c.islower():\n            d["LOWER_CASE"] += 1\n        else:\n            pass"
+        "output": "def string_test(s):\n    d = {\"UPPER_CASE": 0, "LOWER_CASE\": 0}\n    for c in s:\n        if c.isupper():\n            d[\"UPPER_CASE\"] += 1\n        elif c.islower():\n            d[\"LOWER_CASE\"] += 1\n        else:\n            pass"
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا تمام اعداد یک لیست را جمع کند.",
@@ -214,7 +214,7 @@
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا رشته ای حاوی کد پایتون را اجرا کند.",
         "input": "",
-        "output": "mycode = 'print("hello world")'\ncode = """\ndef mutiply(x,y):\n    return x*y\nprint('Multiply of 2 and 3 is: ',mutiply(2,3))\n"""\nexec(mycode)\nexec(code)"
+        "output": "mycode = 'print(\"hello world\")'\ncode = \"\"\"\ndef mutiply(x,y):\n    return x*y\nprint('Multiply of 2 and 3 is: ',mutiply(2,3))\n\"\"\"\nexec(mycode)\nexec(code)"
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویسید تا به یک تابع در داخل یک تابع دسترسی پیدا کنید",
@@ -239,7 +239,7 @@
     {
         "instruction": "برنامه ای به زبان پایتون بنویس که جمع دو عدد و حاصل آن را نمایش دهد",
         "input": "",
-        "output": "x = 30\ny = 20\nprint("\n%d+%d=%d" % (x, y, x+y))"
+        "output": "x = 30\ny = 20\nprint(\"\n%d+%d=%d\" % (x, y, x+y))"
     },
     {
         "instruction": "برای بررسی عددی بودن یک رشته، یک برنامه پایتون بنویسید",
