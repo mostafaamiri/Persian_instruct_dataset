@@ -62,7 +62,7 @@
     {
         "instruction": "برنامه ای در زبان پایتون بنویس که اولین و آخرینعنصر لیست را نمایش دهد",
         "input": "color_list",
-        "output": "print("%s %s" % (color_list[0], color_list[-1]))"
+        "output": "print(\"%s %s\" % (color_list[0], color_list[-1]))"
     },
 
     {
