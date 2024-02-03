@@ -250,6 +250,6 @@
         "instruction": "یک برنامه پایتون بنویسید تا پشته تماس فعلی را چاپ کند.",
         "input": "",
         "output": "import traceback\nprint()\ndef f1():\n    return abc()\ndef abc():\n    traceback.print_stack()\nf1()\nprint()"
-    },
+    }
     
 ]
