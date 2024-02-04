@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -48,6 +48,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sadeghhpr"><img src="https://avatars.githubusercontent.com/u/99759494?v=4?s=100" width="100px;" alt="sadeghhpr"/><br /><sub><b>sadeghhpr</b></sub></a><br /><a href="#data-sadeghhpr" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ali-zm"><img src="https://avatars.githubusercontent.com/u/122468687?v=4?s=100" width="100px;" alt="ali-zm"/><br /><sub><b>ali-zm</b></sub></a><br /><a href="#data-ali-zm" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/1parsaheidari1"><img src="https://avatars.githubusercontent.com/u/147088673?v=4?s=100" width="100px;" alt="Parsa Heidari"/><br /><sub><b>Parsa Heidari</b></sub></a><br /><a href="#data-1parsaheidari1" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
