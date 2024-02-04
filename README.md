@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -50,6 +50,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ali-zm"><img src="https://avatars.githubusercontent.com/u/122468687?v=4?s=100" width="100px;" alt="ali-zm"/><br /><sub><b>ali-zm</b></sub></a><br /><a href="#data-ali-zm" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/1parsaheidari1"><img src="https://avatars.githubusercontent.com/u/147088673?v=4?s=100" width="100px;" alt="Parsa Heidari"/><br /><sub><b>Parsa Heidari</b></sub></a><br /><a href="#data-1parsaheidari1" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aemovahed"><img src="https://avatars.githubusercontent.com/u/122293053?v=4?s=100" width="100px;" alt="Ali E.Movahed"/><br /><sub><b>Ali E.Movahed</b></sub></a><br /><a href="#data-aemovahed" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/farcshad"><img src="https://avatars.githubusercontent.com/u/52861891?v=4?s=100" width="100px;" alt="farcshad"/><br /><sub><b>farcshad</b></sub></a><br /><a href="#data-farcshad" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
