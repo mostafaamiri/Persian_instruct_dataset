@@ -1,0 +1,372 @@
+[
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def reverse_string(s):\n    # TODO: رشته s را برعکس کنید و آن را برگردانید", 
+        "output": "def reverse_string(s):\n    return s[::-1]", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_palindrome(word):\n    # TODO: اگر کلمه پالیندروم است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_palindrome(word):\n    return word == word[::-1]"}, 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def count_vowels(text):\n    # TODO: تعداد حروف صدادار را شمرده و برگردانید", 
+        "output": "def count_vowels(text):\n    vowels = \"aeiouAEIOU\"\n    count = 0\n    for char in text:\n        if char in vowels:\n            count += 1\n    return count", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def factorial(n):\n    # TODO: فاکتوریل n را محاسبه کرده و برگردانید", 
+        "output": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n - 1)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_prime(n):\n    # TODO: اگر n عددی اول بود درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_prime(n):\n   if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def fibonacci(n):\n    # TODO: nامین عنصر از دنباله فیبوناچی را برگردانید", 
+        "output": "def fibonacci(n):\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n - 1) + fibonacci(n - 2)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_even(n):\n    # TODO: اگر n عددی زوج بود درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_even(n):\n    return n % 2 == 0", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def find_max(lst):\n    # TODO: بزرگ ترین عضو از لیست را پیدا کرده و برگردانید", 
+        "output": "def find_max(lst):\n    max = lst[0]\n    for x in lst:\n        if x > max:\n            max = x\n    return max", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_anagram(s1, s2):\n    # TODO: اگر تمام عناصر لیست اول در لیست دوم وجود داشت درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_anagram(s1, s2):\n    return sorted(s1) == sorted(s2)", 
+        "is_classification": true
+    },
+
+    {   
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_leap_year(year):\n    # TODO: اگر سالی کبیسه باشد درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_leap_year(year):\n    if year % 4 == 0:\n        if year % 100 == 0:\n            if year % 400 == 0:\n                return True\n            else:\n                return False\n        else:\n            return True\n    else:\n        return False", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_common_elements(lst1, lst2):\n    # TODO: لیستی از عناصر مشترک بین دو لیست را برگردانید", 
+        "output": "def get_common_elements(lst1, lst2):\n    common = []\n    for x in lst1:\n        if x in lst2:\n            common.append(x)\n    return common", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def encrypt_message(message, key):\n    # TODO: یک رشته که نتیجه رمزنگاری پیام با استفاده از رمز سزار است را برگردانید", 
+        "output": "def encrypt_message(message, key):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    encrypted = \"\"\n    for char in message:\n        if char in alphabet:\n            index = alphabet.index(char)\n            new_index = (index + key) % 26\n            encrypted += alphabet[new_index]\n        else:\n            encrypted += char\n    return encrypted", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_substring(s1, s2):\n    # TODO: اگر رشته s1 زیر رشته s2 باشد درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_substring(s1, s2):\n    return s1 in s2", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def remove_duplicates(lst):\n    # TODO: یک لیست جدید شامل عناصر منحصر به فرد در لیست داده شده را برگدانید", 
+        "output": "def remove_duplicates(lst):\n    new_lst = []\n    for x in lst:\n        if x not in new_lst:\n            new_lst.append(x)\n    return new_lst", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_valid_email(email):\n    # TODO: اگر آدرس ایمیل داده شده صحیح و قابل قبول است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_valid_email(email):\n    import re\n    pattern = \"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\"\n    return re.match(pattern, email) is not None", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_sorted(lst):\n    # TODO: اگر لیست داده شده مرتب شده است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_sorted(lst):\n    for i in range(len(lst) - 1):\n        if lst[i] > lst[i + 1]:\n            return False\n    return True", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def binary_search(lst, target):\n    # TODO: ایندکس عنصر موردنظر در لیست را برگردانید و در صورت عدم وجود عنصر در لیست -1 را برگردانید", 
+        "output": "def binary_search(lst, target):\n    low = 0\n    high = len(lst) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if lst[mid] == target:\n            return mid\n        elif lst[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def merge_lists(lst1, lst2):\n    # TODO: لیستی مرتب شده شامل عناصر دو لیست داده شده برگردانید", 
+        "output": "def merge_lists(lst1, lst2):\n    i = 0\n    j = 0\n    merged = []\n    while i < len(lst1) and j < len(lst2):\n        if lst1[i] < lst2[j]:\n            merged.append(lst1[i])\n            i += 1\n        else:\n            merged.append(lst2[j])\n            j += 1\n    merged.extend(lst1[i:])\n    merged.extend(lst2[j:])\n    return merged", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_perfect_square(n):\n    # TODO: اگر عدد n مربع کامل باشد درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_perfect_square(n):\n    if n < 0:\n        return False\n    root = int(n ** 0.5)\n    return root * root == n", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_factors(n):\n    # TODO: لیستی از شمارنده های عدد n برگردانید", 
+        "output": "def get_factors(n):\n    factors = []\n    for i in range(1, n + 1):\n        if n % i == 0:\n            factors.append(i)\n    return factors", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_pangram(sentence):\n    # TODO: اگر جمله داده شده شامل تمام حروف الفبای انگلیسی بود درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_pangram(sentence):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    for char in alphabet:\n        if char not in sentence.lower():\n            return False\n    return True", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_power_of_two(n):\n    # TODO: اگر عدد n توانی از دو بود درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_power_of_two(n):\n    if n <= 0:\n        return False\n    while n % 2 == 0:\n        n = n // 2\n    return n == 1", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_longest_word(sentence):\n    # TODO: بزرگ ترین کلمه موجود در جمله ی داده شده را پیدا کرده و برگردانید", 
+        "output": "def get_longest_word(sentence):\n    words = sentence.split()\n    longest = \"\"\n    for word in words:\n        if len(word) > len(longest):\n            longest = word\n    return longest", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_valid_password(password):\n    # TODO: اگر رمز عبور داده شده شرایط زیر را داشت درست را برگردانید:\n    # - حداقل شامل 8 کاراکتر باشد\n    # - شامل حداقل یک حرف بزرگ، یک حرف کوچک، یک رقم و یک کاراکتر خاص باشد\n    # - حاوی هیچ کاراکتر فضای خالی نباشد", 
+        "output": "def is_valid_password(password):\n    import re\n    pattern = \"^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_+])[A-Za-z0-9!@#$%^&*()_+]{8,}$\"\n    return re.match(pattern, password) is not None", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_average(lst):\n    # TODO: میانگین عناصر موجود در لیست داده شده را حساب کرده و برگردانید", 
+        "output": "def get_average(lst):\n    total = 0\n    for x in lst:\n        total += x\n    return total / len(lst)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_triangle(a, b, c):\n    # TODO: اگر سه عدد داده شده تشکیل یک مثلث می دهند درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_triangle(a, b, c):\n    return a + b > c and a + c > b and b + c > a", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_mode(lst):\n    # TODO: پرتکرار ترین عنصر در لیست را برگردانید", 
+        "output": "def get_mode(lst):\n    freq = {}\n    for x in lst:\n        if x in freq:\n            freq[x] += 1\n        else:\n            freq[x] = 1\n    max_freq = 0\n    mode = None\n    for x in freq:\n        if freq[x] > max_freq:\n            max_freq = freq[x]\n            mode = x\n    return mode", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_armstrong_number(n):\n    # TODO: اگر n عددی آرمسترانگ است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_armstrong_number(n):\n    digits = [int(x) for x in str(n)]\n    power = len(digits)\n    total = 0\n    for x in digits:\n        total += x ** power\n    return total == n", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_odd(n):\n    # TODO: اگر n عددی فرد است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_odd(n):\n    return n % 2 == 1", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_sum(lst):\n    # TODO: مجموع عناصر موجود در لیست را حساب کرده و برگردانید", 
+        "output": "def get_sum(lst):\n    sum = 0\n    for x in lst:\n        sum += x\n    return sum", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_vowel(char):\n    # TODO: اگر کاراکتر داده شده جزو حروف صدادار است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_vowel(char):\n    vowels = \"aeiouAEIOU\"\n    return char in vowels", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_median(lst):\n    # TODO: میانه عناصر موجود در لیست داده شده را برگردانید", 
+        "output": "def get_median(lst):\n    lst.sort()\n    n = len(lst)\n    if n % 2 == 0:\n        return (lst[n // 2 - 1] + lst[n // 2]) / 2\n    else:\n        return lst[n // 2]", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_first_letter(word):\n    # TODO: اولین حرف از کلمه ی داده شده را برگردانید", 
+        "output": "def get_first_letter(word):\n    return word[0]", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_last_letter(word):\n    # TODO: آخرین حرف از کلمه ی داده شده را برگردانید", 
+        "output": "def get_last_letter(word):\n    return word[-1]", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_middle_letter(word):\n    # TODO: حرف میانی کمله داده شده را درصورت فرد بودن تعداد حروف کلمه برگردانید و در صورت زوج بودن تعداد حروف رشته ای خالی برگردانید", 
+        "output": "def get_middle_letter(word):\n    if len(word) % 2 == 1:\n        return word[len(word) // 2]\n    else:\n        return \"\"", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_length(word):\n    # TODO: تعداد حروف کلمه داده شده را شمرده و برگردانید", 
+        "output": "def get_length(word):\n    return len(word)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_uppercase(word):\n    # TODO: کلمه داده شده با حروف بزرگ برگردانید", 
+        "output": "def get_uppercase(word):\n    return word.upper()", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_lowercase(word):\n    # TODO: کلمه داده شده را با حروف کوچک برگردانید", 
+        "output": "def get_lowercase(word):\n    return word.lower()", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_even_numbers(lst):\n    # TODO: لیست جدیدی شامل اعداد زوج موجود در لیست داده شده برگردانید", 
+        "output": "def get_even_numbers(lst):\n    even = []\n    for x in lst:\n        if x % 2 == 0:\n            even.append(x)\n    return even", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_reverse_words(sentence):\n    # TODO: یک رشته جدید که حاوی کلمات در جمله به ترتیب معکوس است را برگردانید", 
+        "output": "def get_reverse_words(sentence):\n    words = sentence.split()\n    words.reverse()\n    return \" \".join(words)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_divisible_by(n, m):\n    # TODO: اگر n بر m بخش پذیر باشد درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_divisible_by(n, m):\n    return n % m == 0", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_odd_numbers(lst):\n    # TODO: لیست جدیدی شامل اعداد فرد موجود در لیست داده شده برگردانید", 
+        "output": "def get_odd_numbers(lst):\n    odd = []\n    for x in lst:\n        if x % 2 == 1:\n            odd.append(x)\n    return odd", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_uppercase_words(sentence):\n    # TODO: یک لیست جدید که فقط شامل کلمات در جمله با حروف بزرگ است را برگردانید", 
+        "output": "def get_uppercase_words(sentence):\n    words = sentence.split()\n    uppercase = []\n    for word in words:\n        if word.isupper():\n            uppercase.append(word)\n    return uppercase", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_multiple_of(n, m):\n    # TODO: اگر n ضریبی از m است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_multiple_of(n, m):\n    return n % m == 0", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_square(n):\n    # TODO: مربع عدد n را برگردانید", 
+        "output": "def get_square(n):\n    return n ** 2", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_square_root(n):\n    # TODO: جذر عدد n را برگردانید", 
+        "output": "def get_square_root(n):\n    return n ** 0.5", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_common_prefix(s1, s2):\n    # TODO: طولانی ترین پیشوند مشترک s1 و s2 را برگردانید", 
+        "output": "def get_common_prefix(s1, s2):\n    prefix = \"\"\n    for i in range(min(len(s1), len(s2))):\n        if s1[i] == s2[i]:\n            prefix += s1[i]\n        else:\n            break\n    return prefix", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_cube(n):\n    # TODO: مکعب عدد n را برگردانید", 
+        "output": "def get_cube(n):\n    return n ** 3", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_common_suffix(s1, s2):\n    # TODO: طولانی ترین پسوند مشترک s1 و s2 را برگردانید", 
+        "output": "def get_common_suffix(s1, s2):\n    suffix = \"\"\n    for i in range(min(len(s1), len(s2))):\n        if s1[-i - 1] == s2[-i - 1]:\n            suffix = s1[-i - 1] + suffix\n        else:\n            break\n    return suffix", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_fibonacci_number(n):\n    # TODO: اگر n عددی از دنباله فیبوناچی است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_fibonacci_number(n):\n    a = 0\n    b = 1\n    while a < n:\n        a, b = b, a + b\n    return a == n", 
+        "is_classification": true
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_gcd(a, b):\n    # TODO: بزرگ ترین مضرب مشترک دو عدد داده شده را برگردانید", 
+        "output": "def get_gcd(a, b):\n    while b != 0:\n        a, b = b, a % b\n    return a", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def get_lcm(a, b):\n    # TODO: کوچک ترین مضرب مشترک دو عدد داده شده را برگردانید", 
+        "output": "def get_lcm(a, b):\n    return a * b // get_gcd(a, b)", 
+        "is_classification": false
+    },
+
+    {
+        "instruction": "با استفاده از کامنت به عنوان راهنما، کامنت \"TODO\" در کد را با کد مناسب جایگزین کنید.",
+        "input": "def is_perfect_number(n):\n    # TODO: اگر n عددی کامل است درست و در غیر این صورت نادرست را برگردانید", 
+        "output": "def is_perfect_number(n):\n    sum = 0\n    for i in range(1, n):\n        if n % i == 0:\n            sum += i\n    return sum == n", 
+        "is_classification": true
+    },
+]
