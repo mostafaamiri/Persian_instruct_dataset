@@ -1,0 +1,255 @@
+[
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که کار مورد نظر را انجام دهد.",
+        "input": " را درجمله ای مشخص  بیابید x تعداد تکرار کلمه",
+        "output": "def count_x(x, y):\n    count = 0\n    for i in range(y):\n        if i == x:\n            count += 1\n    return count"
+    },
+   {
+      "instruction": "برنامه ای در زبان پایتون بنویس که جمع دو عدد مورد نظر را انجام دهد",
+        "input": "x y",
+        "output": "def add_x_y(x, y):\n    add = 0\n    add = x + y\n         return add"
+   },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که ضرب دو عدد را محاسبه کند",
+        "input": "x y",
+        "output": "def multi_x_y(x, y):\n    multi = 1\n    add = x * y\n         return multi"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت شعاع دایره مساحت دایره را حساب کند",
+        "input": "r",
+        "output": "def masahat(x, y):\n    mas = 1\n    mas = 3.14 * 3.14 * r\n         return mas"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت شعاع دایره محیط دایره را حساب کند",
+        "input": "r",
+        "output": "def mohit(x, y):\n    moh = 1\n    moh =  3.14 * 2 * r\n         return moh"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که بزرگترین مقسوم الیه مشتزک دو عدد را محاسبه کند",
+        "input": "x y",
+        "output": "def gcd(x, y):\n    gcd = 1\n     if x % y == 0: \n     return y \n     for k in range(int(y / 2), 0, -1): \n     if x % k == 0 and y % k == 0: gcd = k \n    break \n    return gcd"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت دنباله ای از اعداد تشخیص دهد آیا همه اعداد با هم متفاوت اند یا خیر",
+        "input": "x y z o p q k",
+        "output": "def test_distinct(data):\n    if len(data) == len(set(data)):\n      return True\n    else:\n      return False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که دو عدد را از هم کم کند ",
+        "input": "x y",
+        "output": "def sub_x_y(x, y):\n    sub = 0\n    sub = x - y\n         return sub"
+    },
+     {
+        "instruction": "برنامه ای در زبان پایتون بنویس که عدد اول را بر عدد دوم تقسیم کند",
+        "input": "x y",
+        "output": "def div_x_y(x, y):\n    div = 1\n    div = x / y\n         return div"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که ضلع یک مربع را گرفته و مساحت مربع را حساب کند",
+        "input": "x",
+        "output": "def mas_x_y(x, y):\n    mas = 1\n    mas = x * x\n         return mas"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که حجم مخروط را محاسبه کند",
+        "input": "r h",
+        "output": "def hajm_x_y(x, y):\n    hajm = 1\n    hajm = 3.14 * r * r * h/3\n         return hajm"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که کوچکترین مضرب مشترک را محاسبه کند",
+        "input": "x y",
+        "output": "def lcm(x, y):\n      if x > y:\n         z = x\n   else:\n         z = y\n     while True:\n       if (z % x == 0) and (z % y == 0):\n        lcm = z\n        break\n    z += 1\n    return lcm"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که اولین و آخرینعنصر لیست را نمایش دهد",
+        "input": "color_list",
+        "output": "print(\"%s %s\" % (color_list[0], color_list[-1]))"
+    },
+
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت طول ضلع، حجم مکعب را محاسبه کند",
+        "input": "a",
+        "output": "def hajm(a):\n    hajm = 1\n    hajm = a*a*a\n         return hajm"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که با دریافت طول ضلع، مساحت مکعب را محاسبه کند",
+        "input": "a",
+        "output": "def hajm(a):\n    hajm = 1\n    hajm = 6*a*a\n         return hajm"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که  مساحت استوانه را محاسبه کند",
+        "input": "r h",
+        "output": "def hajm(a):\n    hajm = 0\n    hajm = 3.14*r*r*h + 2*3.14*r*r\n         return hajm"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که تعداد عدد 4 را در یک لیست محاسبه کند",
+        "input": "nums",
+        "output": "def list_count_4(nums):\n  count = 0\n  for num in nums:\n        if num == 4:\n            count = count + 1\n   return count"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که تشخیص دهد که آیا حرف داده شده صدا دار است یا خیر",
+        "input": "harf",
+        "output": "def is_vowel(harf):\n   all_vowels = 'aeiou'\n      return harf in all_vowels"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که مجموع سه عدد را محاسبه کند اما اگر دو عدد یکسان بودند صفر بر می گرداند",
+        "input": "x y z",
+        "output": "def sum_three(x, y, z):\n  if x == y or y == z or x == z:\n     sum = 0\n  else:\n      sum = x + y + z\n  return sum"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که مجموع دو عدد را محاسبه کند و اگر حاصل بین پانزده و بیست بود بیست بر می گرداند",
+        "input": "x y",
+        "output": "def sum(x, y):\n    sum = x + y\n   if sum in range(15, 20):\n        return 20\n    else:\n      return sum"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که درست برگرداند اگر دو عدد یکسان بودند یا جمع آن ها برابر 5 شود یا اختلاف آن  ها برابر 5 شود",
+        "input": "nums",
+        "output": "def test_number5(x, y):\n    if x == y or abs(x - y) == 5 or (x + y) == 5:\n        return True\n    else:\n    return False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که تشخیص دهد آیا 3 عدد برابرند",
+        "input": "x y z",
+        "output": "def eq_3(x , y , z):\n    if x == y == z == 20:\n        return true"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که در یک رشته وجود حرف کوچک را تشخیص دهد ",
+        "input": "str1",
+        "output": "def islower(str1):\n    return any(c.islower() for c in str1)"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که یک برنامه پایتون بنویسید تا یک ایست از متغیرها را به متغیرها تقسیم کند",
+        "input": "var_list",
+        "output": "def split_3(var_list):\n    x, y, z = (var_list + [None] * 3)[:3]\n    return x , y , z"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا بررسی کنید که آیا یک متغیر یک لیست، تاپل یا ست است.",
+        "input": "x",
+        "output": "def type_detect(x):\n    if type(x) is list:\n        print('x is a list')\n    elif type(x) is set:\n        print('x is a set')\n    elif type(x) is tuple:\n        print('x is a tuple')    \n    else:\n        print('Neither a list nor a set nor a tuple.')"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که بررسی کند آیا یک جفت اعداد متمایز که حاصل ضرب آنها فرد است در یک دنباله از مقادیر صحیح وجود دارد یا خیر.",
+        "input": "nums",
+        "output": "def odd_product(nums):\n    for i in range(len(nums)):\n        for j in range(len(nums)):\n            if i != j:\n                product = nums[i] * nums[j]\n                if product & 1:\n                    return True\n    return False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که یک عدد صحیح مثبت بگیرد و مجموع مکعب همه اعداد صحیح مثبت کوچکتر از عدد مشخص شده را برگرداند. ",
+        "input": "n",
+        "output": "def sum_of_cubes(n):\n    n -= 1\n    total = 0\n    while n > 0:\n        total += n * n * n\n        n -= 1\n    return total"
+"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس  تا حداکثر و حداقل اعداد را از یک دنباله اعداد پیدا کند",
+        "input": "data",
+        "output": "def max_min(data):\n    l = data[0]  \n    s = data[0]  \n    for num in data:\n        if num > l:\n            l = num \n        elif num < s:\n            s = num  \n    return l, s"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس  تا بررسی کنید که آیا یک عدد بر عدد دیگری بخش پذیر است یا خیر",
+        "input": "m n",
+        "output": "def multiple(m, n):\n    return True if m % n == 0 else False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که دنباله ای از اعداد را می گیرد و تعیین می کند که آیا همه اعداد با یکدیگر متفاوت هستند یا خیر",
+        "input": "data",
+        "output": "def test_distinct(data):\n    if len(data) == len(set(data)):\n        return True\n    else:\n        return False"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که لیستی از همه جایگشت های ممکن را از مجموعه معینی از اعداد متمایز ایجاد کند",
+        "input": "nums",
+        "output": "def permute(nums):\n    result_perms = [[]]\n    for n in nums:\n        new_perms = []\n        for perm in result_perms:\n            for i in range(len(perm)+1):\n                new_perms.append(perm[:i] + [n] + perm[i:])\n        result_perms = new_perms\n    return result_perms"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا دو عدد صحیح مثبت بدون استفاده از عملگر '+' اضافه کند",
+        "input": "a b",
+        "output": "def add_without_plus_operator(a, b):\n        while b != 0:\n            data = a & b\n            a = a ^ b\n            b = data << 1\n    return a"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا ضلع سوم مثلث قائم الزاویه را از دو ضلع مشخص به دست آورد.",
+        "input": "opposite_side adjacent_side hypotenuse",
+        "output": "def pythagoras(opposite_side, adjacent_side, hypotenuse):\n    if opposite_side == str(\"x\"):\n        return (\"Opposite = \" + str(((hypotenuse**2) - (adjacent_side**2))**0.5))\n    elif adjacent_side == str(\"x\"):\n        return (\"Adjacent = \" + str(((hypotenuse**2) - (opposite_side**2))**0.5))\n    elif hypotenuse == str(\"x\"):\n        return (\"Hypotenuse = \" + str(((opposite_side**2) + (adjacent_side**2))**0.5))\n    else:\n        return \"You know the answer!\" "
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا مجموع تفاضل مطلق همه جفت های مجزا در یک آرایه معین را محاسبه کند (ترتیب غیر نزولی) ",
+        "input": "arr",
+        "output": "def sum_distinct_pairs(arr):\n    result = 0\n    i = 0\n    while i < len(arr):\n        result += i * arr[i] - (len(arr) - i - 1) * arr[i]\n        i += 1\n    return result"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که بزرگترین بین سه عدد را پیدا کند",
+        "input": "x y z",
+        "output": "def max_of_two(x, y):\n    if x > y:\n        return x\n    return y\ndef max_of_three(x, y, z):\n    return max_of_two(x, max_of_two(y, z))"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا تمام اعداد یک لیست را ضرب کند",
+        "input": "numbers",
+        "output": "def multiply(numbers):\n    total = 1\n    for x in numbers:\n        total *= x\n    return total"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که یک رشته را برعکس کند",
+        "input": "str1",
+        "output": "def string_reverse(str1):\n    rstr1 = ''\n    index = len(str1)\n    while index > 0:\n        rstr1 += str1[index - 1]\n        index = index - 1\n    return rstr1"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که فکتوریل یک عدد را محاسبه کند",
+        "input": "n",
+        "output": " def factorial(n):\n    if n == 0:\n        return 1\n    else:\n    return n * factorial(n - 1) "
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا بررسی کنید که آیا یک عدد در یک محدوده معین قرار می گیرد یا خیر",
+        "input": "nums",
+        "output": "def test_range(n):\n    if n in range(3, 9):\n        print(\"%s is in the range\" % str(n))\n    else:\n        print(\"The number is outside the given range.\")"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که رشته ای را بپذیرد و تعداد حروف بزرگ و کوچک را بشمارد.",
+        "input": "nums",
+        "output": "def string_test(s):\n    d = {\"UPPER_CASE": 0, "LOWER_CASE\": 0}\n    for c in s:\n        if c.isupper():\n            d[\"UPPER_CASE\"] += 1\n        elif c.islower():\n            d[\"LOWER_CASE\"] += 1\n        else:\n            pass"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا تمام اعداد یک لیست را جمع کند.",
+        "input": "numbers",
+        "output": "def sum(numbers):\n    total = 0\n    for x in numbers:\n        total += x\n    return total"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا تمام اعداد یک لیست را ضرب کند",
+        "input": "nums",
+        "output": "def multiply(numbers):\n    total = 1\n    for x in numbers:\n        total *= x\n    return total"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا رشته ای حاوی کد پایتون را اجرا کند.",
+        "input": "",
+        "output": "mycode = 'print(\"hello world\")'\ncode = \"\"\"\ndef mutiply(x,y):\n    return x*y\nprint('Multiply of 2 and 3 is: ',mutiply(2,3))\n\"\"\"\nexec(mycode)\nexec(code)"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویسید تا به یک تابع در داخل یک تابع دسترسی پیدا کنید",
+        "input": "a",
+        "output": "def test(a):\n    def add(b):\n        nonlocal a\n        a += 1\n        return a + b\n    return add"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس کهتمام عناصر یک لیست را به یک رشته متصل کرده و آن را برگرداند",
+        "input": "nums",
+        "output": "def concatenate_list_data(lst):\n    result = ''  \n    for element in lst:\n        result += str(element)  \n    return result"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس تا یک هیستوگرام از یک لیست داده شده از اعداد صحیح ایجاد کند",
+        "input": "items",
+        "output": "def histogram(items):\n    for n in items:\n        output = '' \n        times = n   \n        while times > 0:\n            output += '*'\n            times = times - 1  \n        print(output)"
+    },
+    {
+        "instruction": "برنامه ای در زبان پایتون بنویس که مساحت مثلث را محاسبه کند",
+        "input": "b h",
+        "output": "def t_mas(b , h):\n    area = b * h / 2 \n    return area"
+    },
+    {
+        "instruction": "برنامه ای به زبان پایتون بنویس که جمع دو عدد و حاصل آن را نمایش دهد",
+        "input": "",
+        "output": "x = 30\ny = 20\nprint(\"\n%d+%d=%d\" % (x, y, x+y))"
+    },
+    {
+        "instruction": "برای بررسی عددی بودن یک رشته، یک برنامه پایتون بنویسید",
+        "input": "str",
+        "output": "try:\n    i = float(str)\nexcept (ValueError, TypeError):\n    print('\nNot numeric')\nprint()"
+    },
+    {
+        "instruction": "یک برنامه پایتون بنویسید تا پشته تماس فعلی را چاپ کند.",
+        "input": "",
+        "output": "import traceback\nprint()\ndef f1():\n    return abc()\ndef abc():\n    traceback.print_stack()\nf1()\nprint()"
+    }
+    
+]
