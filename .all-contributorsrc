@@ -61,6 +61,24 @@
         "projectManagement",
         "mentoring"
       ]
+    },
+    {
+      "login": "Mzmou",
+      "name": "Marziyeh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121482653?v=4",
+      "profile": "https://github.com/Mzmou",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "sadeghhpr",
+      "name": "sadeghhpr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99759494?v=4",
+      "profile": "https://github.com/sadeghhpr",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
