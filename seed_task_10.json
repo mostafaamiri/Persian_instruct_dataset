@@ -1,0 +1,252 @@
+[
+    {
+        "instruction": "انواع بازی های گروهی در یک شب را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. مافیا 2. حدس بزن کی هستم؟ 3. شاراد 4. بلدردش 5. پیکشنری 6. دو حقیقت و یک دروغ 7. یونو 8. شروع داستان 9. حقیقت یا عمل 10. کاب"
+    },
+    {
+        "instruction": "بازی های گروهی با خانواده را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. تریویا 2. مونوپولی 3. اسکرابل 4. کلو 5. ریسک 6. تابو 7. کارت آنو 8. چس 9. بک‌گمن 10. تیک تاک تو"
+    },
+    {
+        "instruction": "بازی های گروهی با دوستان را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. مافیا 2. حدس بزن کی هستم؟ 3. شاراد 4. بلدردش 5. پیکشنری 6. دو حقیقت و یک دروغ 7. یونو 8. شروع داستان 9. حقیقت یا عمل 10. کاب"
+    },
+    {
+        "instruction": "بازی گروهی داخل کوپه قطار را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. کارت آنو 2. تریویا 3. مونوپولی 4. کلو 5. ریسک 6. تابو 7. شطرنج 8. بک‌گمن 9. تیک تاک تو 10. دومینو"
+    },
+    {
+        "instruction": "بازی های کامپیوتری گروهی را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Among Us 2. Fortnite 3. Minecraft 4. Call of Duty: Warzone 5. Valorant 6. League of Legends 7. Dota 2 8. Counter-Strike: Global Offensive 9. Apex Legends 10. PUBG"
+    },
+    {
+        "instruction": "بهترین بازی های سال 2023 را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. The Legend of Zelda: Breath of the Wild 2 2. Horizon Forbidden West 3. Resident Evil Village 4. Ratchet & Clank: Rift Apart 5. Returnal 6. It Takes Two 7. Deathloop 8. Metroid Dread 9. Psychonauts 2 10. Halo Infinite"
+    },
+    {
+        "instruction": "بهترین بازی های ورزشی گروهی در 2024 را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. FIFA 2024 2. NBA 2K24 3. Madden NFL 2024 4. NHL 2024 5. MLB The Show 24 6. Pro Evolution Soccer 2024 7. UFC 4 8. WWE 2K24 9. Top Spin 5 10. Tony Hawk's Pro Skater 6"
+    },
+    {
+        "instruction": "بهترین بازی های اکشن در دهه اخیر را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. The Last of Us Part II 2. Red Dead Redemption 2 3. God of War 4. Uncharted 4: A Thief's End 5. The Witcher 3: Wild Hunt 6. Grand Theft Auto V 7. Sekiro: Shadows Die Twice 8. Dark Souls III 9. Doom Eternal 10. Resident Evil 2 Remake"
+    },
+    {
+        "instruction": "بهترین بازی های سبک اول شخص را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Call of Duty: Modern Warfare 2. Battlefield V 3. Doom Eternal 4. Half-Life: Alyx 5. Far Cry 5 6. Metro Exodus 7. Titanfall 2 8. Borderlands 3 9. Destiny 2 10. Overwatch"
+    },
+    {
+        "instruction": "بهترین بازی های سوم شخص اکشن را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. The Last of Us Part II 2. Red Dead Redemption 2 3. God of War 4. Uncharted 4: A Thief's End 5. The Witcher 3: Wild Hunt 6. Grand Theft Auto V 7. Sekiro: Shadows Die Twice 8. Dark Souls III 9. Assassin's Creed Odyssey 10. Spider-Man: Miles Morales"
+    },
+    {
+        "instruction": "بهترین بازی های گروهی را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Among Us 2. Fortnite 3. Minecraft 4. Call of Duty: Warzone 5. Valorant 6. League of Legends 7. Dota 2 8. Counter-Strike: Global Offensive 9. Apex Legends 10. PUBG"
+    },
+    {
+        "instruction": "چه نوع بازی ای برای بچه ها خوبه؟",
+        "input": "",
+        "output": "1. مار و پله 2. منچ 3. حدس بزن کی هستم؟ 4. شطرنج کودکان 5. تابو کودکان 6. پازل 7. بازی‌های آموزشی ریاضی 8. بازی‌های آموزشی حافظه 9. بازی‌های تقویت توانایی‌های موتوریک 10. بازی‌های تقویت توانایی‌های هنری"
+    },
+    {
+        "instruction": "بازی های مناسب جوانان را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. فوتبال 2. بسکتبال 3. والیبال 4. تنیس 5. بدمینتون 6. پینگ پنگ 7. شطرنج 8. بازی‌های ویدئویی مانند فیفا یا کال آف دیوتی 9. بازی‌های رایانه‌ای مانند لیگ افسانه‌ها یا دوتا 2 10. بازی‌های موبایلی مانند کلش آف کلنز یا انگری بردز"
+    },
+    {
+        "instruction": "بازی های تربیتی کامپیوتری را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Minecraft: Education Edition 2. Prodigy Math Game 3. Toca Life World 4. ABCmouse.com 5. ReadingIQ 6. Adventure Academy 7. Starfall.com 8. PBS KIDS Games 9. Code.org 10. Scratch"
+    },
+    {
+        "instruction": "بازی هایی که ریاضی بچه ها رو تقویت میکنه را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Prodigy Math Game 2. Math Playground 3. Coolmath Games 4. Math Game Time 5. SplashLearn 6. Khan Academy Kids 7. Zearn Math 8. Math Blaster 9. DragonBox 10. Math Tango"
+    },
+    {
+        "instruction": "بازی هایی که برای بچه ها مناسب نیست را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Grand Theft Auto V 2. Call of Duty: Warzone 3. Mortal Kombat 11 4. The Witcher 3: Wild Hunt 5. Cyberpunk 2077 6. Red Dead Redemption 2 7. Resident Evil 3 8. The Last of Us Part II 9. Outlast 2 10. Dead by Daylight"
+    },
+    {
+        "instruction": "بازی های رانندگی را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Forza Horizon 4 2. Gran Turismo Sport 3. F1 2020 4. Dirt Rally 2.0 5. Assetto Corsa Competizione 6. Project CARS 2 7. Need for Speed Heat 8. The Crew 2 9. Euro Truck Simulator 2 10. American Truck Simulator"
+    },
+    {
+        "instruction": "بازی های دونفره را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. A Way Out 2. Overcooked 2 3. Cuphead 4. Portal 2 5. Keep Talking and Nobody Explodes 6. Rocket League 7. LEGO Marvel Super Heroes 2 8. Minecraft 9. Don't Starve Together 10. Borderlands 3"
+    },
+    {
+        "instruction": "بازی های فیزیکی گروهی را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. فوتبال 2. بسکتبال 3. والیبال 4. بدمینتون 5. تنیس 6. پینگ پنگ 7. دوچرخه‌سواری گروهی 8. دویدن گروهی 9. کوه‌نوردی گروهی 10. کشتی "
+    },
+    {
+        "instruction": "بازی های ژانر  Need for speed را پیشنهاد کنید.",
+        "input": "",
+        "output": "1. Need for Speed Heat 2. Need for Speed Payback 3. Need for Speed: Most Wanted 4. Need for Speed: Rivals 5. Need for Speed: Hot Pursuit 6. Need for Speed: Undercover 7. Need for Speed: ProStreet 8. Need for Speed: Carbon 9. Need for Speed: Shift 10. Need for Speed: The Run"
+    },
+    {
+        "instruction": "انواع ژانر بازی ها چیان؟",
+        "input": "",
+        "output": "1. اکشن 2. ماجراجویی 3. استراتژی 4. ورزشی 5. شبیه‌سازی 6. تخیلی 7. ترسناک 8. جهان باز 9. معمایی 10. تک‌نفره 11. چندنفره 12. آنلاین 13. آفلاین 14. رقابتی 15. تفننی 16. تیراندازی اول شخص 17. تیراندازی سوم شخص 18. نقش‌آفرینی 19. بقا 20. موسیقی"
+    },
+    {
+        "instruction": "چند تا بازی اکشن اول شخص معرفی کن",
+        "input": "",
+        "output": "1. Call of Duty: Warzone 2. Battlefield V 3. Doom Eternal 4. Half-Life: Alyx 5. Far Cry 5 6. Metro Exodus 7. Titanfall 2 8. Borderlands 3 9. Destiny 2 10. Overwatch"
+    },
+    {
+        "instruction": "چند تا بازی اکشن سوم شخص معرفی کن",
+        "input": "",
+        "output": "1. The Last of Us Part II 2. Red Dead Redemption 2 3. God of War 4. Uncharted 4: A Thief's End 5. The Witcher 3: Wild Hunt 6. Grand Theft Auto V 7. Sekiro: Shadows Die Twice 8. Dark Souls III 9. Resident Evil 2 Remake 10. Spider-Man: Miles Morales"
+    },
+    {
+        "instruction": "چند تا بازی فوتبال معرفی کن",
+        "input": "",
+        "output": "1. FIFA 21 2. Pro Evolution Soccer 2021 3. Football Manager 2021 4. eFootball PES 2020 5. Rocket League 6. Madden NFL 21 7. Top Eleven 2021 8. Club Soccer Director 2021 9. Dream League Soccer 2021 10. Score! Hero"
+    },
+    {
+        "instruction": "چند تا بازی ورزشی پرطرفدار معرفی کن",
+        "input": "",
+        "output": "1. FIFA 21 2. NBA 2K21 3. Madden NFL 21 4. MLB The Show 21 5. NHL 21 6. UFC 4 7. WWE 2K Battlegrounds 8. Tony Hawk's Pro Skater 1+2 9. eFootball PES 2021 10. F1 2020"
+    },
+    {
+        "instruction": "بهترین بازی های ماشین بازی چیان؟",
+        "input": "",
+        "output": "1. Forza Horizon 4 2. Gran Turismo Sport 3. F1 2020 4. Dirt Rally 2.0 5. Assetto Corsa Competizione 6. Project CARS 2 7. Need for Speed Heat 8. The Crew 2 9. Euro Truck Simulator 2 10. American Truck Simulator"
+    },
+    {
+        "instruction": "بهترین بازی های دونفره کامپیوتری",
+        "input": "",
+        "output": "1. A Way Out 2. Overcooked 2 3. Cuphead 4. Portal 2 5. Keep Talking and Nobody Explodes 6. Rocket League 7. LEGO Marvel Super Heroes 2 8. Minecraft 9. Don't Starve Together 10. Borderlands 3"
+    },
+    {
+        "instruction": "بهترین بازی های چهارنفره کامپیوتری؟",
+        "input": "",
+        "output": "1. Overcooked 2 2. Keep Talking and Nobody Explodes 3. Rocket League 4. Minecraft 5. Don't Starve Together 6. Borderlands 3 7. Left 4 Dead 2 8. Payday 2 9. Castle Crashers 10. Gauntlet"
+    },
+    {
+        "instruction": "بهترین بازی های ژانر جهان باز؟",
+        "input": "",
+        "output": "1. The Witcher 3: Wild Hunt 2. Red Dead Redemption 2 3. Grand Theft Auto V 4. The Elder Scrolls V: Skyrim 5. The Legend of Zelda: Breath of the Wild 6. Minecraft 7. Horizon Zero Dawn 8. Assassin's Creed Odyssey 9. Far Cry 5 10. Fallout 4"
+    },
+    {
+        "instruction": "چند تا بازی ژانر جهان باز معرفی کن",
+        "input": "",
+        "output": "1. The Witcher 3: Wild Hunt 2. Red Dead Redemption 2 3. Grand Theft Auto V 4. The Elder Scrolls V: Skyrim 5. The Legend of Zelda: Breath of the Wild 6. Minecraft 7. Horizon Zero Dawn 8. Assassin's Creed Odyssey 9. Far Cry 5 10. Fallout 4"
+    },
+    {
+        "instruction": "چند تا بازی معمایی کامپیوتری معرفی کن",
+        "input": "",
+        "output": "1. Portal 2 2. The Witness 3. The Talos Principle 4. Limbo 5. Inside 6. Braid 7. Fez 8. The Room 9. Myst 10. Return of the Obra Dinn"
+    },
+    {
+        "instruction": "چند تا بازی تک تیراندازی معرفی کن",
+        "input": "",
+        "output": "1. Call of Duty: Warzone 2. Battlefield V 3. Doom Eternal 4. Half-Life: Alyx 5. Far Cry 5 6. Metro Exodus 7. Titanfall 2 8. Borderlands 3 9. Destiny 2 10. Overwatch"
+    },
+    {
+        "instruction": "چند تا بازی ژانر جاسوسی معرفی کن",
+        "input": "",
+        "output": "1. Metal Gear Solid V: The Phantom Pain 2. Hitman 3 3. Splinter Cell: Blacklist 4. Deus Ex: Mankind Divided 5. Dishonored 2 6. Thief 7. Alpha Protocol 8. Velvet Assassin 9. I.G.I. 2: Covert Strike 10. No One Lives Forever"
+    },
+    {
+        "instruction": "چند تا بازی ژانر تخیلی معرفی کن",
+        "input": "",
+        "output": "1. Mass Effect 2 2. The Witcher 3: Wild Hunt 3. Final Fantasy VII Remake 4. The Elder Scrolls V: Skyrim 5. Dragon Age: Inquisition 6. Star Wars Jedi: Fallen Order 7. Horizon Zero Dawn 8. Cyberpunk 2077 9. Deus Ex: Mankind Divided 10. Bioshock Infinite"
+    },
+    {
+        "instruction": "چند تا بازی قدیمی نوستالژی معرفی کن",
+        "input": "",
+        "output": "1. Super Mario Bros. 2. The Legend of Zelda 3. Tetris 4. Pac-Man 5. Donkey Kong 6. Space Invaders 7. Sonic the Hedgehog 8. Street Fighter II 9. Final Fantasy VII 10. Metroid"
+    },
+    {
+        "instruction": "بازی های ژانر شوتر معرفی کن",
+        "input": "",
+        "output": "1. Call of Duty: Warzone 2. Battlefield V 3. Doom Eternal 4. Half-Life: Alyx 5. Far Cry 5 6. Metro Exodus 7. Titanfall 2 8. Borderlands 3 9. Destiny 2 10. Overwatch"
+    },
+    {
+        "instruction": "بازی های ژانر وحشت؟",
+        "input": "",
+        "output": "1. Outlast 2 2. Resident Evil 7: Biohazard 3. Alien: Isolation 4. The Evil Within 2 5. Amnesia: The Dark Descent 6. Dead Space 7. Until Dawn 8. S.T.A.L.K.E.R.: Shadow of Chernobyl 9. Layers of Fear 10. Silent Hill 2"
+    },
+    {
+        "instruction": "بازی های ژانر استراتژی معرفی کن",
+        "input": "",
+        "output": "1. StarCraft II 2. Civilization VI 3. Age of Empires II: Definitive Edition 4. Total War: Warhammer II 5. XCOM 2 6. Crusader Kings III 7. Europa Universalis IV 8. Company of Heroes 2 9. Command & Conquer: Red Alert 3 10. Warcraft III: Reforged"
+    },
+    {
+        "instruction": "بازی های ژانر بقا معرفی کن",
+        "input": "",
+        "output": "1. Minecraft 2. Ark: Survival Evolved 3. Rust 4. The Forest 5. DayZ 6. Subnautica 7. Don't Starve 8. The Long Dark 9. Terraria 10. State of Decay 2"
+    },
+    {
+        "instruction": "بازی های ژانر  شبیه سازی معرفی کن",
+        "input": "",
+        "output": "1. The Sims 4 2. Microsoft Flight Simulator 3. Euro Truck Simulator 2 4. Farming Simulator 19 5. Cities: Skylines 6. Kerbal Space Program 7. Planet Zoo 8. American Truck Simulator 9. Elite Dangerous 10. Train Simulator"
+    },
+    {
+        "instruction": "بازی مافیا چجوریه",
+        "input": "",
+        "output": "بازی مافیا یک بازی گروهی است که در آن بازیکنان به دو گروه تقسیم می‌شوند: مافیا و شهروندان. هدف مافیا این است که شهروندان را حذف کنند و هدف شهروندان این است که مافیا را شناسایی و حذف کنند. بازی در دو فاز روز و شب انجام می‌شود و در هر فاز بازیکنان می‌توانند نقش خود را ایفا کنند."
+    },
+    {
+        "instruction": "بازی کودتا چجوره",
+        "input": "",
+        "output": "کودتا یک بازی کارت است که در آن بازیکنان سعی می‌کنند برای کنترل کردن یک دولت. بازیکنان با استفاده از کارت‌هایی که در دست دارند، می‌توانند اقداماتی انجام دهند که به آن‌ها کمک می‌کند تا سایر بازیکنان را حذف کنند یا خودشان را قوی‌تر کنند. هدف اصلی بازی این است که آخرین بازیکن باقی مانده باشید."
+    },
+    {
+        "instruction": "چند تا بازی دورهمی با کارت معرفی کن",
+        "input": "",
+        "output": "1. پوکر 2. بلک جک 3. سولیتر 4. یونو 5. کودتا 6. مافیا (با کارت) 7. اکسپلوژن کیتی 8. مجیک: جمع آوری 9. هارتس 10. بریج"
+    },
+    {
+        "instruction": "چند تا بازی دورهمی بدون کارت معرفی کن",
+        "input": "",
+        "output": "1. شطرنج 2. دومینو 3. منچ 4. بک گمن 5. تیک تاک تو 6. کنکت فور 7. جنگل 8. پیچ و خم 9. لودو 10. آمبولانس"
+    },
+    {
+        "instruction": "چند تا بازی دور همی استراتژِی معرفی کن",
+        "input": "",
+        "output": "1. شطرنج 2. ریسک 3. ستلرز آو کاتان 4. تیکت تو راید 5. کارکاسون 6. دیپلوماسی 7. آگریکولا 8. پوکر (استراتژی در برخی جنبه‌ها) 9. مجیک: جمع آوری 10. دومینیون"
+    },
+    {
+        "instruction": "چند تا بازی موبایلی دورهمی معرفی کن",
+        "input": "",
+        "output": "1. کلش آو کلنز 2. آمونگ آس 3. پابجی 4. فورتنایت 5. کلش رویال 6. 8 بال پول 7. لوردز موبایل 8. ماینکرفت: پاکت ادیشن 9. کوئیز آپ 10. وردز ویت فرندز"
+    },
+    {
+        "instruction": "چندتا بازی برای تقویت حافظه موبایلی معرفی کن",
+        "input": "",
+        "output": "1. لوموسیتی 2. پیکس آپ 3. مموری ترینر 4. دوئل 5. برین وارز 6. کراسی ورد 7. برین ایت آپ 8. مموری بلاک 9. برین تست 10. برین داتس"
+    },
+    {
+        "instruction": "چند تا بازی ریاضی موبایلی معرفی کن",
+        "input": "",
+        "output": "1. مثماتیکا 2. برین وارز 3. متال مث 4. مموری ترینر 5. برین ایت آپ 6. برین تست 7. برین داتس 8. برین ترینر 9. برین تونر 10. برین تویست"
+    },
+    {
+        "instruction": "چند تا بازی تست هوش موبایلی معرفی کن",
+        "input": "",
+        "output": "1. برین وارز 2. برین تست 3. برین داتس 4. برین تویست 5. برین ترینر 6. برین تونر 7. برین ایت آپ 8. برین ترین 9. برین تیزر 10. برین راش"
+    },
+    {
+        "instruction": "چند تا بازی ورزشی موبایلی معرفی کن",
+        "input": "",
+        "output": "1. فیفا موبایل 2. پس 2020 3. NBA 2K20 4. مدن NFL موبایل 5. MLB 9 Innings 20 6. NHL SuperCard 2K20 7. Top Eleven 8. Golf Clash 9. Real Boxing 2 10. Virtua Tennis Challenge"
+    }
+]
