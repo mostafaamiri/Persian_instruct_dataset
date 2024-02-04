@@ -1,0 +1,414 @@
+[ 
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def reverse_string(s):\n    # TODO: reverse the string s and return it", 
+                     "output": "def reverse_string(s):\n    # reverse the string s and return it\n    return s[::-1]"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_palindrome(word):\n    # TODO: return True if word is a palindrome, False otherwise", 
+                     "output": "def is_palindrome(word):\n    # return True if word is a palindrome, False otherwise\n    return word == word[::-1]"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def count_vowels(text):\n    # TODO: count the number of vowels in text and return it", 
+                     "output": "def count_vowels(text):\n    # count the number of vowels in text and return it\n    vowels = \"aeiouAEIOU\"\n    count = 0\n    for char in text:\n        if char in vowels:\n            count += 1\n    return count"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def factorial(n):\n    # TODO: return the factorial of n", 
+                     "output": "def factorial(n):\n    # return the factorial of n\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n - 1)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_prime(n):\n    # TODO: return True if n is a prime number, False otherwise", 
+                     "output": "def is_prime(n):\n    # return True if n is a prime number, False otherwise\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def fibonacci(n):\n    # TODO: return the nth term of the Fibonacci sequence", 
+                     "output": "def fibonacci(n):\n    # return the nth term of the Fibonacci sequence\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n - 1) + fibonacci(n - 2)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_even(n):\n    # TODO: return True if n is an even number, False otherwise", 
+                     "output": "def is_even(n):\n    # return True if n is an even number, False otherwise\n    return n % 2 == 0"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def find_max(lst):\n    # TODO: return the maximum element in lst", 
+                     "output": "def find_max(lst):\n    # return the maximum element in lst\n    max = lst[0]\n    for x in lst:\n        if x > max:\n            max = x\n    return max"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_anagram(s1, s2):\n    # TODO: return True if s1 and s2 are anagrams, False otherwise", 
+                     "output": "def is_anagram(s1, s2):\n    # return True if s1 and s2 are anagrams, False otherwise\n    return sorted(s1) == sorted(s2)"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_leap_year(year):\n    # TODO: return True if year is a leap year, False otherwise", 
+                     "output": "def is_leap_year(year):\n    # return True if year is a leap year, False otherwise\n    if year % 4 == 0:\n        if year % 100 == 0:\n            if year % 400 == 0:\n                return True\n            else:\n                return False\n        else:\n            return True\n    else:\n        return False"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_common_elements(lst1, lst2):\n    # TODO: return a list of elements that are common in lst1 and lst2", 
+                     "output": "def get_common_elements(lst1, lst2):\n    # return a list of elements that are common in lst1 and lst2\n    common = []\n    for x in lst1:\n        if x in lst2:\n            common.append(x)\n    return common"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def encrypt_message(message, key):\n    # TODO: return a string that is the result of encrypting message using the Caesar cipher with the given key", 
+                     "output": "def encrypt_message(message, key):\n    # return a string that is the result of encrypting message using the Caesar cipher with the given key\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    encrypted = \"\"\n    for char in message:\n        if char in alphabet:\n            index = alphabet.index(char)\n            new_index = (index + key) % 26\n            encrypted += alphabet[new_index]\n        else:\n            encrypted += char\n    return encrypted"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_substring(s1, s2):\n    # TODO: return True if s1 is a substring of s2, False otherwise", 
+                     "output": "def is_substring(s1, s2):\n    # return True if s1 is a substring of s2, False otherwise\n    return s1 in s2"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def remove_duplicates(lst):\n    # TODO: return a new list that contains only the unique elements of lst", 
+                     "output": "def remove_duplicates(lst):\n    # return a new list that contains only the unique elements of lst\n    new_lst = []\n    for x in lst:\n        if x not in new_lst:\n            new_lst.append(x)\n    return new_lst"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_valid_email(email):\n    # TODO: return True if email is a valid email address, False otherwise", 
+                     "output": "def is_valid_email(email):\n    # return True if email is a valid email address, False otherwise\n    import re\n    pattern = \"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\"\n    return re.match(pattern, email) is not None"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_sorted(lst):\n    # TODO: return True if lst is sorted in ascending order, False otherwise", 
+                     "output": "def is_sorted(lst):\n    # return True if lst is sorted in ascending order, False otherwise\n    for i in range(len(lst) - 1):\n        if lst[i] > lst[i + 1]:\n            return False\n    return True"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def binary_search(lst, target):\n    # TODO: return the index of target in lst if found, -1 otherwise", 
+                     "output": "def binary_search(lst, target):\n    # return the index of target in lst if found, -1 otherwise\n    low = 0\n    high = len(lst) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if lst[mid] == target:\n            return mid\n        elif lst[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def merge_lists(lst1, lst2):\n    # TODO: return a new list that contains the elements of lst1 and lst2 sorted in ascending order", 
+                     "output": "def merge_lists(lst1, lst2):\n    # return a new list that contains the elements of lst1 and lst2 sorted in ascending order\n    i = 0\n    j = 0\n    merged = []\n    while i < len(lst1) and j < len(lst2):\n        if lst1[i] < lst2[j]:\n            merged.append(lst1[i])\n            i += 1\n        else:\n            merged.append(lst2[j])\n            j += 1\n    merged.extend(lst1[i:])\n    merged.extend(lst2[j:])\n    return merged"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_perfect_square(n):\n    # TODO: return True if n is a perfect square, False otherwise", 
+                     "output": "def is_perfect_square(n):\n    # return True if n is a perfect square, False otherwise\n    if n < 0:\n        return False\n    root = int(n ** 0.5)\n    return root * root == n"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_factors(n):\n    # TODO: return a list of factors of n", 
+                     "output": "def get_factors(n):\n    # return a list of factors of n\n    factors = []\n    for i in range(1, n + 1):\n        if n % i == 0:\n            factors.append(i)\n    return factors"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_pangram(sentence):\n    # TODO: return True if sentence contains every letter of the alphabet, False otherwise", 
+                     "output": "def is_pangram(sentence):\n    # return True if sentence contains every letter of the alphabet, False otherwise\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    for char in alphabet:\n        if char not in sentence.lower():\n            return False\n    return True"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_power_of_two(n):\n    # TODO: return True if n is a power of two, False otherwise", 
+                     "output": "def is_power_of_two(n):\n    # return True if n is a power of two, False otherwise\n    if n <= 0:\n        return False\n    while n % 2 == 0:\n        n = n // 2\n    return n == 1"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_longest_word(sentence):\n    # TODO: return the longest word in sentence", 
+                     "output": "def get_longest_word(sentence):\n    # return the longest word in sentence\n    words = sentence.split()\n    longest = \"\"\n    for word in words:\n        if len(word) > len(longest):\n            longest = word\n    return longest"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_valid_password(password):\n    # TODO: return True if password meets the following criteria:\n    # - at least 8 characters long\n    # - contains at least one uppercase letter, one lowercase letter, one digit and one special character\n    # - does not contain any whitespace characters", 
+                     "output": "def is_valid_password(password):\n    # return True if password meets the following criteria:\n    # - at least 8 characters long\n    # - contains at least one uppercase letter, one lowercase letter, one digit and one special character\n    # - does not contain any whitespace characters\n    import re\n    pattern = \"^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_+])[A-Za-z0-9!@#$%^&*()_+]{8,}$\"\n    return re.match(pattern, password) is not None"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_average(lst):\n    # TODO: return the average of the elements in lst", 
+                     "output": "def get_average(lst):\n    # return the average of the elements in lst\n    total = 0\n    for x in lst:\n        total += x\n    return total / len(lst)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_triangle(a, b, c):\n    # TODO: return True if a, b and c can form a triangle, False otherwise", 
+                     "output": "def is_triangle(a, b, c):\n    # return True if a, b and c can form a triangle, False otherwise\n    return a + b > c and a + c > b and b + c > a"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_mode(lst):\n    # TODO: return the most frequent element in lst", 
+                     "output": "def get_mode(lst):\n    # return the most frequent element in lst\n    freq = {}\n    for x in lst:\n        if x in freq:\n            freq[x] += 1\n        else:\n            freq[x] = 1\n    max_freq = 0\n    mode = None\n    for x in freq:\n        if freq[x] > max_freq:\n            max_freq = freq[x]\n            mode = x\n    return mode"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_armstrong_number(n):\n    # TODO: return True if n is an Armstrong number, False otherwise", 
+                     "output": "def is_armstrong_number(n):\n    # return True if n is an Armstrong number, False otherwise\n    digits = [int(x) for x in str(n)]\n    power = len(digits)\n    total = 0\n    for x in digits:\n        total += x ** power\n    return total == n"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_intersection(lst1, lst2):\n    # TODO: return a new list that contains the elements that are in both lst1 and lst2", 
+                     "output": "def get_intersection(lst1, lst2):\n    # return a new list that contains the elements that are in both lst1 and lst2\n    intersection = []\n    for x in lst1:\n        if x in lst2 and x not in intersection:\n            intersection.append(x)\n    return intersection"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_odd(n):\n    # TODO: return True if n is an odd number, False otherwise", 
+                     "output": "def is_odd(n):\n    # return True if n is an odd number, False otherwise\n    return n % 2 == 1"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_sum(lst):\n    # TODO: return the sum of the elements in lst", 
+                     "output": "def get_sum(lst):\n    # return the sum of the elements in lst\n    sum = 0\n    for x in lst:\n        sum += x\n    return sum"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_vowel(char):\n    # TODO: return True if char is a vowel, False otherwise", 
+                     "output": "def is_vowel(char):\n    # return True if char is a vowel, False otherwise\n    vowels = \"aeiouAEIOU\"\n    return char in vowels"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_palindrome_number(n):\n    # TODO: return True if n is a palindrome number, False otherwise", 
+                     "output": "def is_palindrome_number(n):\n    # return True if n is a palindrome number, False otherwise\n    return str(n) == str(n)[::-1]"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_median(lst):\n    # TODO: return the median of the elements in lst", 
+                     "output": "def get_median(lst):\n    # return the median of the elements in lst\n    lst.sort()\n    n = len(lst)\n    if n % 2 == 0:\n        return (lst[n // 2 - 1] + lst[n // 2]) / 2\n    else:\n        return lst[n // 2]"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_first_letter(word):\n    # TODO: return the first letter of word", 
+                     "output": "def get_first_letter(word):\n    # return the first letter of word\n    return word[0]"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_last_letter(word):\n    # TODO: return the last letter of word", 
+                     "output": "def get_last_letter(word):\n    # return the last letter of word\n    return word[-1]"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_middle_letter(word):\n    # TODO: return the middle letter of word if it has odd length, empty string otherwise", 
+                     "output": "def get_middle_letter(word):\n    # return the middle letter of word if it has odd length, empty string otherwise\n    if len(word) % 2 == 1:\n        return word[len(word) // 2]\n    else:\n        return \"\""}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_length(word):\n    # TODO: return the length of word", 
+                     "output": "def get_length(word):\n    # return the length of word\n    return len(word)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_uppercase(word):\n    # TODO: return the word in uppercase", 
+                     "output": "def get_uppercase(word):\n    # return the word in uppercase\n    return word.upper()"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_lowercase(word):\n    # TODO: return the word in lowercase", 
+                     "output": "def get_lowercase(word):\n    # return the word in lowercase\n    return word.lower()"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_even_numbers(lst):\n    # TODO: return a new list that contains only the even numbers in lst", 
+                     "output": "def get_even_numbers(lst):\n    # return a new list that contains only the even numbers in lst\n    even = []\n    for x in lst:\n        if x % 2 == 0:\n            even.append(x)\n    return even"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_reverse_words(sentence):\n    # TODO: return a new string that contains the words in sentence in reverse order", 
+                     "output": "def get_reverse_words(sentence):\n    # return a new string that contains the words in sentence in reverse order\n    words = sentence.split()\n    words.reverse()\n    return \" \".join(words)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_divisible_by(n, m):\n    # TODO: return True if n is divisible by m, False otherwise", 
+                     "output": "def is_divisible_by(n, m):\n    # return True if n is divisible by m, False otherwise\n    return n % m == 0"}], 
+      "is_classification": true
+  }
+  ,
+  {  
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_odd_numbers(lst):\n    # TODO: return a new list that contains only the odd numbers in lst", 
+                     "output": "def get_odd_numbers(lst):\n    # return a new list that contains only the odd numbers in lst\n    odd = []\n    for x in lst:\n        if x % 2 == 1:\n            odd.append(x)\n    return odd"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_uppercase_words(sentence):\n    # TODO: return a new list that contains only the words in sentence that are in uppercase", 
+                     "output": "def get_uppercase_words(sentence):\n    # return a new list that contains only the words in sentence that are in uppercase\n    words = sentence.split()\n    uppercase = []\n    for word in words:\n        if word.isupper():\n            uppercase.append(word)\n    return uppercase"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_multiple_of(n, m):\n    # TODO: return True if n is a multiple of m, False otherwise", 
+                     "output": "def is_multiple_of(n, m):\n    # return True if n is a multiple of m, False otherwise\n    return n % m == 0"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_square(n):\n    # TODO: return the square of n", 
+                     "output": "def get_square(n):\n    # return the square of n\n    return n ** 2"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_factorial(n):\n    # TODO: return the factorial of n", 
+                     "output": "def get_factorial(n):\n    # return the factorial of n\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * get_factorial(n - 1)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_square_root(n):\n    # TODO: return the square root of n", 
+                     "output": "def get_square_root(n):\n    # return the square root of n\n    return n ** 0.5"}], 
+      "is_classification": false
+  }
+  ,  
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_common_prefix(s1, s2):\n    # TODO: return the longest common prefix of s1 and s2", 
+                     "output": "def get_common_prefix(s1, s2):\n    # return the longest common prefix of s1 and s2\n    prefix = \"\"\n    for i in range(min(len(s1), len(s2))):\n        if s1[i] == s2[i]:\n            prefix += s1[i]\n        else:\n            break\n    return prefix"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_happy_number(n):\n    # TODO: return True if n is a happy number, False otherwise", 
+                     "output": "def is_happy_number(n):\n    # return True if n is a happy number, False otherwise\n    seen = set()\n    while n != 1:\n        n = sum(int(x) ** 2 for x in str(n))\n        if n in seen:\n            return False\n        seen.add(n)\n    return True"}], 
+      "is_classification": true  
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_cube(n):\n    # TODO: return the cube of n", 
+                     "output": "def get_cube(n):\n    # return the cube of n\n    return n ** 3"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_common_suffix(s1, s2):\n    # TODO: return the longest common suffix of s1 and s2", 
+                     "output": "def get_common_suffix(s1, s2):\n    # return the longest common suffix of s1 and s2\n    suffix = \"\"\n    for i in range(min(len(s1), len(s2))):\n        if s1[-i - 1] == s2[-i - 1]:\n            suffix = s1[-i - 1] + suffix\n        else:\n            break\n    return suffix"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_fibonacci_number(n):\n    # TODO: return True if n is a Fibonacci number, False otherwise", 
+                     "output": "def is_fibonacci_number(n):\n    # return True if n is a Fibonacci number, False otherwise\n    a = 0\n    b = 1\n    while a < n:\n        a, b = b, a + b\n    return a == n"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_gcd(a, b):\n    # TODO: return the greatest common divisor of a and b", 
+                     "output": "def get_gcd(a, b):\n    # return the greatest common divisor of a and b\n    while b != 0:\n        a, b = b, a % b\n    return a"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_lcm(a, b):\n    # TODO: return the least common multiple of a and b", 
+                     "output": "def get_lcm(a, b):\n    # return the least common multiple of a and b\n    return a * b // get_gcd(a, b)"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_perfect_number(n):\n    # TODO: return True if n is a perfect number, False otherwise", 
+                     "output": "def is_perfect_number(n):\n    # return True if n is a perfect number, False otherwise\n    sum = 0\n    for i in range(1, n):\n        if n % i == 0:\n            sum += i\n    return sum == n"}], 
+      "is_classification": true
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def get_reverse_string(s):\n    # TODO: return the string s in reverse order", 
+                     "output": "def get_reverse_string(s):\n    # return the string s in reverse order\n    return s[::-1]"}], 
+      "is_classification": false
+  }
+  ,
+  {
+      "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
+      "instances": [{"input": "def is_palindrome(word):\n    # TODO: return True if word is a palindrome, False otherwise", 
+                     "output": "def is_palindrome(word):\n    # return True if word is a palindrome, False otherwise\n    return word == word[::-1]"}], 
+      "is_classification": true
+  }
+]
