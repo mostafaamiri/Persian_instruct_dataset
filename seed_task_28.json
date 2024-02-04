@@ -1,0 +1,303 @@
+[
+    {
+        "instruction": "لطفا کد زیر را برایم زیباتر کن",
+        "input": "#include <iostrem>\n #include <cmath>\n int main(){\n int x =3;\n int y;\n int j = x+y;\n print(j);}",
+        "output": "#include <iostrem>\n #include <cmath>\n int main(){\n \t int x =3;\n \t int y;\n \t //نتیجه را محاسبه میکنیم.\n \t int j = x+y;\n \t //  نتیجه را نمایش میدهیم.\n \t print(j);\n}"
+    }
+    ,
+    {
+        "instruction": "کامنت اضافه کن.",
+        "input": "alpha_num = int(input())\n req_num = int(input())\n req_sequences = [] \n answers = [-1] * req_num",
+        "output": "#ورودی ها  را دریافت میکنیم. \n alpha_num = int(input())\n req_num = int(input())\n req_sequences = [] \n #لیستی به طول خواسته شده در ورودی با -۱ مقداردهی میکنیم.\n answers = [-1] * req_num"
+    }
+    ,
+    {
+        "instruction": "برنامه برای فهم بهتر تازه کارها تفییر بده.",
+        "input": "def\tdfs(adj,\tmark,\th,\tv,\tb,\tway)\t:\n\tif\tv\t==\tb:\n\t\tway.insert(0,\tv)\n\t\treturn\th[v]\n\tmark[v]\t=\t1\n\tfor\tu\tin\tadj[v]\t:\n\t\tif\tmark[u]\t==\t0\t:\n\t\t\th[u]\t=\th[v]\t+\t1\t\n\t\t\tr\t=\tdfs(adj,\tmark,\th,\tu,\tb,\tway)\n\t\t\tif\tr\t!=\t-1\t:\n\t\t\t\tway.insert(0,\tv)\n\t\t\t\treturn\tr\n\treturn\t-1",
+        "output": "def\tdfs(adj,\tmark,\th,\tv,\tb,\tway)\t:\n\t#اگر گره مورد نظر را یافتیم ان را برمیگردانیم.\n\tif\tv\t==\tb:\n\t\tway.insert(0,\tv)\n\t\treturn\th[v]\n\tmark[v]\t=\t1\n\t#حلقه ای روی همسایه های گره میزنیم.\n\tfor\tu\tin\tadj[v]\t:\n\t\t#راه های ممکن از هر همسایه را تا پایان امتحان میکنیم.\n\t\tif\tmark[u]\t==\t0\t:\n\t\t\th[u]\t=\th[v]\t+\t1\t\n\t\t\tr\t=\tdfs(adj,\tmark,\th,\tu,\tb,\tway)\n\t\t\tif\tr\t!=\t-1\t:\n\t\t\t\tway.insert(0,\tv)\n\t\t\t\treturn\tr\n\t#اگر گره را نیافتیم -۱ برمیگردانیم.\n\treturn\t-1"
+
+    }
+    ,
+    {
+        "instruction": "لطفا کد را در کامنت توضیح بده",
+        "input": "class\tQueue:\n\tdef\t__init__(self):\n\t\tself.q\t=\t[]\n\t\tself.size\t=\t0\n\tdef\tenqueue(self,\tvalue):\n\t\tself.q.append(value)\n\t\tself.size\t+=\t1\n\tdef\tdequeue(self):\n\t\tself.size\t+=\t-1\n\t\treturn\tself.q.pop(0)",
+        "output": "class\tQueue:\n\t# این تابع هنگام ایجاد یک شی صدا زده میشود.\n\tdef\t__init__(self):\n\t\tself.q\t=\t[]\n\t\tself.size\t=\t0\n\t# یک عنصر به ته صف وارد میکتد.\n\tdef\tenqueue(self,\tvalue):\n\t\tself.q.append(value)\n\t\tself.size\t+=\t1\n\t# یک عنصر از سر صف خارج میکتد.\n\tdef\tdequeue(self):\n\t\tself.size\t+=\t-1\n\t\treturn\tself.q.pop(0)"
+    }
+    ,
+    {
+        "instruction": "کد را تفییر بده تا خوانا تر شود",
+        "input": "def\tmain():\n\t\trunner\t=\tRunner(sys.stdin)\n\t\trunner.run()",
+        "output": "def\tmain():\n\t\t#شی از نوع runner میسازیم\n\t\trunner\t=\tRunner(sys.stdin)\n\t\t#run را بر روی آن فراخوانی میکنیم.\n\t\trunner.run()"
+    }
+    ,
+    {
+        "instruction": "برنامه زیر تفییر بده تا کارکردش واضح تر شود",
+        "input": "if\tsolvable\t:\n\t\tfor\tel\tin\tans:\n\t\t\tprint(el,\tend=' ')\nelse:\n\tprint(-1)",
+        "output": "if\tsolvable\t:\n\t\t#اگر شرط برقرار بود عناصر لیست را چاپ میکنیم.\n\t\tfor\tel\tin\tans:\n\t\t\tprint(el,\tend=' ')\nelse:\n\t#در غیر این صورت -۱ را چاپ میکنیم.\n\tprint(-1)"
+    }
+    ,
+    {
+        "instruction": "کامنت لطفا!",
+        "input": "def\tlist_to_dec(\tlist\t:\tlist\t):\n\t\tresult\t=\t0\n\t\tfor\ti\tin\trange(len(list)):\n\t\t\tresult\t+=\tlist[i] \t* \t(2 \t**\t i)\n\t\treturn\tresult",
+        "output": "def\tlist_to_dec(\tlist\t:\tlist\t):\n\t\tresult\t=\t0\n\t\t#حلقه ای روی اعضا لیست میزنیم.\n\t\tfor\ti\tin\trange(len(list)):\n\t\t\t#هر یک را بعنوان یک رقم از یک عدد درنظر میگیریم.\n\t\t\tresult\t+=\tlist[i] \t* \t(2 \t**\t i)\n\t\treturn\tresult"
+    }
+    ,
+    {
+        "instruction": "کد پاینون را کامنت گذاری کن",
+        "input": "if\tindex\t==\t-1:\n\t\tlength\t+=\t1\n\t\tif\tmost_length\t<\tlength:\n\t\t\tmost_length\t=\tlength",
+        "output": "if\tindex\t==\t-1:\n\t\t#اگر شرط برقرار بود طول را ۱ واحد افزایش میدهیم.\n\t\tlength\t+=\t1\n\t\tif\tmost_length\t<\tlength:\n\t\t\t#اگر از بزرگترین بزرگ تر بود ان را به عنوان بزرگترین جدید میگیریم.\n\t\t\tmost_length\t=\tlength"
+    }
+    ,
+    {
+        "instruction": "من در حال ساخت یک برنامه هستم و نیاز به کمک در کامنت گذاری کد دارم. آیا می‌توانید به من راهنمایی کنید",
+        "input": "print(most_length)",
+        "output": "print(most_length)\n#متغییر را چاپ میکنیم."
+    }
+    ,
+    {
+        "instruction": "خوشحال می‌شوم اگر برای چند خط کد، توضیحاتی یا کامنت‌های مفید بنویسی",
+        "input": "while(len(new_seq) != 0):\n\tnew_a3 = str(int(new_a1) + int(new_a2))\n\tif new_seq.find(new_a3) == 0:\n\t\tnew_seq = new_seq[len(str(new_a3)) : ]\n\t\tnew_a1 = new_a2\n\t\tnew_a2 = new_a3",
+        "output": "while(len(new_seq) != 0):\n\t#حلقه را تا زمان خالی شدن متغییر ادامه میدهیم.\n\tnew_a3 = str(int(new_a1) + int(new_a2))\n\tif new_seq.find(new_a3) == 0:\n\t\t#بخش هایی را که قبول میشوند از رشته جدا میکنیم.\n\t\tnew_seq = new_seq[len(str(new_a3)) : ]\n\t\tnew_a1 = new_a2\n\t\tnew_a2 = new_a3"
+    }
+    ,
+    {
+        "instruction": "برایش کامنت بگذار",
+        "input": "def\tadd_child(self,\tparent,\tchild_value):\n\t\tchild\t=\tTreeNode(child_value)\n\t\tparent.children.append(child)",
+        "output": "def\tadd_child(self,\tparent,\tchild_value):\n\t\t# شی جدیدی ایجاد میکنیم.\n\t\tchild\t=\tTreeNode(child_value)\n\t\t# ان را به لیست فرزندان والدش اضافه میکنیم.\n\t\tparent.children.append(child)"
+    }
+    ,
+    {
+        "instruction": "برنامه را در خودش توضیح دهید.",
+        "input": "answers\t=\t[-1]\t*\t3\nanswers[0]\t=\t1\nprint(answers)",
+        "output": "#لیستی را مقدار دهی اولیه میکنیم.\nanswers\t=\t[-1]\t*\t3\nanswers[0]\t=\t1\n# لیست را چاپ میکنیم.\nprint(answers)"
+    }
+    ,
+    {
+        "instruction": "برایم کد توضیح بده.",
+        "input": "while\tqueue:\n\tdone\t=\tTrue\n\th\t=\theights.popleft()\n\tcurr\t=\tqueue.popleft()",
+        "output": "while\tqueue:\n\t#\tتا\tزمانی\tکه\tمتغییر\tخالی\tنشده\tادامه\tمیدهیم.\n\tdone\t=\tTrue\n\th\t=\theights.popleft()\n\tcurr\t=\tqueue.popleft()"
+    }
+    ,
+    {
+        "instruction": "میخواهم برنامه ام توضیع راشته باشد.",
+        "input": "def\tinsert(self,\tvalue):\n\t\tnew_node\t=\tNode(value)\n\t\tself.heap.append(new_node)\n\t\tself.heapify_up(len(self.heap) - 1)",
+        "output": "def\tinsert(self,\tvalue):\n\t\t#شی جدید ایجاد میکنیم\n\t\tnew_node\t=\tNode(value)\n\t\t#ان را در لیست ذخیره میکنیم\n\t\tself.heap.append(new_node)\n\t\tself.heapify_up(len(self.heap) - 1)"
+    }
+    ,
+    {
+        "instruction": "کامنت بنویس",
+        "input": "l\t=\t[1,\t2,\t3,\t4]\nmin\t=\tl[0]\nfor\ti\tin\tl:\n\tif\ti\t<\tmin:\n\t\tmin\t=\ti",
+        "output": "l\t=\t[1,\t2,\t3,\t4]\nmin\t=\tl[0]\n#\tکوچکترین\tعنصر\tهر\tلیست\tرا\tمیابیم.\nfor\ti\tin\tl:\n\tif\ti\t<\tmin:\n\t\tmin\t=\ti"
+    }
+    ,
+    {
+        "instruction": "در کد سی پلاس پلاس کامنت بنویس",
+        "input": "int\tchar_counter(string\tnew_word,\tPAGES\t*the_page)\n{\n\tif\t(the_page\t==\tNULL)\n\t{\n\t\treturn\t1;\n\t}\n\t(the_page->num_of_chars)\t+=\tnew_word.length();\n\treturn\t0;\n}",
+        "output": "int\tchar_counter(string\tnew_word,\tPAGES\t*the_page)\n{\n\t//اگر\tصفحه\tناموجود\tبود\tخطا\tبرمیگردانیم.\n\tif\t(the_page\t==\tNULL)\n\t{\n\t\treturn\t1;\n\t}\n\t//تعداد\tکاراکتر\tها\tرا\tبه\tروز\tمیکنیم.\n\t(the_page->num_of_chars)\t+=\tnew_word.length();\n\treturn\t0;\n}"
+    }
+    ,
+    {
+        "instruction": "برنامه ام را تحلیل کن",
+        "input": "PAGES\t*search_day(string\tthe_date,\tvector<PAGES>\t*note_book,\tint\tnum_pages)\n{\n\tfor\t(int\ti\t=\t0;\ti\t<\tnum_pages;\ti++)\n\t{\n\t\tif\t((*note_book)[i].date\t==\tthe_date)\n\t\t{\n\t\t\treturn\t&((*note_book)[i]);\n\t\t}\n\t}\n\treturn\tNULL;\n}",
+        "output": "PAGES\t*search_day(string\tthe_date,\tvector<PAGES>\t*note_book,\tint\tnum_pages)\n{\n\tfor\t(int\ti\t=\t0;\ti\t<\tnum_pages;\ti++)\n\t{\n\t\tif\t((*note_book)[i].date\t==\tthe_date)\n\t\t{\n\t\t\t//شی\tمورد\tنظر\tرا\tاز\tلیست\tاز\tشی\tها\tمیابیم\tو\tبر\tمیگردانیم.\n\t\t\treturn\t&((*note_book)[i]);\n\t\t}\n\t}\n\t//اگر\tشی\tوجود\tنداشت\tnull\tبرمیگردانیم.\n\treturn\tNULL;\n}"
+    }
+    ,
+    {
+        "instruction": "تشخیص بده برنامه چ عملی انجام می دهد",
+        "input": "PAGES\t*search_longest_day(int\tnum_pages,\tvector<PAGES>\t*note_book)\n{\n\tif\t(num_pages\t==\t0)\n\t{\n\t\treturn\tNULL;\n\t}\n\tPAGES\t*longest\t=\t&((*note_book)[0]);\n\tfor\t(int\ti\t=\t0;\ti\t<\tnum_pages;\ti++)\n\t{\n\t\tif\t((*note_book)[i].num_of_chars\t>=\tlongest->num_of_chars)\n\t\t{\n\t\t\tlongest\t=\t&((*note_book)[i]);\n\t\t}\n\t\telse\tif\t((*note_book)[i].num_of_chars\t=\tlongest->num_of_chars)\n\t\t{\n\t\t\tfor\t(int\tj\t=\t9;\tj\t>\t-1;\tj++)\n\t\t\t{\n\t\t\t\tif\t((int)(((*note_book)[i].date)[j])\t<\t((int)(longest->date[j])))\n\t\t\t\t{\n\t\t\t\t\tlongest\t=\t&((*note_book)[i]);\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\treturn\tlongest;\n}",
+        "output": "PAGES\t*search_longest_day(int\tnum_pages,\tvector<PAGES>\t*note_book)\n{\n\t//اگر\tلیست\tخالی\tبود\tnull\tبرمیگردانیم.\n\tif\t(num_pages\t==\t0)\n\t{\n\t\treturn\tNULL;\n\t}\n\tPAGES\t*longest\t=\t&((*note_book)[0]);\n\t//بلندترین\tروز\tرا\tمی\tیابیم\tو\tبر\tمیگردانیم.\n\tfor\t(int\ti\t=\t0;\ti\t<\tnum_pages;\ti++)\n\t{\n\t\tif\t((*note_book)[i].num_of_chars\t>=\tlongest->num_of_chars)\n\t\t{\n\t\t\tlongest\t=\t&((*note_book)[i]);\n\t\t}\n\t\telse\tif\t((*note_book)[i].num_of_chars\t=\tlongest->num_of_chars)\n\t\t{\n\t\t\tfor\t(int\tj\t=\t9;\tj\t>\t-1;\tj++)\n\t\t\t{\n\t\t\t\tif\t((int)(((*note_book)[i].date)[j])\t<\t((int)(longest->date[j])))\n\t\t\t\t{\n\t\t\t\t\tlongest\t=\t&((*note_book)[i]);\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\treturn\tlongest;\n}"
+    }
+    ,
+    {
+        "instruction": "توضیح برنامه را به زبان ساده بیان کن",
+        "input": "void\toutput(PAGES\t*day)\n{\n\tfor\t(int\ti\t=\t0;\ti\t<\t(day->diary).size();\ti++)\n\t{\n\t\tcout\t<<\t(day->diary[i]);\n\t}\n}",
+        "output": "void\toutput(PAGES\t*day)\n{\n\t//خاطرات یک روز را چاپ میکنند.\n\tfor\t(int\ti\t=\t0;\ti\t<\t(day->diary).size();\ti++)\n\t{\n\t\tcout\t<<\t(day->diary[i]);\n\t}\n}"
+    }
+    ,
+    {
+        "instruction": "تروخدا بگو چجوری کار میکنه",
+        "input": "bool\tis_in_vect(string\tcourse_name,\tconst\tvector<string>\t&failed_courses)\n{\n\tfor(int\tl=0;\tl<failed_courses.size();\tl++)\n\t{\n\t\tif(course_name==failed_courses[l])\n\t\t{\n\t\t\treturn\ttrue;\n\t\t}\n\t}\n\treturn\tfalse;\n}",
+        "output": "bool\tis_in_vect(string\tcourse_name,\tconst\tvector<string>\t&failed_courses)\n{\n\t//چک میکند که ایا یک عنصر خاص در بردار وجود دارد یا نه\n\tfor(int\tl=0;\tl<failed_courses.size();\tl++)\n\t{\n\t\tif(course_name==failed_courses[l])\n\t\t{\n\t\t\treturn\ttrue;\n\t\t}\n\t}\n\treturn\tfalse;\n}"
+    }
+    ,
+    {
+        "instruction": "دستورات کد زیر را مشخص کن",
+        "input": "int\tmain()\n{\n\tvector<Teacher>\tteacher_list;\n\tvector<Course>\tcourse_list;\n\tprepare_input_data(course_list,teacher_list);\n\tfill_all_days(course_list,teacher_list);\n\tout_put(course_list);\n\treturn\t0;\n}",
+        "output": "int main()\n{\n\t// بردار ها را تعریف میکنیم.\n\tvector<Teacher>\tteacher_list;\n\tvector<Course>\tcourse_list;\n\t//معلم ها و روز ها را ورودی میگیریم.\n\tprepare_input_data(course_list,teacher_list);\n\t//برنامه را میچینیم.\n\tfill_all_days(course_list,teacher_list);\n\t//خروجی ها را چاپ میکنیم.\n\tout_put(course_list);\n\treturn\t0;\n}"
+    }
+    ,
+    {
+        "instruction": "برنامه را خط به خط توضیح بده",
+        "input": "char\tcaptalize(char\tcharacter)\n{\n\tif\t((int)character\t>\t96\t&&\t(int)character\t<\t123)\n\t{\n\t\tchar\tcap\t=\t(char)((int)character\t-\tASCII);\n\t\treturn\tcap;\n\t}\n\treturn\tcharacter;\n}",
+        "output": "char\tcaptalize(char\tcharacter)\n{\n\tif\t((int)character\t>\t96\t&&\t(int)character\t<\t123)\n\t{\n\t\t//اگر کاراکتر ما از حروف کوچک بود حرف بزرگ متناظرش را برمیگردانیم.\n\t\tchar\tcap\t=\t(char)((int)character\t-\tASCII);\n\t\treturn\tcap;\n\t}\n\treturn\tcharacter;\n}"
+    }
+    ,
+    {
+        "instruction": "کد را به زبان سهل الفهم توضیح بد",
+        "input": "int\tindex_of_id_repo(vector<Working_hours>\t&report,\tstring\tgiven_id)\n{\n\tfor\t(int\ti\t=\t0;\ti\t<\treport.size();\ti++)\n\t{\n\t\tif\t(report[i].is_id_equal(given_id))\n\t\t{\n\t\t\treturn\ti;\n\t\t}\n\t}\n\treturn\tNOT_EXIST;\n}",
+        "output": "int\tindex_of_id_repo(vector<Working_hours>\t&report,\tstring\tgiven_id)\n{\n\t//اگر گزارش مورد نظر را بیابد ایندکس آن را برمی‌گرداند\n\tfor\t(int\ti\t=\t0;\ti\t<\treport.size();\ti++)\n\t{\n\t\tif\t(report[i].is_id_equal(given_id))\n\t\t{\n\t\t\treturn\ti;\n\t\t}\n\t}\n\treturn\tNOT_EXIST;\n}"
+    }
+    ,
+    {
+        "instruction": "کد را برای یک بچه ۵ ساله توضیح بده",
+        "input": "while\t(getline(fin,\ttemp_line))\n\t{\n\t\tlines.push_back(temp_line);\n\t}",
+        "output": "//خطوط جدید را میگیرد.\nwhile\t(getline(fin,\ttemp_line))\n{\n\t//در برداری از خط ها ذخیره میکند.\n\tlines.push_back(temp_line);\n}"
+    }
+    ,
+    {
+        "instruction": "توضیح بده",
+        "input": "void\tDriver::change_DiverMission_end(time_t\tthe_end,\tint\tindex)\n{\n\tmissions[index].end_travel\t=\tthe_end;\n}",
+        "output": "//پایان ماموریت را ثبت میکند.\nvoid\tDriver::change_DiverMission_end(time_t\tthe_end,\tint\tindex)\n{\n\tmissions[index].end_travel\t=\tthe_end;\n}"
+        
+    }
+    ,
+    {
+        "instruction": "برنانه زیرا  برسی کن",
+        "input": "int\tDriver::find_mission_ind(int\tid)\n{\n\tfor\t(int\ti\t=\t0;\ti\t<\tmissions.size();\ti++)\n\t{\n\t\tif\t(missions[i].mission->is_id_same(id))\n\t\t{\n\t\t\treturn\ti;\n\t\t}\n\t}\n\treturn\tNOT_FOUND;\n}",
+        "output": "int\tDriver::find_mission_ind(int\tid)\n{\n\t//اگر شناسه مورد نظر را بیابد ایندکس آن را برمی‌گرداند.\n\tfor\t(int\ti\t=\t0;\ti\t<\tmissions.size();\ti++)\n\t{\n\t\tif\t(missions[i].mission->is_id_same(id))\n\t\t{\n\t\t\treturn\ti;\n\t\t}\n\t}\n\treturn\tNOT_FOUND;\n}"
+    }
+    ,
+    {
+        "instruction": "برنامه زیرا به صورت خلاصه توضیح بده",
+        "input": "void\tshuffle_card(int*\tcard)\n{\n\tint\ti,\tr,\ttemp;\n\tfor\t(temp\t=\t0,\ti\t=\t0;\ttemp\t<\t44;\ti++,\t",
+        "output": "void\tshuffle_card(int*\tcard)\n{\n\tint\ti,\tr,\ttemp;\n\tfor\t(temp\t=\t0,\ti\t=\t0;\ttemp\t<\t44;\ti++,\ttemp++)\n\t\tcard[temp]\t=\ti;\n\t/*زمان سیستم را به عنوان دانه برای ساخت اعداد رندوم میگیرد.*/\n\tsrand(time(NULL));\n\tfor\t(i\t=\t43;\ti\t>\t0;\ti--)\n\t{\n\t\t/*اعداد رندوم برمیگرداند.*/\n\t\tr\t=\trand()\t%\ti;\n\t\ttemp\t=\tcard[i];\n\t\tcard[i]\t=\tcard[r];\n\t\tcard[r]\t=\ttemp;\n\t}\n}"
+    }
+    ,
+    {
+        "instruction": "با کمترین کامنت برنامه و توضیح بده",
+        "input": "if\t((room_num>=1)&&(room_num<=4))\n\t{area=1;}\nelse\tif((room_num>=5)&&(room_num<=8))\n\t{area=2;}\nelse\tif((room_num>=9)&&(room_num<=12))\n\t{area=3;}\nelse\tif((room_num>=13)&&(room_num<=16))\n\t{area=4;}",
+        "output": "/*بر اساس شماره اتاق جای تخته پرش را مشخص می‌کنیم.*/\nif\t((room_num>=1)&&(room_num<=4))\n\t{area=1;}\nelse\tif((room_num>=5)&&(room_num<=8))\n\t{area=2;}\nelse\tif((room_num>=9)&&(room_num<=12))\n\t{area=3;}\nelse\tif((room_num>=13)&&(room_num<=16))\n\t{area=4;}"
+    }
+    ,
+    {
+        "instruction": " کامنت ایجاد کن.",
+        "input": "int\tmain()\n{\n\tstring\tline;\n\twhile\t(getline(cin,\tline))\n\t{\n\t\tcout << to_upper(line) << endl;\n\t}\n\treturn\t0;\n}",
+        "output": "int\tmain()\n{\n\t//به ازای هر خط ورودی حروف بزرگ شده ی آن را چاپ می‌کند.\n\tstring\tline;\n\twhile\t(getline(cin,\tline))\n\t{\n\t\tcout << to_upper(line) << endl;\n\t}\n\treturn\t0;\n}"
+    }
+    ,
+    {
+        "instruction": "کد را انالیز کن.",
+        "input": "string\tto_upper(string\t&line,\tint\tindex)\n{\n\tstring\tresult;\n\tresult.push_back(captalize(line[index]));\n\tif\t(index\t>=\t(line.length() -\t1))\n\t{\n\t\treturn\tresult;\n\t}\n\tresult.append(to_upper(line,\tindex\t+\t1));\n\treturn\tresult;\n}",
+        "output": "string\tto_upper(string\t&line,\tint\tindex)\n{\n\tstring\tresult;\n\tresult.push_back(captalize(line[index]));\n\tif\t(index\t>=\t(line.length() -\t1))\n\t{\n\t\treturn\tresult;\n\t}\n\t//رشته ورودی را با حروف بزرگ بازنویسی می‌کند.\n\tresult.append(to_upper(line,\tindex\t+\t1));\n\treturn\tresult;\n}"
+    }
+    ,
+    {
+        "instruction": "میتوانی راهنمایی ام کنی که این کد چکار میکنه؟",
+        "input": "void\tprepare_input_data(vector<Course>\t&course_list,\tvector<Teacher>\t&teacher_list)\n{\n\tint\tnum_teacher,\tnum_course;\n\tcin\t>>\tnum_teacher;\n\tteacher_list\t=\tinput_teachers(num_teacher);\n\tstd::sort(teacher_list.begin(),\tteacher_list.end(),\tcompare_by_teacher_name);\n\tcin\t>>\tnum_course;\n\tcourse_list\t=\tinput_course(num_course);\n\tstd::sort(course_list.begin(),\tcourse_list.end(),\tcompare_by_course_name);\n}",
+        "output": "void\tprepare_input_data(vector<Course>\t&course_list,\tvector<Teacher>\t&teacher_list)\n{\n\t//\tورودی\tتعداد\tمعلمان\tو\tدریافت\tاطلاعات\tمربوط\tبه\tهرکدام\n\tint\tnum_teacher,\tnum_course;\n\tcin\t>>\tnum_teacher;\n\tteacher_list\t=\tinput_teachers(num_teacher);\n\t//\tمرتب‌سازی\tلیست\tمعلمان\tبر\tاساس\tنام\n\tstd::sort(teacher_list.begin(),\tteacher_list.end(),\tcompare_by_teacher_name);\n\t//\tورودی\tتعداد\tدروس\tو\tدریافت\tاطلاعات\tمربوط\tبه\tهرکدام\n\tcin\t>>\tnum_course;\n\tcourse_list\t=\tinput_course(num_course);\n\t//\tمرتب‌سازی\tلیست\tدروس\tبر\tاساس\tنام\n\tstd::sort(course_list.begin(),\tcourse_list.end(),\tcompare_by_course_name);\n}"
+    }
+    ,
+    {
+        "instruction": "کمکم کن، این برنامه چکار میکنه؟",
+        "input": "Employee::Employee(string given_id, string given_name, string given_level, int given_age)\n{\n\tid = given_id;\n\tname = given_name;\n\tlevel = given_level;\n\tage = given_age;\n}",
+        "output": "// تعریف کننده‌ی کلاس Employee با استفاده از سازنده\nEmployee::Employee(string given_id, string given_name, string given_level, int given_age)\n{\n\t// تنظیم مقادیر از پارامترهای ورودی برای ویژگی‌های کلاس Employee\n\tid = given_id;\n\tname = given_name;\n\tlevel = given_level;\n\tage = given_age;\n}"
+    }
+    ,
+    {
+        "instruction": "نمیفهمم این کد چکار میکند.",
+        "input": "int main()\n{\n\tvector<Employee> employees;\n\tvector<Working_hours> working_report;\n\tvector<Team> teams;\n\tvector<Level_salary_config> salary_configs;\n\tinput_data(employees, working_report, teams, salary_configs);\n\tcout << teams.size() << ',' << salary_configs.size() << employees.size() << ',' << working_report.size() << endl;\n\ttake_action(employees, working_report, teams, salary_configs);\n\treturn 0;\n}",
+        "output": "// تابع اصلی برنامه\nint main()\n{\n\t// تعریف لیست‌های اطلاعات مرتبط با کارمندان، گزارش کاری، تیم‌ها و تنظیمات حقوق\n\tvector<Employee> employees;\n\tvector<Working_hours> working_report;\n\tvector<Team> teams;\n\tvector<Level_salary_config> salary_configs;\n\n\t// دریافت داده‌ها از ورودی\n\tinput_data(employees, working_report, teams, salary_configs);\n\n\t// چاپ اندازه تعداد تیم‌ها، تنظیمات حقوق و تعداد کارمندان و گزارش‌های کاری\n\tcout << teams.size() << ',' << salary_configs.size() << employees.size() << ',' << working_report.size() << endl;\n\n\t// انجام اقدامات مربوط به کارمندان با توجه به داده‌ها\n\ttake_action(employees, working_report, teams, salary_configs);\n\n\t// بازگشت صفر به عنوان کد پایانی موفقیت‌آمیز\n\treturn 0;\n}"
+    }
+    ,
+    {
+        "instruction": "چگونه بفهمم کد زیر چکار میکند؟",
+        "input": "void Team::update_bonus(int new_bonus_percentage)\n{\n\tbonus_percentage = new_bonus_percentage;\n}",
+        "output": "// تعریف تابع برای به‌روزرسانی درصد بونوس تیم\nvoid Team::update_bonus(int new_bonus_percentage)\n{\n\t// تنظیم درصد بونوس جدید\n\tbonus_percentage = new_bonus_percentage;\n}"
+    }
+    ,
+    {
+        "instruction": "میتوانی راجب برنامه زیر من را راهنمایی کنی؟",
+        "input": "bool Level_salary_config::is_level_equal(string given_level)\n{\n\treturn given_level == level;\n}",
+        "output": "// تابع بررسی مساوی بودن سطح با سطح داده‌شده\nbool Level_salary_config::is_level_equal(string given_level)\n{\n\treturn given_level == level;\n}"
+    }
+    ,
+    {
+        "instruction": "چطور است از تو بخواهم در کد زیر کامنت بگذاری؟",
+        "input": "Team::Team(int bonus_min, float bonus_var, string id, string team_head, vector<string> members)\n{\n\tbonus_min_working_hours = bonus_min;\n\tbonus_working_hours_max_var = bonus_var;\n\tteam_id = id;\n\tteam_head_id = team_head;\n\tmember_ids = members;\n\tbonus_percentage = 0;\n}",
+        "output": "// سازنده تیم با دریافت ویژگی‌های مختلف\nTeam::Team(int bonus_min, float bonus_var, string id, string team_head, vector<string> members)\n{\n\t// تنظیم مقادیر از پارامترهای ورودی برای ویژگی‌های کلاس Team\n\tbonus_min_working_hours = bonus_min;\n\tbonus_working_hours_max_var = bonus_var;\n\tteam_id = id;\n\tteam_head_id = team_head;\n\tmember_ids = members;\n\tbonus_percentage = 0;\n}"
+    }
+    ,
+    {
+        "instruction": "کد زیر را برای فهم بهتر دانشجویانم آماده کن.",
+        "input": "bool\tfind_course_form_teacher(const\tTeacher\t&teacher,\tstring\tcourse_name)\n{\n\tfor\t(string\tcourse\t:\tteacher.courses)\n\t{\n\t\tif\t(course\t==\tcourse_name)\n\t\t{\n\t\t\treturn\ttrue;\n\t\t}\n\t}\n\treturn\tfalse;\n}",
+        "output": "//بهتر است نام را اینگونه تغییر دهید.\nbool\tis_course_form_teacher(const\tTeacher\t&teacher,\tstring\tcourse_name)\n{\n\tfor\t(string\tcourse\t:\tteacher.courses)\n\t{\n\t\t//بررسی میکند که ایا درس مورد نظر لیست معلم هست یا نه\n\t\tif\t(course\t==\tcourse_name)\n\t\t{\n\t\t\treturn\ttrue;\n\t\t}\n\t}\n\treturn\tfalse;\n}"
+    }
+    ,
+    {
+        "instruction": "به مت بگو هر خط برنامه چه می‌کند.",
+        "input": "void\tDriver::print_completed_missions(time_t\tend)\n{\n\tcout << driver_id << endl;\n\tint\titem_number\t=\t0;\n\tfor\t(int\ti\t=\t0;\ti\t<\tmissions.size();\ti++)\n\t{\n\t\tif\t(missions[i].end_travel\t==\tend)\n\t\t{\n\t\t\titem_number++;\n\t\t\tif\t(item_number\t!=\t1)\n\t\t\t{\n\t\t\t\tcout << endl;\n\t\t\t}\n\t\t\tmissions[i].mission->print2(end);\n\t\t}\n\t}\n}",
+        "output": "void\tDriver::print_completed_missions(time_t\tend)\n{\n\tcout << driver_id << endl;\n\tint\titem_number\t=\t0;\n\tfor\t(int\ti\t=\t0;\ti\t<\tmissions.size();\ti++)\n\t{\n\t\tif\t(missions[i].end_travel\t==\tend)\n\t\t{\n\t\t\titem_number++;\n\t\t\tif\t(item_number\t!=\t1)\n\t\t\t{\n\t\t\t\tcout << endl;\n\t\t\t}\n\t\t\t//ماموریت های کامل شده تا زمان داده شده را برای  راننده چاپ می‌کند.\n\t\t\tmissions[i].mission->print2(end);\n\t\t}\n\t}\n}"
+    }
+    ,
+    {
+        "instruction": "نشانم بده کامنت گذاری در کد چگونه است؟",
+        "input": "bool\tWorking_hours::is_interval_exist(int given_day_index, int start_time, int end_time)\n{\n\tfor (int i = 0; i < working_days[given_day_index].intervals.size(); i++)\n\t{\n\t\tif (working_days[given_day_index].intervals[i].start_interval < end_time &&\n\t\t\tworking_days[given_day_index].intervals[i].start_interval >= start_time ||\n\t\t\tworking_days[given_day_index].intervals[i].end_interval <= end_time &&\n\t\t\tworking_days[given_day_index].intervals[i].end_interval > start_time)\n\t\t{\n\t\t\treturn true;\n\t\t}\n\t}\n\treturn false;\n}",
+        "output": "// تابع بررسی وجود بازه زمانی در یک روز خاص\nbool\tWorking_hours::is_interval_exist(int given_day_index, int start_time, int end_time)\n{\n\t// حلقه برای بررسی هر بازه زمانی در روز مورد نظر\n\tfor (int i = 0; i < working_days[given_day_index].intervals.size(); i++)\n\t{\n\t\t// بررسی تداخل بازه زمانی با بازه زمانی ورودی\n\t\tif ((working_days[given_day_index].intervals[i].start_interval < end_time &&\n\t\t     working_days[given_day_index].intervals[i].start_interval >= start_time) ||\n\t\t    (working_days[given_day_index].intervals[i].end_interval <= end_time &&\n\t\t     working_days[given_day_index].intervals[i].end_interval > start_time))\n\t\t{\n\t\t\treturn true; // اگر تداخل وجود داشته باشد، بازگشت مقدار درست\n\t\t}\n\t}\n\treturn false; // در غیر این صورت بازگشت مقدار غلط\n}"
+    }
+    ,
+    {
+        "instruction": "مثالی از کامنت گذاری در برنامه زیر بزن",
+        "input": "void\tWorking_hours::add_new_day(int given_day, int start_time, int end_time)\n{\n\tworking_day new_day = {given_day};\n\tTime_interval new_interval = {start_time, end_time};\n\tnew_day.intervals.push_back(new_interval);\n\tworking_days.push_back(new_day);\n}",
+        "output": "// تابع افزودن روز جدید با بازه زمانی مشخص\nvoid\tWorking_hours::add_new_day(int given_day, int start_time, int end_time)\n{\n\t// ایجاد یک روز جدید با شناسه روز داده‌شده\n\tworking_day new_day = {given_day};\n\t// ایجاد یک بازه زمانی جدید با شروع و پایان داده‌شده\n\tTime_interval new_interval = {start_time, end_time};\n\t// افزودن بازه زمانی به لیست بازه‌های روز جدید\n\tnew_day.intervals.push_back(new_interval);\n\t// افزودن روز جدید به لیست روزهای کاری\n\tworking_days.push_back(new_day);\n}"
+    }
+    ,
+    {
+        "instruction": "برنانه را برای فهم شاگردانم تغییر بده.",
+        "input": "void\tWorking_hours::delete_working_interval(int given_day)\n{\n\tfor (int i = 0; i < working_days.size(); i++)\n\t{\n\t\tif (working_days[i].day == given_day)\n\t\t{\n\t\t\tworking_days.erase(working_days.begin() + i);\n\t\t\tbreak;\n\t\t}\n\t}\n}",
+        "output": "// تابع حذف بازه‌های کاری یک روز خاص\nvoid\tWorking_hours::delete_working_interval(int given_day)\n{\n\t// حلقه برای پیدا کردن روز مورد نظر و حذف آن\n\tfor (int i = 0; i < working_days.size(); i++)\n\t{\n\t\t// اگر شناسه روز مساوی با شناسه روز داده‌شده باشد\n\t\tif (working_days[i].day == given_day)\n\t\t{\n\t\t\t// حذف روز مورد نظر از لیست روزهای کاری\n\t\t\tworking_days.erase(working_days.begin() + i);\n\t\t\tbreak;\n\t\t}\n\t}\n}"
+    }
+    ,
+    {
+        "instruction": "کد را راحت الفهم تر کن",
+        "input": "def\tforward(self, x)\n{\n\t x = self.cnn_layer(x)\n\t x = torch.flatten(x, 1)\n\t x = self.fc_layer(x)\n\t x = F.softmax(x, dim=1)\n\t return x\n}",
+        "output": "def\tforward(self, x):\n\t# اجرای لایه‌های CNN بر روی ورودی\n\tx = self.cnn_layer(x)\n\n\t# تغییر شکل به یک بردار برای ورود به لایه‌های Fully Connected\n\tx = torch.flatten(x, 1)\n\n\t# اجرای لایه‌های Fully Connected\n\tx = self.fc_layer(x)\n\n\t# اعمال تابع فعال‌سازی Softmax بر روی خروجی\n\tx = F.softmax(x, dim=1)\n\n\t# بازگشت خروجی\n\treturn x"
+    }
+    ,
+    {
+        "instruction": "چطور کدم را زیبا تر کنم؟",
+        "input": "def\ttrain_val_split(self)\n{\n\tself.x_train, self.x_val, self.y_train, self.y_val = \n\t\ttrain_test_split(self.images, self.labels, stratify=self.labels, test_size=TEST_RATE, random_state=42)\n}",
+        "output": "def\ttrain_val_split(self):\n\t# تقسیم داده‌های آموزش و اعتبارسنجی با استفاده از تابع train_test_split\n\tself.x_train, self.x_val, self.y_train, self.y_val = \\\n\t\ttrain_test_split(self.images, self.labels, stratify=self.labels, test_size=TEST_RATE, random_state=42)"
+    }
+    ,
+    {
+        "instruction": "توضیحات کد و نمایش بده",
+        "input": "def\t_backward(self, observation_matrix):\n\tT = observation_matrix.shape[1]\n\tbeta = np.zeros(observation_matrix.shape)\n\n\tbeta[:, -1] = np.ones(observation_matrix.shape[0])\n\n\tfor t in range(T - 1)[::-1]:\n\t\tbeta[:, t] = np.dot(self.transition_matrix, (beta[:, t+1] * observation_matrix[:, t+1]))\n\t\tbeta[:, t] /= np.sum(beta[:, t])\n\n\treturn beta",
+        "output": "def\t_backward(self, observation_matrix):\n\t# تعداد فرایندهای مشاهده شده\n\tT = observation_matrix.shape[1]\n\t\n\t# ماتریس بتا برای محاسبات معکوس\n\tbeta = np.zeros(observation_matrix.shape)\n\n\t# مقداردهی ابتدایی برای مرحله‌ی زمانی آخر\n\tbeta[:, -1] = np.ones(observation_matrix.shape[0])\n\n\t# حلقه برای محاسبه مقادیر بتا به صورت معکوس\n\tfor t in range(T - 1)[::-1]:\n\t\tbeta[:, t] = np.dot(self.transition_matrix, (beta[:, t+1] * observation_matrix[:, t+1]))\n\t\tbeta[:, t] /= np.sum(beta[:, t])  # نرمال‌سازی مقادیر بتا\n\n\t# بازگشت ماتریس بتا\n\treturn beta"
+    }
+    ,
+    {
+        "instruction": "کد و با کامنت نمایش بده",
+        "input": "def\t_normalize(self, x):\n\treturn (x + (x == 0)) / np.sum(x)",
+        "output": "def\t_normalize(self, x):\n# اعمال نرمال‌سازی به ورودی\nreturn (x + (x == 0)) / np.sum(x)"
+    }
+    ,
+    {
+        "instruction": "کامنت گذاری انجام بده",
+        "input": "def\tcalc_accuracy( genres, pred_genres, true_genres):\n\taccuracies = 4 * [None]\n\tfor g in range(len(genres)):\n\t\ttrue_pred = 0\n\t\tfor i in range(len(pred_genres)):\n\t\t\tif pred_genres[i] == genres[g] and true_genres[i] == genres[g]:\n\t\t\t\ttrue_pred += 1\n\t\taccuracies[g] = (true_pred / ((1 - DATA_FOR_TRAIN) * NUM_SAMPLE_FOR_GENRES * GENRE_COUNT))\n\treturn accuracies",
+        "output": "def\tcalc_accuracy(genres, pred_genres, true_genres):\n\t# آرایه‌ای برای ذخیره دقت‌ها\n\taccuracies = 4 * [None]\n\t\n\t# حلقه برای محاسبه دقت برای هر ژانر\n\tfor g in range(len(genres)):\n\t\ttrue_pred = 0\n\t\t# حلقه برای محاسبه تعداد پیش‌بینی‌های صحیح برای هر ژانر\n\t\tfor i in range(len(pred_genres)):\n\t\t\tif pred_genres[i] == genres[g] and true_genres[i] == genres[g]:\n\t\t\t\ttrue_pred += 1\n\t\t# محاسبه دقت برای هر ژانر\n\t\taccuracies[g] = (true_pred / ((1 - DATA_FOR_TRAIN) * NUM_SAMPLE_FOR_GENRES * GENRE_COUNT))\n\t\n\t# بازگشت آرایه دقت‌ها\n\treturn accuracies"
+    }
+    ,
+    {
+        "instruction": "کد رو برام تجزیه و تحلیل کن",
+        "input": "def print_heatmap(mfcc, genre):\n\tlibrosa.display.specshow(mfcc, x_axis='time')\n\tplt.colorbar()\n\tplt.title(f'{genre.upper()} heatmap')\n\tplt.show()",
+        "output": "def print_heatmap(mfcc, genre):\n\t # نمایش تصویر حرارتی براساس ویژگی‌های MFCC\n\tlibrosa.display.specshow(mfcc, x_axis='time')\n\t# افزودن نوار رنگی به نمایش تصویر حرارتی\n\tplt.colorbar()\n\t# تنظیم عنوان نمودار با استفاده از ژانر\n\tplt.title(f'{genre.upper()} نمودار حرارتی')\n\t# نمایش نمودار حرارتی\n\tplt.show()"
+    }
+    ,
+    {
+        "instruction": "کامت گذاری واجب است",
+        "input": "def calc_mfccs(GENRES, Transpose):\n\tmfccs = []\n\tfor g in range(len(GENRES)):\n\t\tg_mfccs = []\n\t\taddresses = make_address(GENRES[g])\n\t\tfor a in addresses:\n\t\t\tmfcc = calc_mfcc(a, COEFFICIENT_COUNT)\n\t\t\tif Transpose:\n\t\t\t\tg_mfccs.append(mfcc[0:LOWER_NUM_OF_FRAME])\n\t\t\telse:\n\t\t\t\tg_mfccs.append((mfcc[0:LOWER_NUM_OF_FRAME]).T)\n\t\tmfccs.append(g_mfccs)\n\treturn mfccs\n",
+        "output": "def calc_mfccs(GENRES, Transpose):\n\t# لیستی برای ذخیره آرایه‌های MFCC برای هر ژانر\n\tmfccs = []\n\t# حلقه برای محاسبه MFCC برای هر ژانر\n\tfor g in range(len(GENRES)):\n\t\tg_mfccs = []\n\t\t# دریافت آدرس‌های فایل‌های موسیقی برای هر ژانر\n\t\taddresses = make_address(GENRES[g])\n\t\t# حلقه برای محاسبه MFCC برای هر فایل موسیقی\n\t\tfor a in addresses:\n\t\t\tmfcc = calc_mfcc(a, COEFFICIENT_COUNT)\n\t\t\t# افزودن MFCC به لیست MFCC برای ژانر مورد نظر\n\t\t\tif Transpose:\n\t\t\t\tg_mfccs.append(mfcc[0:LOWER_NUM_OF_FRAME])\n\t\t\telse:\n\t\t\t\tg_mfccs.append((mfcc[0:LOWER_NUM_OF_FRAME]).T)\n\t\t# افزودن لیست MFCC برای یک ژانر به لیست کلی\n\t\tmfccs.append(g_mfccs)\n\t# بازگشت لیست کلی از آرایه‌های MFCC\n\treturn mfccs\n"
+    }
+    ,
+    {
+        "instruction": "در فهم کد کمکم کن",
+        "input": "def predict_genre(self, input_data):\n\tprobs = [model.score(input_data) for model in self.models]\n\tpredicted_genre = GENRES[np.argmax(probs)]\n\treturn predicted_genre",
+        "output": "def predict_genre(self, input_data):\n\t# محاسبه امتیاز برای هر مدل موجود\n\tprobs = [model.score(input_data) for model in self.models]\n\t# پیش‌بینی ژانر با بیشترین امتیاز\n\tpredicted_genre = GENRES[np.argmax(probs)]\n\t# بازگشت ژانر پیش‌بینی شده\n\treturn predicted_genre"
+    }
+    ,
+    {
+        "instruction": "برنامه را اسان کن",
+        "input": "def predict_all_tests(self, test_mfccs):\n\tfor i in range(GENRE_COUNT):\n\t\tfor mfcc in test_mfccs[i]:\n\t\t\tself.true_genres.append(GENRES[i])\n\t\t\tself.pred_genres.append(self.predict_genre(mfcc))",
+        "output": "def predict_all_tests(self, test_mfccs):\n\t# حلقه برای پیش‌بینی ژانر برای هر آزمون MFCC\n\tfor i in range(GENRE_COUNT):\n\t\tfor mfcc in test_mfccs[i]:\n\t\t\t# افزودن ژانر واقعی به لیست واقعیت‌ها\n\t\t\tself.true_genres.append(GENRES[i])\n\t\t\t# افزودن ژانر پیش‌بینی شده به لیست پیش‌بینی‌ها\n\t\t\tself.pred_genres.append(self.predict_genre(mfcc))"
+    }
+]
