@@ -1,4 +1,7 @@
 # Persian Instruct Dataset
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
 ## Introduction
@@ -29,6 +32,20 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/milad24k"><img src="https://avatars.githubusercontent.com/u/158809497?v=4?s=100" width="100px;" alt="milad24k"/><br /><sub><b>milad24k</b></sub></a><br /><a href="#data-milad24k" title="Data">🔣</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
