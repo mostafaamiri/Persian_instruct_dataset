@@ -51,6 +51,16 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "mostafaamiri",
+      "name": "mostafa amiri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20011144?v=4",
+      "profile": "https://github.com/mostafaamiri",
+      "contributions": [
+        "projectManagement",
+        "mentoring"
+      ]
     }
   ],
   "contributorsPerLine": 7,
