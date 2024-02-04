@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -53,6 +53,9 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/farcshad"><img src="https://avatars.githubusercontent.com/u/52861891?v=4?s=100" width="100px;" alt="farcshad"/><br /><sub><b>farcshad</b></sub></a><br /><a href="#data-farcshad" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ImanRsl10"><img src="https://avatars.githubusercontent.com/u/113336940?v=4?s=100" width="100px;" alt="Iman Rasouli"/><br /><sub><b>Iman Rasouli</b></sub></a><br /><a href="#data-ImanRsl10" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Saman2C"><img src="https://avatars.githubusercontent.com/u/121295321?v=4?s=100" width="100px;" alt="Saman"/><br /><sub><b>Saman</b></sub></a><br /><a href="#data-Saman2C" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/mohammad-sina-parvizi"><img src="https://avatars.githubusercontent.com/u/122217299?v=4?s=100" width="100px;" alt="m.sina.parvizi"/><br /><sub><b>m.sina.parvizi</b></sub></a><br /><a href="#data-mosipamo" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
