@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -40,6 +40,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/milad24k"><img src="https://avatars.githubusercontent.com/u/158809497?v=4?s=100" width="100px;" alt="milad24k"/><br /><sub><b>milad24k</b></sub></a><br /><a href="#data-milad24k" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mahdieh-Raeyati"><img src="https://avatars.githubusercontent.com/u/115537868?v=4?s=100" width="100px;" alt="mahdieh-Raeyati"/><br /><sub><b>mahdieh-Raeyati</b></sub></a><br /><a href="#data-mahdieh-Raeyati" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Iminiume"><img src="https://avatars.githubusercontent.com/u/113291450?v=4?s=100" width="100px;" alt="Iman Arjmandnia"/><br /><sub><b>Iman Arjmandnia</b></sub></a><br /><a href="#data-Iminiume" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Nimakhdb13"><img src="https://avatars.githubusercontent.com/u/109285206?v=4?s=100" width="100px;" alt="Nima Khodabakhshi"/><br /><sub><b>Nima Khodabakhshi</b></sub></a><br /><a href="#data-Nimakhdb13" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
