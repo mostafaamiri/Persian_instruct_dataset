@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -58,6 +58,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/mohammad-sina-parvizi"><img src="https://avatars.githubusercontent.com/u/122217299?v=4?s=100" width="100px;" alt="m.sina.parvizi"/><br /><sub><b>m.sina.parvizi</b></sub></a><br /><a href="#data-mosipamo" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Amirhossein-Yousefvand"><img src="https://avatars.githubusercontent.com/u/129658839?v=4?s=100" width="100px;" alt="Amirhossein-Yousefvand"/><br /><sub><b>Amirhossein-Yousefvand</b></sub></a><br /><a href="#data-Amirhossein-Yousefvand" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nargesasa"><img src="https://avatars.githubusercontent.com/u/122645493?v=4?s=100" width="100px;" alt="nargesasa"/><br /><sub><b>nargesasa</b></sub></a><br /><a href="#data-nargesasa" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/task2121"><img src="https://avatars.githubusercontent.com/u/158721518?v=4?s=100" width="100px;" alt="task2121"/><br /><sub><b>task2121</b></sub></a><br /><a href="#data-task2121" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
