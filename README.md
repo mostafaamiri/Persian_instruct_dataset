@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-56-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -106,6 +106,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zeinabPourgheisari"><img src="https://avatars.githubusercontent.com/u/128948329?v=4?s=100" width="100px;" alt="zeinabPourgheisari"/><br /><sub><b>zeinabPourgheisari</b></sub></a><br /><a href="#data-zeinabPourgheisari" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/blueie"><img src="https://avatars.githubusercontent.com/u/95705921?v=4?s=100" width="100px;" alt="blueie"/><br /><sub><b>blueie</b></sub></a><br /><a href="#data-blueie" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Esy81"><img src="https://avatars.githubusercontent.com/u/130487899?v=4?s=100" width="100px;" alt="Esy81"/><br /><sub><b>Esy81</b></sub></a><br /><a href="#data-Esy81" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/emohfar"><img src="https://avatars.githubusercontent.com/u/39233595?v=4?s=100" width="100px;" alt="Mohammadreza Farrokh"/><br /><sub><b>Mohammadreza Farrokh</b></sub></a><br /><a href="#data-emohfar" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
