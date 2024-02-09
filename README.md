@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -71,6 +71,9 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/alirezakamkar"><img src="https://avatars.githubusercontent.com/u/158997602?v=4?s=100" width="100px;" alt="alirezakamkar"/><br /><sub><b>alirezakamkar</b></sub></a><br /><a href="#data-alirezakamkar" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Armanj-23"><img src="https://avatars.githubusercontent.com/u/139079593?v=4?s=100" width="100px;" alt="Mohammad Moshiri.B"/><br /><sub><b>Mohammad Moshiri.B</b></sub></a><br /><a href="#data-Armanj-23" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tahamajs"><img src="https://avatars.githubusercontent.com/u/108874557?v=4?s=100" width="100px;" alt="Taha Majlesi"/><br /><sub><b>Taha Majlesi</b></sub></a><br /><a href="#data-tahamajs" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FatemePakmehr"><img src="https://avatars.githubusercontent.com/u/113554178?v=4?s=100" width="100px;" alt="Fateme Pakmehr"/><br /><sub><b>Fateme Pakmehr</b></sub></a><br /><a href="#data-FatemePakmehr" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
