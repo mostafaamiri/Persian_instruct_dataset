@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -94,6 +94,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/3epi"><img src="https://avatars.githubusercontent.com/u/65105604?v=4?s=100" width="100px;" alt="Mohammad Sepehr Bazargan"/><br /><sub><b>Mohammad Sepehr Bazargan</b></sub></a><br /><a href="#data-3epi" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AmirmohammadKhodaei"><img src="https://avatars.githubusercontent.com/u/127740250?v=4?s=100" width="100px;" alt="AmirmohammadKhodaei"/><br /><sub><b>AmirmohammadKhodaei</b></sub></a><br /><a href="#data-AmirmohammadKhodaei" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/iliyaattarnejad"><img src="https://avatars.githubusercontent.com/u/145667697?v=4?s=100" width="100px;" alt="iliyaattarnejad"/><br /><sub><b>iliyaattarnejad</b></sub></a><br /><a href="#data-iliyaattarnejad" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MehrdadPrvn"><img src="https://avatars.githubusercontent.com/u/123895163?v=4?s=100" width="100px;" alt="MehrdadPrvn"/><br /><sub><b>MehrdadPrvn</b></sub></a><br /><a href="#data-MehrdadPrvn" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
