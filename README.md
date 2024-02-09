@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -87,6 +87,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gitak83"><img src="https://avatars.githubusercontent.com/u/122973274?v=4?s=100" width="100px;" alt="gitak83"/><br /><sub><b>gitak83</b></sub></a><br /><a href="#data-gitak83" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/parmisbathaeiyan"><img src="https://avatars.githubusercontent.com/u/84594811?v=4?s=100" width="100px;" alt="parmisbathaeiyan"/><br /><sub><b>parmisbathaeiyan</b></sub></a><br /><a href="#data-parmisbathaeiyan" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/amirhosseinas"><img src="https://avatars.githubusercontent.com/u/142515770?v=4?s=100" width="100px;" alt="amirhosseinas"/><br /><sub><b>amirhosseinas</b></sub></a><br /><a href="#data-amirhosseinas" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/akhoundzadeh-m"><img src="https://avatars.githubusercontent.com/u/146876927?v=4?s=100" width="100px;" alt="akhoundzadeh-m"/><br /><sub><b>akhoundzadeh-m</b></sub></a><br /><a href="#data-akhoundzadeh-m" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
