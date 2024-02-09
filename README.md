@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -89,6 +89,9 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/amirhosseinas"><img src="https://avatars.githubusercontent.com/u/142515770?v=4?s=100" width="100px;" alt="amirhosseinas"/><br /><sub><b>amirhosseinas</b></sub></a><br /><a href="#data-amirhosseinas" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/akhoundzadeh-m"><img src="https://avatars.githubusercontent.com/u/146876927?v=4?s=100" width="100px;" alt="akhoundzadeh-m"/><br /><sub><b>akhoundzadeh-m</b></sub></a><br /><a href="#data-akhoundzadeh-m" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aghs8055"><img src="https://avatars.githubusercontent.com/u/55194355?v=4?s=100" width="100px;" alt="Ali Ghaffari Sabet"/><br /><sub><b>Ali Ghaffari Sabet</b></sub></a><br /><a href="#data-aghs8055" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/3epi"><img src="https://avatars.githubusercontent.com/u/65105604?v=4?s=100" width="100px;" alt="Mohammad Sepehr Bazargan"/><br /><sub><b>Mohammad Sepehr Bazargan</b></sub></a><br /><a href="#data-3epi" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
