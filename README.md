@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -98,6 +98,9 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zeynabhasani"><img src="https://avatars.githubusercontent.com/u/123007662?v=4?s=100" width="100px;" alt="zeynabhasani"/><br /><sub><b>zeynabhasani</b></sub></a><br /><a href="#data-zeynabhasani" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Neginnr"><img src="https://avatars.githubusercontent.com/u/134855079?v=4?s=100" width="100px;" alt="Neginnr"/><br /><sub><b>Neginnr</b></sub></a><br /><a href="#data-Neginnr" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hanitaniknasab"><img src="https://avatars.githubusercontent.com/u/122201733?v=4?s=100" width="100px;" alt="hanita.niknasab"/><br /><sub><b>hanita.niknasab</b></sub></a><br /><a href="#data-hanitaniknasab" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mohammadi-milad-mim"><img src="https://avatars.githubusercontent.com/u/43762761?v=4?s=100" width="100px;" alt="Milad Mohammadi"/><br /><sub><b>Milad Mohammadi</b></sub></a><br /><a href="#data-mohammadi-milad-mim" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
