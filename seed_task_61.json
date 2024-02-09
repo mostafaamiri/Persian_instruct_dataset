@@ -1,0 +1,252 @@
+[
+    {
+        "instruction": "<mask> را در سند html با یک متن مناسب پر کنید. شما باید تگ html را در نظر بگیرید. خروجی شما باید سند html تکمیل شده باشد.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nکره جنوبی روز دوشنبه اصلاحات مالیاتی گسترده ای از جمله کاهش مالیات بر درآمد شرکت ها را برای تقویت رشد از طریق تشویق مصرف خصوصی و سرمایه گذاری های تجاری اعلام کرد.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>کره جنوبی اصلاحات مالیاتی ای را برای تقویت رشد اقتصادی اعلام کرد</title>\n<body>\nکره جنوبی روز دوشنبه اصلاحات مالیاتی گسترده ای از جمله کاهش مالیات بر درآمد شرکت ها را برای تقویت رشد از طریق تشویق مصرف خصوصی و سرمایه گذاری های تجاری اعلام کرد.</body>\n</html>"
+    },
+    {
+        "instruction": "به جای <mask> عنوان متن قسمت بدنه را قرار بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nمهدی طارمی از اسطوره های فوتبال ایران دعوت کرد به قطر، سفر کنند و تماشاگر بازی های پایانی تیم ملی باشند.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>دعوت طارمی از اسطوره ها</title>\n<body>\nمهدی طارمی از اسطوره های فوتبال ایران دعوت کرد به قطر، سفر کنند و تماشاگر بازی های پایانی تیم ملی باشند.</body>\n</html>"
+    },
+    {
+        "instruction": "در سند html زیر یک متن در قسمت body داریم. عنوان این متن را به جای تگ mask بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nطبق گزارش جدید وال استریت ژورنال، ایلان ماسک میان دوستان و همکارانش نوعی فرهنگ فشار به وجود آورده و آنها را به استفاده از مواد مخدر همراه خود تشویق می کند.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>افشاگری بزرگ علیه ایلان ماسک</title>\n<body>\nطبق گزارش جدید وال استریت ژورنال، ایلان ماسک میان دوستان و همکارانش نوعی فرهنگ فشار به وجود آورده و آنها را به استفاده از مواد مخدر همراه خود تشویق می کند.</body>\n</html>"
+    },
+    {
+        "instruction": "عنوان متن قسمت بدنه را حدس بزن و در جای <mask> بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nبه گزارش ثریا پریسا تبریز با انتشار پستی در ایکس گفت: «من با موزیلا شدیداً موافقم. اپل در مورد پشتیبانی از مرورگر وب یا انتخاب موتور در iOS جدی نیست. استراتژی آن‌ها بیش از حد محدودکننده است و به‌طور معنادار باعث ارائه‌ی حق انتخاب واقعی برای توسعه‌دهندگان مرورگر نخواهد شد.»</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>انتقاد تند مدیر ایرانی گوگل از اپل</title>\n<body>\nبه گزارش ثریا پریسا تبریز با انتشار پستی در ایکس گفت: «من با موزیلا شدیداً موافقم. اپل در مورد پشتیبانی از مرورگر وب یا انتخاب موتور در iOS جدی نیست. استراتژی آن‌ها بیش از حد محدودکننده است و به‌طور معنادار باعث ارائه‌ی حق انتخاب واقعی برای توسعه‌دهندگان مرورگر نخواهد شد.»</body>\n</html>"
+    },
+    {
+        "instruction": "موضوع پیشنهادی خود را برای متن قسمت بدنه در سند html داده شده در قسمت mask بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nبه گزارش صد آنلاین ، مدیرکل میراث فرهنگی میراث فرهنگی، گردشگری و صنایع دستی استان زنجان گفت: ۳ اثر منقول استان زنجان در فهرست آثار ملی کشور ثبت شد.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>سه ریتون باستانی زنجان ثبت ملی شدند</title>\n<body>\nبه گزارش صد آنلاین ، مدیرکل میراث فرهنگی میراث فرهنگی، گردشگری و صنایع دستی استان زنجان گفت: ۳ اثر منقول استان زنجان در فهرست آثار ملی کشور ثبت شد.</body>\n</html>"
+    },
+    {
+        "instruction": "من در سند html یک متن دارم. موضوع آن را در بخش mask وارد کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>ستاد برگزاری مسابقات شورای جهانی بوکس موی‌تای (WBC MuayThai) تصمیم به تعلیق تیم ایران گرفت.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>کنار گذاشته شدن تیم ملی ایران از مسابقات</title>\n<body>\nستاد برگزاری مسابقات شورای جهانی بوکس موی‌تای (WBC MuayThai) تصمیم به تعلیق تیم ایران گرفت.</body>\n</html>"
+    },
+    {
+        "instruction": "عنوان مناسبی برای متن قسمت body بیاب و آن را به جای <mask> بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>به نقل از دیجیاتو، متا در گزارش مالی سالانه خود برای سال ۲۰۲۳ به‌عنوان یک هشدار این موضوع را به‌ سرمایه‌گذاران اعلام کرد که زاکربرگ به‌دلیل علاقه‌اش نسبت به فعالیت‌های خطرناک حتی ممکن است جان خود را از دست بدهد.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>خطر عجیبی که مالک فیسبوک را تهدید میکند</title>\n<body>\nبه نقل از دیجیاتو، متا در گزارش مالی سالانه خود برای سال ۲۰۲۳ به‌عنوان یک هشدار این موضوع را به‌ سرمایه‌گذاران اعلام کرد که زاکربرگ به‌دلیل علاقه‌اش نسبت به فعالیت‌های خطرناک حتی ممکن است جان خود را از دست بدهد.</body>\n</html>"
+    },
+    {
+        "instruction": "عنوان متن بدنه صفحه html زیر را در تگ mask بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nرسانه‌های ژاپنی امروز از وقوع انفجار در یکی از ایستگاه‌های قطار شهر توکیو خبر دادند که در اثر آن حرکت قطارها برای ساعاتی متوقف شد و مسئولان ژاپنی مجور به تخلیه مسافرین شدند.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>آتش سوزی در توکیو و اختلال در حرکت قطارها</title>\n<body>\nرسانه‌های ژاپنی امروز از وقوع انفجار در یکی از ایستگاه‌های قطار شهر توکیو خبر دادند که در اثر آن حرکت قطارها برای ساعاتی متوقف شد و مسئولان ژاپنی مجور به تخلیه مسافرین شدند.</body>\n</html>"
+    },
+    {
+        "instruction": "به جای <mask> عنوان بدنه سند html را قرار بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nرئیس کمیته حقوق و دستمزد مجلس گفت: حداقل حقوق کارمندان دولت در سال آینده یازده میلیون و پانصد هزار تومان می‌شود.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>کف حقوق کارمندان مشخص شد</title>\n<body>\nرئیس کمیته حقوق و دستمزد مجلس گفت: حداقل حقوق کارمندان دولت در سال آینده یازده میلیون و پانصد هزار تومان می‌شود.</body>\n</html>"
+    },
+    {
+        "instruction": "تیتر متن body را در <mask> بگذار و سند html را برگردان.",
+        "input": "<!DOCTYPE html>\n<html>\n<title> <mask> </title>\n<body>\nبه گزارش اقتصادنیوز به نقل از ایرنا، شرکت امنیت دریایی انگلیسی امبری اعلام کرد که گزارشی درباره یک حادثه امنیتی در منطقه باب المندب دریافت کرده است.</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<title>وقوع حادثه امنیتی در باب المندب</title>\n<body>\nبه گزارش اقتصادنیوز به نقل از ایرنا، شرکت امنیت دریایی انگلیسی امبری اعلام کرد که گزارشی درباره یک حادثه امنیتی در منطقه باب المندب دریافت کرده است.</body>\n</html>"
+    },
+    {
+        "instruction": "تگ mask را با عبارت مناسب در سند html زیر پر کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask> onclick='alert('سلام خوبی؟')'>کلیک کن</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='button' onclick='alert('سلام خوبی؟')'>کلیک کن</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "به جای <mask> در سند زیر عبارت مناسب قرار دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask>>Button</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='button'>Button</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "تگ mask را با عبارت درست جایگزین کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask> disabled>Submit</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='submit' disabled>Submit</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "در سند html زیر تگ mask را با عبارت درست جایگزین کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask>>Reset the form!</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='reset'>Reset the form!</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "متن سند html زیر را به گونه ای تغییر بده که به جای mask عبارت مناسب نوشته شده باشد.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask>>OK</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='button'>OK</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "داکیومنت html را زیر را با جایگزینی <mask> با عبارت مناسب خروجی بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask>>ثبت</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='button'>ثبت</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "به من کمک کن تا در سند html به جای <mask> عبارت مناسب بنویسم.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask>>push</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='button'>push</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "سند html زیر را با عبارت مناسب جایگزین شده در mask خروجی دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask> disabled>ارسال</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='submit' disabled>ارسال</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "در سند ورودی <mask> را با عبارت مناسب جایگزین کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<button type=<mask> disabled>ارائه</button>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<button type='submit' disabled>ارائه</button>\n</body>\n</html>"
+    },
+    {
+        "instruction": "من یک سند html حاوی یک تگ mask دارم. این تگ را با عبارت مناسب جایگزین کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='girl.jpg' alt=<mask> width='500' height='600'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='girl.jpg' alt='girl' width='500' height='600'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "تگ mask را از سند html بردار و به جای آن عبارت مناسب بنویس.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='boy.jpg' alt=<mask> width='500' height='500'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='boy.jpg' alt='boy' width='500' height='500'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "به جای <mask> یک متن مناسب بنویس و سند html نهایی را خروجی بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='test.jpg' alt=<mask> width='400' height='500'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='test.jpg' alt='test' width='400' height='500'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "اگر <mask> را با عبارت مناسب جایگزین کنیم خروجی چطور خواهد بود؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='picture.jpg' alt=<mask> width='400' height='600'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='picture.jpg' alt='picture' width='400' height='600'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "با توجه به سند چه پیشنهادی برای جایگزینی تگ mask داری؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='smile.gif' alt=<mask> width='42' height='42 style='vertical-align:middle;margin:50px 0px'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='smile.gif' alt='smile' width='42' height='42 style='vertical-align:middle;margin:50px 0px'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "بخش mask سند زیر را با پیشنهاد خود جایگزین کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='/images/stickman.gif' alt=<mask> width=24 height='39'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='/images/stickman.gif' alt='Stickman' width=24 height='39'>\n</body>\n</html>"
+    },
+    {
+        "instruction": "سند زیر را با جایگزین مناسبی برای mask خروجی دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<img src='https://www.w3schools.com/images/lamp.jpg' alt=<mask> width='32' height=32'>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<img src='https://www.w3schools.com/images/lamp.jpg' alt='Lamp' width='32' height=32'>>\n</body>\n</html>"
+    },
+    {
+        "instruction": "بهترین پیشنهاد برای جایگزینی تگ mask را ارائه بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989163586598'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989163586598'>تلفن همراه</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "اگر تگ mask را با عبارت درست جایگزین کنیم سند خروجی چگونه خواهد بود؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989165284028'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989165284028'>تلفن</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "این متن سند html من است اما نمیدانم به جای <mask> باید چه چیزی بگذارم. میتوانی سند را کامل کنی؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989165284828'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='tel:+989165288028'>شماره تلفن</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "اگر <mask> را با عبارت مناسب جایگزین کنیم خروجی چگونه خواهد بود؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:m.bluth@example.com'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:m.bluth@example.com'>ایمیل</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "<mask> را با عبارت درست جایگزین و خروجی را نشان بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:m.taghld@yahoo.com'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:m.taghld@yahoo.com'>آدرس الکترونیک</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "سند html ورودی را با جایگزین کردن <mask> با عبارت مناسب بازنویسی کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:yhya.blupth@gmail.com'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='mailto:yhya.blupth@gmail.com'>پست الکترونیک</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "جایگزین مناسب mask در سند زیر چیست؟ سند کامل شده را خروجی بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='sms:+989652689475'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='sms:+989652689475'>ارسال پیام</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "پس از جایگزین کردن عبارت مناسب به جای <mask> سند html خروجی را نمایش بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<a href='sms:+986258769312'><mask></a>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<a href='sms:++986258769312'>به من پیام بده</a>\n</body>\n</html>"
+    },
+    {
+        "instruction": "سند html را با جایگذاری متن مناسب در mask نشان دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=<mask>>\n</head>\n<body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset='utf-8'>\n</head>\n<body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "با توجه به سند html داده شده به جای mask عبارت مرتبط نوشته و سند را خروجی دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='محمد محمدی'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='author' content='محمد محمدی'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "قسمت mask در این سند html ناشناخته است. سند را تکمیل کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='علی عزیزی'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='author' content='علی عزیزی'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "تگ mask نشان دهنده یک عبارت نامشخص است. آن را حدس زده و سند کامل شده را خروجی دهید.",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='پونیا حقی'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='author' content='پونیا حقی'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "با توجه به سند html تگ mask را با عنوان صحیح جایگزین کنید.",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='HTML, CSS, JavaScript'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='keywords' content='HTML, CSS, JavaScript'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "من یک سند html دارم و نمیدانم به جای <mask> چه چیزی بنویسم. چه پیشنهادی داری؟",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='ایران، آسیا، خاور میانه'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='keywords' content='ایران، آسیا، خاور میانه'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "به جای تگ mask چه پیشنهادی داری؟",
+        "input": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=<mask> content='ایران، آمریکا، برجام'>\n</head><body>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<head>\n<meta name='keywords' content='ایران آمریکا، برجام'>\n</head><body>\n</body>\n</html>"
+    },
+    {
+        "instruction": "در جایگزین کردن تگ mask به من کمک کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>CSS</abbr>\n</dfn> زبانی است که سبک یک سند HTML را توصیف می کند.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='Cascading Style Sheets'>CSS</abbr>\n</dfn> زبانی است که سبک یک سند HTML را توصیف می کند.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "سند زیر را با جایگزین مناسب برای <mask> تغییر داده و ارسال کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>HTML</abbr>\n</dfn> زبان نشانه گذاری استاندارد برای ایجاد صفحات وب است.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='Hyper Text Markup Language'>HTML</abbr>\n</dfn> زبان نشانه گذاری استاندارد برای ایجاد صفحات وب است.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "قسمت mask را با توجه به متن پر کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>راهور</abbr>\n</dfn> یکی از ارگان‌های انتظامی ایران است، که زیرمجموعهٔ فرماندهی انتظامی جمهوری اسلامی ایران فعالیت می‌کند.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='راهنمایی و رانندگی'>راهور</abbr>\n</dfn> یکی از ارگان‌های انتظامی ایران است، که زیرمجموعهٔ فرماندهی انتظامی جمهوری اسلامی ایران فعالیت می‌کند.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "من سند html را در اختیار دارم اما قسمت mask در آن ناشناخته است. چه پیشنهادی برای آن داری؟",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>داعش</abbr>\n</dfn> یک گروه ستیزه‌جوی تروریستی اسلام‌گرا و فراملی و همچنین شبه‌دولت به رسمیت شناخته نشده سابق است.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='دولت اسلامی عراق و شام'>داعش</abbr>\n</dfn> یک گروه ستیزه‌جوی تروریستی اسلام‌گرا و فراملی و همچنین شبه‌دولت به رسمیت شناخته نشده سابق است.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction":"تگ <mask> را با عبارت مناسب در سند html زیر پر کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>اتکا</abbr>\n</dfn> یک هلدینگ تحت مالکیت وزارت دفاع و پشتیبانی نیروهای مسلح است.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='اداره تدارکات کارمندان ارتش'>اتکا</abbr>\n</dfn> یک هلدینگ تحت مالکیت وزارت دفاع و پشتیبانی نیروهای مسلح است.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "لطفا به جای <mask> در سند html عبارت مناسب قرار بده.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>رجا</abbr>\n</dfn> یکی از شرکت‌های زیر مجموعه وزارت راه و شهرسازی است که وظیفه نگهداری و تعمیر و همچنین بهره‌برداری از شبکه راه‌آهن ایران را برعهده دارد.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='راه آهن جمهوری اسلامی'>رجا</abbr>\n</dfn> یکی از شرکت‌های زیر مجموعه وزارت راه و شهرسازی است که وظیفه نگهداری و تعمیر و همچنین بهره‌برداری از شبکه راه‌آهن ایران را برعهده دارد.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "در سند html زیر <mask> را با عبارت درست جایگزین کن.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>سمپاد</abbr>\n</dfn> نهادی است که بر امور تحصیلی دانش‌آموزان مستعد و با بهره هوشی بالا نظارت می‌کند.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='سازمان ملی پرورش استعدادهای درخشان'>سمپاد</abbr>\n</dfn> نهادی است که بر امور تحصیلی دانش‌آموزان مستعد و با بهره هوشی بالا نظارت می‌کند.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "<mask> را از سند html بردار و به جای آن عبارت مناسب بنویسید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>نزاجا</abbr>\n</dfn> وظیفه حفظ حاکمیت ارضی و حفاظت از مرزهای سرزمینی ایران را برعهده دارد.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='نیروی زمینی ارتش جمهوری اسلامی ایران'>نزاجا</abbr>\n</dfn> وظیفه حفظ حاکمیت ارضی و حفاظت از مرزهای سرزمینی ایران را برعهده دارد.\n</p>\n</body>\n</html>"
+    },
+    {
+        "instruction": "در سند زیر به جای بخش mask گسترده کلمه مخفف را بنویسید.",
+        "input": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title=<mask>>فراجا</abbr>\n</dfn> شاخه‌ای از نیروهای مسلح ایران است، که وظایف پلیس و مرزبانی را در کشور برعهده دارد.\n</p>\n</body>\n</html>",
+        "output": "<!DOCTYPE html>\n<html>\n<body>\n<p>\n<dfn>\n<abbr title='فرماندهی انتظامی جمهوری اسلامی ایران'>فراجا</abbr>\n</dfn> شاخه‌ای از نیروهای مسلح ایران است، که وظایف پلیس و مرزبانی را در کشور برعهده دارد.\n</p>\n</body>\n</html>"
+    }
+]
