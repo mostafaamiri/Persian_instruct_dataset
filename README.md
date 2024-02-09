@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -68,6 +68,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://mohammadjranjbar.github.io/"><img src="https://avatars.githubusercontent.com/u/52662413?v=4?s=100" width="100px;" alt="Mohammad Ranjbar"/><br /><sub><b>Mohammad Ranjbar</b></sub></a><br /><a href="#data-MohammadJRanjbar" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SayyedAliT"><img src="https://avatars.githubusercontent.com/u/123751836?v=4?s=100" width="100px;" alt="SayyedAliT"/><br /><sub><b>SayyedAliT</b></sub></a><br /><a href="#data-SayyedAliT" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AmirNaddaf2004"><img src="https://avatars.githubusercontent.com/u/122298450?v=4?s=100" width="100px;" alt="AmirNaddaf2004"/><br /><sub><b>AmirNaddaf2004</b></sub></a><br /><a href="#data-AmirNaddaf2004" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/alirezakamkar"><img src="https://avatars.githubusercontent.com/u/158997602?v=4?s=100" width="100px;" alt="alirezakamkar"/><br /><sub><b>alirezakamkar</b></sub></a><br /><a href="#data-alirezakamkar" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
