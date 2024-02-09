@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-54-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -104,6 +104,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/PishbinZein"><img src="https://avatars.githubusercontent.com/u/132846420?v=4?s=100" width="100px;" alt="PishbinZein"/><br /><sub><b>PishbinZein</b></sub></a><br /><a href="#data-PishbinZein" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AmirMansory"><img src="https://avatars.githubusercontent.com/u/158601544?v=4?s=100" width="100px;" alt="AmirMansory"/><br /><sub><b>AmirMansory</b></sub></a><br /><a href="#data-AmirMansory" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zeinabPourgheisari"><img src="https://avatars.githubusercontent.com/u/128948329?v=4?s=100" width="100px;" alt="zeinabPourgheisari"/><br /><sub><b>zeinabPourgheisari</b></sub></a><br /><a href="#data-zeinabPourgheisari" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/blueie"><img src="https://avatars.githubusercontent.com/u/95705921?v=4?s=100" width="100px;" alt="blueie"/><br /><sub><b>blueie</b></sub></a><br /><a href="#data-blueie" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
