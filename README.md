@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -61,6 +61,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/task2121"><img src="https://avatars.githubusercontent.com/u/158721518?v=4?s=100" width="100px;" alt="task2121"/><br /><sub><b>task2121</b></sub></a><br /><a href="#data-task2121" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KosarAM"><img src="https://avatars.githubusercontent.com/u/130371174?v=4?s=100" width="100px;" alt="KosarAM"/><br /><sub><b>KosarAM</b></sub></a><br /><a href="#data-KosarAM" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sina-Ghorbani2001"><img src="https://avatars.githubusercontent.com/u/148089893?v=4?s=100" width="100px;" alt="Sina-Ghorbani2001"/><br /><sub><b>Sina-Ghorbani2001</b></sub></a><br /><a href="#data-Sina-Ghorbani2001" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KzrLancelotV2"><img src="https://avatars.githubusercontent.com/u/117851176?v=4?s=100" width="100px;" alt="KzrLancelotV2"/><br /><sub><b>KzrLancelotV2</b></sub></a><br /><a href="#data-KzrLancelotV2" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
