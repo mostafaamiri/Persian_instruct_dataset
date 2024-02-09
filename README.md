@@ -62,6 +62,8 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KosarAM"><img src="https://avatars.githubusercontent.com/u/130371174?v=4?s=100" width="100px;" alt="KosarAM"/><br /><sub><b>KosarAM</b></sub></a><br /><a href="#data-KosarAM" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sina-Ghorbani2001"><img src="https://avatars.githubusercontent.com/u/148089893?v=4?s=100" width="100px;" alt="Sina-Ghorbani2001"/><br /><sub><b>Sina-Ghorbani2001</b></sub></a><br /><a href="#data-Sina-Ghorbani2001" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mohammadjranjbar.github.io/"><img src="https://avatars.githubusercontent.com/u/52662413?v=4?s=100" width="100px;" alt="Mohammad Ranjbar"/><br /><sub><b>Mohammad Ranjbar</b></sub></a><br /><a href="#data-MohammadJRanjbar" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kia83Sportage"><img src="https://avatars.githubusercontent.com/u/156499701?v=4?s=100" width="100px;" alt="Kia83Sportage"/><br /><sub><b>Kia83Sportage</b></sub></a><br /><a href="#data-Kia83Sportage" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KzrLancelotV2"><img src="https://avatars.githubusercontent.com/u/117851176?v=4?s=100" width="100px;" alt="KzrLancelotV2"/><br /><sub><b>KzrLancelotV2</b></sub></a><br /><a href="#data-KzrLancelotV2" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
