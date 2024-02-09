@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -79,6 +79,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlirezaSgh"><img src="https://avatars.githubusercontent.com/u/18051286?v=4?s=100" width="100px;" alt="Alireza Saghaeian"/><br /><sub><b>Alireza Saghaeian</b></sub></a><br /><a href="#data-AlirezaSgh" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arko04"><img src="https://avatars.githubusercontent.com/u/121719316?v=4?s=100" width="100px;" alt="Alireza Karimi"/><br /><sub><b>Alireza Karimi</b></sub></a><br /><a href="#data-Arko04" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/naienim"><img src="https://avatars.githubusercontent.com/u/122045495?v=4?s=100" width="100px;" alt="naienim"/><br /><sub><b>naienim</b></sub></a><br /><a href="#data-naienim" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Khoramfar"><img src="https://avatars.githubusercontent.com/u/92191742?v=4?s=100" width="100px;" alt="Ali Khoramfar"/><br /><sub><b>Ali Khoramfar</b></sub></a><br /><a href="#data-Khoramfar" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
