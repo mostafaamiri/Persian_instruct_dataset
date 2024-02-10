@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -114,6 +114,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mhshabani79"><img src="https://avatars.githubusercontent.com/u/122400323?v=4?s=100" width="100px;" alt="mhshabani79"/><br /><sub><b>mhshabani79</b></sub></a><br /><a href="#data-mhshabani79" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/niushaneshati83"><img src="https://avatars.githubusercontent.com/u/129054730?v=4?s=100" width="100px;" alt="niushaneshati83"/><br /><sub><b>niushaneshati83</b></sub></a><br /><a href="#data-niushaneshati83" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mehradliviyan"><img src="https://avatars.githubusercontent.com/u/121791146?v=4?s=100" width="100px;" alt="mehradliviyan"/><br /><sub><b>mehradliviyan</b></sub></a><br /><a href="#data-mehradliviyan" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/majjitt"><img src="https://avatars.githubusercontent.com/u/120476418?v=4?s=100" width="100px;" alt="majjitt"/><br /><sub><b>majjitt</b></sub></a><br /><a href="#data-majjitt" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
