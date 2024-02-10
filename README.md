@@ -111,6 +111,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sahroush"><img src="https://avatars.githubusercontent.com/u/55985277?v=4?s=100" width="100px;" alt="soroush sahraei"/><br /><sub><b>soroush sahraei</b></sub></a><br /><a href="#data-sahroush" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/behradbina"><img src="https://avatars.githubusercontent.com/u/122400323?v=4?s=100" width="100px;" alt="behradbina"/><br /><sub><b>behradbina</b></sub></a><br /><a href="#data-behradbina" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mhshabani79"><img src="https://avatars.githubusercontent.com/u/55985277?v=4?s=100" width="100px;" alt="mhshabani79"/><br /><sub><b>soroush sahraei</b></sub></a><br /><a href="#data-mhshabani79" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
