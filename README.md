@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-64-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-65-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -119,6 +119,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zamanimatin"><img src="https://avatars.githubusercontent.com/u/49686786?v=4?s=100" width="100px;" alt="zamanimatin"/><br /><sub><b>zamanimatin</b></sub></a><br /><a href="#data-zamanimatin" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nelyasi71"><img src="https://avatars.githubusercontent.com/u/124785349?v=4?s=100" width="100px;" alt="nelyasi71"/><br /><sub><b>nelyasi71</b></sub></a><br /><a href="#data-nelyasi71" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
