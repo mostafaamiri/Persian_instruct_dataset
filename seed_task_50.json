@@ -1,0 +1,265 @@
+[
+         {
+            "instruction":"پرس و جوی زبان طبیعی را به یک پرس و جوی SQL که می تواند روی جدول اجرا شود، تجزیه کنید.",
+            "input":"نام و بودجه بخش‌هایی که میانگین حقوق اساتید آن‌ها بیشتر از میانگین کلی است چیست؟\nدو جدول داده شده است: instructor, department.",
+            "output":"SELECT d.name, d.budget FROM instructor i JOIN department d ON i.dept_name = d.name GROUP BY i.dept_name HAVING AVG(i.salary) > (SELECT AVG(salary) FROM instructor)"
+         },
+         {
+            "instruction":"اس کیو ال زیر را بده",
+            "input":"کدام دانشجویان درس‌هایی با نمره بیشتر از 90 گرفته‌اند؟\nدو جدول داده شده است: student, course.",
+            "output":"SELECT s.name FROM student s JOIN course c ON s.id = c.student_id WHERE c.grade > 90"
+         },
+         {
+            "instruction":"کد sql بده",
+            "input":"کدام کتاب‌ها بیشتر از 5 بار امانت گرفته شده‌اند؟\nدو جدول داده شده است: book, loan.",
+            "output":"SELECT b.title FROM book b JOIN loan l ON b.id = l.book_id GROUP BY b.id HAVING COUNT(l.id) > 5"
+         },
+         {
+            "instruction":"sql بزن",
+            "input":"کدام پروژه‌ها بیشتر از 10 نفر در آن‌ها مشارکت داشته‌اند؟\nدو جدول داده شده است: project, participation.",
+            "output":"SELECT p.name FROM project p JOIN participation pa ON p.id = pa.project_id GROUP BY p.id HAVING COUNT(pa.person_id) > 10"
+         },
+         {
+            "instruction":"میشه با توجه به جدول کد sql رو بزنی",
+            "input":"کدام کالاها بیشتر از 1000 واحد فروخته شده‌اند؟\nدو جدول داده شده است: product, sale.",
+            "output":"SELECT pr.name FROM product pr JOIN sale s ON pr.id = s.product_id GROUP BY pr.id HAVING SUM(s.quantity) > 1000"
+         },
+         {
+            "instruction":"کد sql را بهم میدی",
+            "input":"کدام کارمندان حقوق بیشتر از میانگین حقوق کل کارمندان را دریافت می‌کنند؟\nیک جدول داده شده است: employee.",
+            "output":"SELECT e.name FROM employee e WHERE e.salary > (SELECT AVG(salary) FROM employee)"
+         },
+         {
+            "instruction":"کد اینو بزن",
+            "input":"کدام فیلم‌ها امتیاز بیشتر از 8 را از منتقدین دریافت کرده‌اند؟\nیک جدول داده شده است: movie.",
+            "output":"SELECT m.title FROM movie m WHERE m.critic_score > 8"
+         },
+         {
+            "instruction":"sql جدول زیر را بده",
+            "input":"کدام کتاب‌ها بیش از 100 نقد دریافت کرده‌اند؟\nیک جدول داده شده است: book.",
+            "output":"SELECT b.title FROM book b WHERE b.review_count > 100"
+         },
+         {
+            "instruction":"چجوری کد sql را بزنم",
+            "input":"کدام محصولات بیش از 500 واحد موجودی دارند؟\nیک جدول داده شده است: product.",
+            "output":"SELECT p.name FROM product p WHERE p.stock > 500"
+         },
+         {
+            "instruction":"کوئری زیر را بنویس",
+            "input":"کدام دانشجویان بیش از 3 درس با نمره A گرفته‌اند؟\nدو جدول داده شده است: student, grade.",
+            "output":"SELECT s.name FROM student s JOIN grade g ON s.id = g.student_id WHERE g.grade = 'A' GROUP BY s.id HAVING COUNT(g.course_id) > 3"
+         },
+         {
+            "instruction":"sql بده",
+            "input":"کدام پروژه‌ها بیشتر از 20 ساعت زمان برآورد شده‌اند؟\nیک جدول داده شده است: project.",
+            "output":"SELECT p.name FROM project p WHERE p.estimated_hours > 20"
+         },
+         {
+            "instruction":"با توجه به جدول کوئری زیر را بنویس",
+            "input":"کدام مشتریان بیش از 1000 دلار خرید کرده‌اند؟\nدو جدول داده شده است: customer, purchase.",
+            "output":"SELECT c.name FROM customer c JOIN purchase p ON c.id = p.customer_id GROUP BY c.id HAVING SUM(p.amount) > 1000"
+         },
+         {
+            "instruction":"کوئری زیر را با توجه به جدول طراحی شده بنویس",
+            "input":"کدام کتاب‌ها بیشتر از 10 نسخه فروخته شده‌اند؟\nدو جدول داده شده است: book, sale.",
+            "output":"SELECT b.title FROM book b JOIN sale s ON b.id = s.book_id GROUP BY b.id HAVING COUNT(s.id) > 10"
+         },
+         {
+            "instruction":"چجوری این کوئری را بزنم",
+            "input":"کدام فیلم‌ها بیشتر از 2 ساعت طول می‌کشند؟\nیک جدول داده شده است: movie.",
+            "output":"SELECT m.title FROM movie m WHERE m.duration > 120"
+         },
+         {
+            "instruction":"کوئری sql زیر را بنویس",
+            "input":"کدام کاربران بیش از 5 پست در فروم ارسال کرده‌اند؟\nدو جدول داده شده است: user, post.",
+            "output":"SELECT u.name FROM user u JOIN post p ON u.id = p.user_id GROUP BY u.id HAVING COUNT(p.id) > 5"
+         },
+         {
+            "instruction":"بهم کوئری بده",
+            "input":"کدام کاربران بیش از 10 پیام در چت‌روم ارسال کرده‌اند؟\nدو جدول داده شده است: user, message.",
+            "output":"SELECT u.name FROM user u JOIN message m ON u.id = m.user_id GROUP BY u.id HAVING COUNT(m.id) > 10"
+         },
+         {
+            "instruction":"کوئری sql زیر را بده",
+            "input":"کدام محصولات بیش از 200 نظر دریافت کرده‌اند؟\nدو جدول داده شده است: product, review.",
+            "output":"SELECT p.name FROM product p JOIN review r ON p.id = r.product_id GROUP BY p.id HAVING COUNT(r.id) > 200"
+         },
+         {
+            "instruction":"میشه بهم کمک کنی query را بنویسم",
+            "input":"کدام کتاب‌ها بیش از 50 صفحه دارند؟\nیک جدول داده شده است: book.",
+            "output":"SELECT b.title FROM book b WHERE b.page_count > 50"
+         },
+         {
+            "instruction":"sql کد",
+            "input":"کدام فیلم‌ها بیشتر از 3 بازیگر دارند؟\nدو جدول داده شده است: movie, actor.",
+            "output":"SELECT m.title FROM movie m JOIN actor a ON m.id = a.movie_id GROUP BY m.id HAVING COUNT(a.id) > 3"
+         },
+         {
+            "instruction":"با توجه به جدول اطلاعات خواسته شده را استخراج کن",
+            "input":"کدام دانشجویان بیش از 4 درس با نمره B گرفته‌اند؟\nدو جدول داده شده است: student, grade.",
+            "output":"SELECT s.name FROM student s JOIN grade g ON s.id = g.student_id WHERE g.grade = 'B' GROUP BY s.id HAVING COUNT(g.course_id) > 4"
+         },
+         {
+            "instruction":"میشه بهم کمک کنی query را بنویسم",
+            "input":"کدام پروژه‌ها بیشتر از 30 ساعت زمان برآورد شده‌اند؟\nیک جدول داده شده است: project.",
+            "output":"SELECT p.name FROM project p WHERE p.estimated_hours > 30"
+         },
+         {
+            "instruction":"کوئریشو بده",
+            "input":"کدام مشتریان بیش از 2000 دلار خرید کرده‌اند؟\nدو جدول داده شده است: customer, purchase.",
+            "output":"SELECT c.name FROM customer c JOIN purchase p ON c.id = p.customer_id GROUP BY c.id HAVING SUM(p.amount) > 2000"
+         },
+         {
+            "instruction":"کد sql این چطوری میشه",
+            "input":"کدام کتاب‌ها بیشتر از 20 نسخه فروخته شده‌اند؟\nدو جدول داده شده است: book, sale.",
+            "output":"SELECT b.title FROM book b JOIN sale s ON b.id = s.book_id GROUP BY b.id HAVING COUNT(s.id) > 20"
+         },
+         {
+            "instruction":"کد sql رو بزن",
+
+            "input":"کدام فیلم‌ها بیشتر از 2.5 ساعت طول می‌کشند؟\nیک جدول داده شده است: movie.",
+            "output":"SELECT m.title FROM movie m WHERE m.duration > 150"
+         },
+         {
+            "instruction":"من یک جدول دارم و میخوام اطلاعات زیر را ازش استخراج کنم",
+            "input":"کدام کاربران بیش از 10 پست در فروم ارسال کرده‌اند؟\nدو جدول داده شده است: user, post.",
+            "output":"SELECT u.name FROM user u JOIN post p ON u.id = p.user_id GROUP BY u.id HAVING COUNT(p.id) > 10"
+         },
+         {
+            "instruction":"اطلاعات خواسته شده را با اس کیو ال استخراج کن",
+            "input":"کدام کاربران بیش از 15 پیام در چت‌روم ارسال کرده‌اند؟\nدو جدول داده شده است: user, message.",
+            "output":"SELECT u.name FROM user u JOIN message m ON u.id = m.user_id GROUP BY u.id HAVING COUNT(m.id) > 15"
+         },
+         {
+            "instruction":"اطلاعات زیر را بهم بده",
+            "input":"کدام محصولات بیش از 300 نظر دریافت کرده‌اند؟\nدو جدول داده شده است: product, review.",
+            "output":"SELECT p.name FROM product p JOIN review r ON p.id = r.product_id GROUP BY p.id HAVING COUNT(r.id) > 300"
+         },
+         {
+            "instruction":"با توجه به متن داده شده و جدول اطلاعات خواسته شده را استخراج کن",
+            "input":"کدام کتاب‌ها بیش از 60 صفحه دارند؟\nیک جدول داده شده است: book.",
+            "output":"SELECT b.title FROM book b WHERE b.page_count > 60"
+         },
+         {
+            "instruction":"بهم کمک کن کوئری زیر را بنویسم",
+            "input":"کدام فیلم‌ها بیشتر از 4 بازیگر دارند؟\nدو جدول داده شده است: movie, actor.",
+            "output":"SELECT m.title FROM movie m JOIN actor a ON m.id = a.movie_id GROUP BY m.id HAVING COUNT(a.id) > 4"
+         },
+         {
+            "instruction":"لطفا کد sql را برام بزن",
+            "input":"کدام دانشجویان بیش از 5 درس با نمره B گرفته‌اند؟\nدو جدول داده شده است: student, grade.",
+            "output":"SELECT s.name FROM student s JOIN grade g ON s.id = g.student_id WHERE g.grade = 'B' GROUP BY s.id HAVING COUNT(g.course_id) > 5"
+         },
+         {
+            "instruction":"میشه کد sql را با توجه به جدول بزنی",
+            "input":"کدام پروژه‌ها بیشتر از 40 ساعت زمان برآورد شده‌اند؟\nیک جدول داده شده است: project.",
+            "output":"SELECT p.name FROM project p WHERE p.estimated_hours > 40"
+         },
+         {
+            "instruction":"اگه جدول گفته شده را داشته باشیم، چجوری میشه، اطلاعات خواسته شده را استخراح کرد؟",
+            "input":"کدام مشتریان بیش از 3000 دلار خرید کرده‌اند؟\nدو جدول داده شده است: customer, purchase.",
+            "output":"SELECT c.name FROM customer c JOIN purchase p ON c.id = p.customer_id GROUP BY c.id HAVING SUM(p.amount) > 3000"
+         },
+         {
+            "instruction":"مقادیر زیر را با sql استخراج کن",
+            "input":"کدام کتاب‌ها بیشتر از 30 نسخه فروخته شده‌اند؟\nدو جدول داده شده است: book, sale.",
+            "output":"SELECT b.title FROM book b JOIN sale s ON b.id = s.book_id GROUP BY b.id HAVING COUNT(s.id) > 30"
+         },
+
+         {
+            "instruction":"با sql مقادیر خواسته شده را استخراج کن",
+            "input":"کدام فیلم‌ها بیشتر از 3 ساعت طول می‌کشند؟\nیک جدول داده شده است: movie.",
+            "output":"SELECT m.title FROM movie m WHERE m.duration > 180"
+         },
+         {
+            "instruction":"sql را بده",
+            "input":"کدام کاربران بیش از 15 پست در فروم ارسال کرده‌اند؟\nدو جدول داده شده است: user, post.",
+            "output":"SELECT u.name FROM user u JOIN post p ON u.id = p.user_id GROUP BY u.id HAVING COUNT(p.id) > 15"
+         },
+         {
+            "instruction":"با توجه به جدول کوئری زیر را حل کن",
+            "input":"کدام کاربران بیش از 20 پیام در چت‌روم ارسال کرده‌اند؟\nدو جدول داده شده است: user, message.",
+            "output":"SELECT u.name FROM user u JOIN message m ON u.id = m.user_id GROUP BY u.id HAVING COUNT(m.id) > 20"
+         },
+            {
+               "instruction":"مشکل کد sql زیر را حل کن",
+               "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر از میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student)",
+               "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student)"
+            },
+            {
+               "instruction":"تصحیح شده کد زیر چیه؟",
+               "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها کمتر از میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student)",
+               "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student)"
+            },
+            {
+               "instruction":"باگ کد زیر را بگیر",
+               "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها برابر با میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student)",
+               "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student)"
+            },
+            {
+               "instruction":"ارور کد زیر چیه",
+               "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر یا مساوی با میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) >= (SELECT AVG(grade) FROM student)",
+               "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) >= (SELECT AVG(grade) FROM student)"
+            },
+            {
+               "instruction":"درستش کن",
+               "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها کمتر یا مساوی با میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) <= (SELECT AVG(grade) FROM student)",
+               "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) <= (SELECT AVG(grade) FROM student)"
+            },
+            
+               {
+                  "instruction":"این کد را حل کن",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها نا مساوی با میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) != (SELECT AVG(grade) FROM student)",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) != (SELECT AVG(grade) FROM student)"
+               },
+               {
+                  "instruction":"این کدو درست کن",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر از میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"با توجه به جدول کد sql را درست کن",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها کمتر از میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"مشکل این کد sqlام چیه",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها برابر با میانگین کلی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"لطفا کد زیر را حل کن",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر از میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"کدم را درست کن",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها کمتر از میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) < (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"مشکل کد زیر چیه؟",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها برابر با میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) = (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"کد sqlام چرا مشکل داره؟",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر یا مساوی با میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) >= (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) >= (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"میتونی باگ کد زیر را حل کنی؟",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها کمتر یا مساوی با میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) <= (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) <= (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"کد مورد نظر را درست میکنی؟",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها نا مساوی با میانگین نمرات ریاضی است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) != (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) != (SELECT AVG(grade) FROM student WHERE dept_name = 'Math')"
+               },
+               {
+                  "instruction":"میتونی این پرس و جو را تصحیح کنی؟",
+                  "input":"نام و تعداد دانشجویان بخش‌هایی که میانگین نمرات آن‌ها بیشتر از میانگین نمرات فیزیک است چیست؟\nدو جدول داده شده است: student, department.\n query: SELECT d.name, FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Physics')",
+                  "output":"SELECT d.name, COUNT(s.id) FROM student s JOIN department d ON s.dept_name = d.name GROUP BY s.dept_name HAVING AVG(s.grade) > (SELECT AVG(grade) FROM student WHERE dept_name = 'Physics')"
+               }
+]
