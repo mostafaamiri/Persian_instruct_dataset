@@ -1,6 +1,6 @@
 # Persian Instruct Dataset
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-68-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## University of Tehran (NLP Lab)
 
@@ -122,6 +122,7 @@ howpublished = {\url{https://github.com/mostafaamiri/Persian_instruct_dataset}},
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nelyasi71"><img src="https://avatars.githubusercontent.com/u/124785349?v=4?s=100" width="100px;" alt="nelyasi71"/><br /><sub><b>nelyasi71</b></sub></a><br /><a href="#data-nelyasi71" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/smhmazhari"><img src="https://avatars.githubusercontent.com/u/118457806?v=4?s=100" width="100px;" alt="smhmazhari"/><br /><sub><b>smhmazhari</b></sub></a><br /><a href="#data-smhmazhari" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arshia-mn82"><img src="https://avatars.githubusercontent.com/u/122724527?v=4?s=100" width="100px;" alt="Arshia"/><br /><sub><b>Arshia</b></sub></a><br /><a href="#data-Arshia-mn82" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aryagithub256"><img src="https://avatars.githubusercontent.com/u/117678205?v=4?s=100" width="100px;" alt="Arya Yadi"/><br /><sub><b>Arya Yadi</b></sub></a><br /><a href="#data-aryagithub256" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
