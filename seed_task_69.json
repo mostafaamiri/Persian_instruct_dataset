@@ -134,7 +134,6 @@
         "instruction": "برنامه ای در زبان پایتون بنویس که یک عدد صحیح مثبت بگیرد و مجموع مکعب همه اعداد صحیح مثبت کوچکتر از عدد مشخص شده را برگرداند. ",
         "input": "n",
         "output": "def sum_of_cubes(n):\n    n -= 1\n    total = 0\n    while n > 0:\n        total += n * n * n\n        n -= 1\n    return total"
-"
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویس  تا حداکثر و حداقل اعداد را از یک دنباله اعداد پیدا کند",
@@ -199,7 +198,7 @@
     {
         "instruction": "برنامه ای در زبان پایتون بنویس که رشته ای را بپذیرد و تعداد حروف بزرگ و کوچک را بشمارد.",
         "input": "nums",
-        "output": "def string_test(s):\n    d = {\"UPPER_CASE": 0, "LOWER_CASE\": 0}\n    for c in s:\n        if c.isupper():\n            d[\"UPPER_CASE\"] += 1\n        elif c.islower():\n            d[\"LOWER_CASE\"] += 1\n        else:\n            pass"
+        "output": "def string_test(s):\n    d = {\"UPPER_CASE\": 0, \"LOWER_CASE\": 0}\n    for c in s:\n        if c.isupper():\n            d[\"UPPER_CASE\"] += 1\n        elif c.islower():\n            d[\"LOWER_CASE\"] += 1\n        else:\n            pass"
     },
     {
         "instruction": "برنامه ای در زبان پایتون بنویس تا تمام اعداد یک لیست را جمع کند.",
