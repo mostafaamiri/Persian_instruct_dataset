@@ -1,0 +1,1089 @@
+"id": "seed_task_31",
+"name": "complete_python_code",
+ 
+	
+//(1)
+"instruction": "نام کلاس باید با نام فایل مطابقت داشته باشد، برای کد جاوا زیر یک تکمیل پیشنهاد دهید.",
+"instances":
+[{"input":
+public class HelloWorld {
+public static void main(String[] args) {
+"output":
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello, world!"); // This is a statement that ends with a semicolon}} }]
+
+
+//(2)
+"instruction": "یک روش با کلمه کلیدی def تعریف شده است. پیشنهاد یک تکمیل برای کد روبی زیر.",
+"instances":
+[{"input":def factorial(n)
+  if n < 0
+    return "Invalid input"
+"output":def factorial(n)
+  if n < 0
+    return "Invalid input"
+  elsif n == 0
+    return 1
+  else
+    return n * factorial(n - 1)
+  end
+end
+puts factorial(5) # This prints 120}]
+
+ //(3)
+"instruction": "یک آرایه با براکت های مربع ایجاد می شود و با کاما یک تکمیل کد جاوا اسکریپت زیر را پیشنهاد دهید.",
+"instances":
+[{"input":var books = [
+  {title: "The Hitchhiker's Guide to the Galaxy", author: "Douglas Adams", genre: "Science Fiction"},
+  {title:
+"output"var books = [
+  {title: "The Hitchhiker's Guide to the Galaxy", author: "Douglas Adams", genre: "Science Fiction"},
+  {title: "The Lord of the Rings", author: "J.R.R. Tolkien", genre: "Fantasy"},
+  {title: "Nineteen Eighty-Four", author: "George Orwell", genre: "Dystopian"},
+  {title: "The Catcher in the Rye", author: "J.D. Salinger", genre: "Coming-of-Age"},
+  {title: "The Da Vinci Code", author: "Dan Brown", genre: "Thriller"}
+];:}]
+
+
+  //(4)
+"instruction": "یک لیست با کلاس List و نوع عناصر ایجاد می شود. پیشنهاد تکمیل کد C# زیر.",
+"instances":
+[{"input":List<int> numbers = new List<int>();
+numbers.Add(5);
+numbers.Add(2);
+numbers.Add(9);
+numbers.Add(1);
+numbers.Sort();
+"output":List<int> numbers = new List<int>();
+numbers.Add(5);
+numbers.Add(2);
+numbers.Add(9);
+numbers.Add(1);
+numbers.Sort();
+foreach (int number in numbers)
+{
+  Console.WriteLine(number); // This prints 1, 2, 5, 9
+}}]
+
+
+
+
+ //(5)
+"instruction": "متغیرها با علامت $ ایجاد می شوند برای کد PHP زیر یک تکمیل را پیشنهاد دهید.",
+"instances":
+[{"input":$connection = mysqli_connect("localhost", "username", "password", "database");
+$result = mysqli_query($connection, "SELECT * FROM table");
+"output":
+$connection = mysqli_connect("localhost", "username", "password", "database");
+$result = mysqli_query($connection, "SELECT * FROM table");
+while ($row = mysqli_fetch_assoc($result))
+{
+  echo $row["column"] . "\n"; // This prints the value of the column for each row
+}
+mysqli_close($connection);}]
+
+
+//(6)
+"instruction": "یک تابع با کلمه کلیدی تابع و پارامترها تعریف می شود. پیشنهاد تکمیل کد جاوا اسکریپت زیر.",
+"instances":
+[{"input":function isPrime(n) {
+  if (n < 2) {
+    return false;
+  } else if (n == 2) {
+    return true;
+  }
+"output":function isPrime(n) {
+  if (n < 2) {
+    return false;
+  } else if (n == 2) {
+    return true;
+  } else {
+    for (var i = 2; i < Math.sqrt(n); i++) {
+      if (n % i == 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
+console.log(isPrime(17));}]
+
+
+//  (7)
+"instruction": "یک ماژول با کلمه کلیدی ماژول و nameSuggest یک تکمیل برای کد روبی زیر تعریف می شود."،
+"instances":
+[{"input":module Greeting
+  MESSAGE = "Hello"
+"output":module Greeting
+  MESSAGE = "Hello"
+  def greet(name)
+    puts "#{MESSAGE}, #{name}!" # This prints Hello, name!
+  end
+end
+class Person
+  include Greeting
+
+  def initialize(name)
+    @name = name
+  end
+  attr_reader :name
+end
+me and parentheses
+p = Person.new("Bob")
+p.greet(p.name) }]
+
+
+//  (8)
+"instruction": "یک کلاس با کلمه کلیدی class و nameSuggest یک تکمیل برای کد سی شارپ زیر تعریف می شود.",
+"instances":
+[{"input":class Mammal
+{
+  public Mammal(string name)
+  {
+    this.Name = name;
+  }
+  public string Name { get; set; }
+  public void Breathe()
+  {
+    Console.WriteLine(this.Name + " is breathing.");
+  }
+}
+"output":class Mammal
+{
+  public Mammal(string name)
+  {
+    this.Name = name;
+  }
+  public string Name { get; set; }
+  public void Breathe()
+  {
+    Console.WriteLine(this.Name + " is breathing.");
+  }
+}
+class Person : Mammal
+{
+  public Person(string name, int age) : base(name)
+  {
+    this.Age = age;
+  }
+  public int Age { get; set; }
+  public override void Breathe()
+  {
+    base.Breathe();
+    Console.WriteLine(this.Name + " is " + this.Age + " years old.");
+  }
+}
+Mammal m = new Mammal("Lion");
+m.Breathe();
+Person p = new Person("Alice", 25);
+p.Breathe();}]
+
+
+//  (9)
+"instruction": "یک تابع با کلمه کلیدی تابع و پارامترها تعریف می شود. پیشنهاد تکمیل کد PHP زیر."،
+"instances":
+[{"input":function fibonacci($n)
+{
+  $sequence = array(0, 1);
+  while (true)
+  {
+"output":function fibonacci($n)
+{
+  $sequence = array(0, 1);
+  while (true)
+  {
+    $last = end($sequence);
+    $second_last = prev($sequence);
+    $next = $last + $second_last;
+    // A break statement exits the loop
+    if ($next > $n) break;
+    array_push($sequence, $next);
+  }
+  return $sequence;
+}
+print_r(fibonacci(100));}]
+
+
+//  (10)
+"instruction": " این برنامه ای است که یک الگوریتم جستجوی باینری را برای یافتن یک عنصر در یک آرایه مرتب شده پیاده سازی می کند. یک تکمیل برای کد c++ زیر پیشنهاد کنید.",
+"instances":
+[{"input":#include <iostream>
+int binarySearch(int arr[], int low, int high, int target) {
+  if (low > high) {
+    return -1;
+  }
+  int mid = (low + high) / 2;
+  if (target == arr[mid]) {
+    return mid; // Found the target
+  } else if (target < arr[mid]) {
+    return binarySearch(arr, low, mid - 1, target); // Search in the left half
+  } else {
+    return binarySearch(arr, mid + 1, high, target); // Search in the right half
+  }
+}
+"output":#include <iostream>
+int binarySearch(int arr[], int low, int high, int target) {
+  if (low > high) {
+    return -1;
+  }
+  int mid = (low + high) / 2;
+  if (target == arr[mid]) {
+    return mid; // Found the target
+  } else if (target < arr[mid]) {
+    return binarySearch(arr, low, mid - 1, target); // Search in the left half
+  } else {
+    return binarySearch(arr, mid + 1, high, target); // Search in the right half
+  }
+}
+int main() {
+  int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+  int n = sizeof(arr) / sizeof(arr[0]);
+  int target = 23;
+  int result = binarySearch(arr, 0, n - 1, target);
+  if (result == -1) {
+    std::cout << "Element not found in the array\n";
+  } else {
+    std::cout << "Element found at index " << result << "\n";
+  }
+  return 0;
+}}]
+
+
+//  (11)
+"instruction": "این کوئری است که دو جدول (مشتریان و سفارش‌ها) را به هم می‌پیوندد و کل مبلغ هزینه شده توسط هر مشتری را برمی‌گرداند. پیشنهاد تکمیل کد SQL زیر."،
+"instances":
+[{"input":-- Create a sample customers table
+CREATE TABLE customers (
+  customer_id INT PRIMARY KEY,
+  customer_name VARCHAR(50) NOT NULL
+);
+INSERT INTO customers (customer_id, customer_name) VALUES
+(1, 'Alice'),
+(2, 'Bob'),
+(3, 'Charlie');
+CREATE TABLE orders (
+  order_id INT PRIMARY KEY,
+  customer_id INT NOT NULL,
+  order_date DATE NOT NULL,
+  order_amount DECIMAL(10, 2) NOT NULL,
+  FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+);
+"output":
+CREATE TABLE customers (
+  customer_id INT PRIMARY KEY,
+  customer_name VARCHAR(50) NOT NULL
+);
+INSERT INTO customers (customer_id, customer_name) VALUES
+(1, 'Alice'),
+(2, 'Bob'),
+(3, 'Charlie');
+CREATE TABLE orders (
+  order_id INT PRIMARY KEY,
+  customer_id INT NOT NULL,
+  order_date DATE NOT NULL,
+  order_amount DECIMAL(10, 2) NOT NULL,
+  FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+);
+INSERT INTO orders (order_id, customer_id, order_date, order_amount) VALUES
+(1, 1, '2024-01-15', 100.00),
+(2, 2, '2024-01-16', 200.00),
+(3, 3, '2024-01-17', 300.00),
+(4, 1, '2024-01-18', 150.00),
+(5, 2, '2024-01-19', 250.00);
+spent by each customer
+SELECT c.customer_name, SUM(o.order_amount) AS total_amount
+FROM customers c
+JOIN orders o
+ON c.customer_id = o.customer_id
+GROUP BY c.customer_name
+ORDER BY total_amount DESC;
+}]
+
+
+
+// (12)
+"instruction": " این برنامه ای است که تابعی را تعریف می کند که یک لیست را با استفاده از recursion معکوس می کند. برای کد Lisp زیر یک تکمیل پیشنهاد دهید."
+"instances":
+[{"input":(defun reverse-list (lst)
+  (if (null lst)
+    nil
+"output":(defun reverse-list (lst)
+  (if (null lst)
+    nil
+    (append (reverse-list (cdr lst)) (list (car lst)))))}]
+
+
+//  (13)
+"instruction": " این برنامه ای است که یک گزاره تعریف می کند که بررسی می کند آیا یک لیست یک palindrome است یا خیر. یک تکمیل برای کد Prolog زیر پیشنهاد کنید."،
+"instances":
+[{"input":subroutine bubble_sort(arr, n)
+  integer, intent(inout) :: arr(n)
+  integer, intent(in) :: n
+  integer :: i, j, temp
+"output":subroutine bubble_sort(arr, n)
+  integer, intent(inout) :: arr(n)
+  integer, intent(in) :: n
+  integer :: i, j, temp
+  do i = 1, n - 1
+    do j = 1, n - i
+      if (arr(j) > arr(j+1)) then
+        temp = arr(j)
+        arr(j) = arr(j+1)
+        arr(j+1) = temp
+      end if
+    end do
+  end do
+end subroutine}]
+
+
+// (14)
+"instruction": " این برنامه ای است که رویه ای را تعریف می کند که فاکتوریل یک عدد صحیح مثبت را محاسبه می کند. برای کد COBOL زیر یک تکمیل را پیشنهاد کنید."
+"instances":
+[{"input":IDENTIFICATION DIVISION.
+PROGRAM-ID. FACTORIAL.
+DATA DIVISION.
+WORKING-STORAGE SECTIO
+"output":IDENTIFICATION DIVISION.
+PROGRAM-ID. FACTORIAL.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 N PIC 9(5) VALUE 5.
+01 F PIC 9(10) VALUE 1.
+01 I PIC 9(5) VALUE 1.
+PROCEDURE DIVISION.
+    PERFORM VARYING I FROM 1 BY 1 UNTIL I > N
+        COMPUTE F = F * I
+    END-PERFORM
+    DISPLAY "FACTORIAL OF " N " IS " F
+    STOP RUN.}]
+
+
+// (15)
+"instruction": " این برنامه ای است که تابعی را تعریف می کند که nامین عدد فیبوناچی را با استفاده از بازگشت محاسبه می کند. برای کد طرح زیر یک تکمیل پیشنهاد دهید."
+"instances":
+[{"input":(define (fibonacci n)
+  (cond ((= n 0) 0)
+"output":(define (fibonacci n)
+  (cond ((= n 0) 0)
+        ((= n 1) 1)
+        (else (+ (fibonacci (- n 1)) (fibonacci (- n 2))))))}]
+
+
+// (16)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که دو لیست مرتب شده را در یک لیست مرتب شده ادغام می کند. برای Erlangcode زیر یک تکمیل پیشنهاد دهید.",
+"instances": 
+[{"input":merge([], L) -> L;
+merge(L, []) -> L;
+"output":merge([], L) -> L;
+merge(L, []) -> L;
+merge([H1|T1], [H2|T2]) ->
+  if H1 =< H2 ->
+    [H1|merge(T1, [H2|T2])];
+  true ->
+    [H2|merge([H1|T1], T2)]
+  end.}]
+
+
+// (17)
+"instruction": این برنامه‌ای است که تابعی را تعریف می‌کند که بررسی می‌کند آیا یک رشته یک palindrome است یا خیر." یک تکمیل برای کد زیر پیشنهاد کنید.",
+"instances":
+[{"input":let palindrome s =
+  let len = String.length s in
+  let rec aux i j =
+    if i >= j then true
+"output":let palindrome s =
+  let len = String.length s in
+  let rec aux i j =
+    if i >= j then true
+    else if s.[i] <> s.[j] then false
+    else aux (i + 1) (j - 1)
+  in
+  aux 0 (len - 1)}]
+
+
+//(18)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که یک آرایه را با استفاده از مرتب سازی سریع مرتب می کند. برای کد جولیا زیر یک تکمیل پیشنهاد دهید.",
+"instances":
+[{"input":function quicksort(arr)
+  if length(arr) <= 1
+    return arr
+  end
+"output":function quicksort(arr)
+  if length(arr) <= 1
+    return arr
+  end
+  pivot = pop!(arr)
+  left = filter(x -> x <= pivot, arr)
+  right = filter(x -> x > pivot, arr)
+  return [quicksort(left); pivot; quicksort(right)]
+end}]
+
+
+// (19)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که طولانی ترین دنباله مشترک دو رشته را برمی گرداند. برای کد دارت زیر یک تکمیل پیشنهاد دهید."
+"instances":
+[{"input":String lcs(String s1, String s2) {
+  int m = s1.length;
+  int n = s2.length;
+  List<List<int>> dp = List.generate(m + 1, (_) => List.filled(n + 1, 0));
+  for (int i = 1; i <= m; i++) {
+    for (int j = 1; j <= n; j++) {
+      if (s1[i - 1] == s2[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+      } else {
+        dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+  }
+"output":String lcs(String s1, String s2) {
+  int m = s1.length;
+  int n = s2.length;
+  List<List<int>> dp = List.generate(m + 1, (_) => List.filled(n + 1, 0));
+  for (int i = 1; i <= m; i++) {
+    for (int j = 1; j <= n; j++) {
+      if (s1[i - 1] == s2[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+      } else {
+        dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+  }
+  int len = dp[m][n];
+  int i = m;
+  int j = n;
+  String res = "";
+  while (i > 0 && j > 0) {
+    if (s1[i - 1] == s2[j - 1]) {
+      res = s1[i - 1] + res;
+      i--;
+      j--;
+      len--;
+    } else if (dp[i - 1][j] > dp[i][j - 1]) {
+      i--;
+    } else {
+      j--;
+    }
+  }
+  return res;
+}}]
+
+
+// (20)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که فاکتورهای اول یک عدد صحیح مثبت را برمی گرداند. برای Groovycode زیر یک تکمیل پیشنهاد دهید.",
+"instances":
+[{"input":def primeFactors(n) {
+  def factors = []
+  def d = 2
+  while (n > 1) {
+    while (n % d == 0) {
+      factors << d
+      n /= d
+    }
+"output":def primeFactors(n) {
+  def factors = []
+  def d = 2
+  while (n > 1) {
+    while (n % d == 0) {
+      factors << d
+      n /= d
+    }
+    d++
+  }
+  return factors
+}}]
+
+
+
+//  (21)
+"instruction": " این برنامه ای است که تابعی را تعریف می کند که مجموع مجذور n عدد طبیعی اول را برمی گرداند، برای کد Clojure زیر یک تکمیل پیشنهاد دهید.",
+"instances": 
+[{"input":(defn sum-of-squares [n]
+"output":(defn sum-of-squares [n]
+  (reduce + (map #(* % %) (range 1 (inc n)))))
+}]
+
+
+
+//  (22)
+"instruction": "روابط را در Prolog تعریف می کند، و بیان می کند که جان پدر و مادر آلیس و باب است، و آلیس و باب خواهر و برادر هستند. برای کد Prolog زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":parent(john, alice).
+"output":parent(john, alice). parent(john, bob). sibling(alice, bob).
+}]
+
+
+//  (23)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که مجموع مجذور n عدد طبیعی اول را برمی گرداند، برای کد Clojure زیر یک تکمیل پیشنهاد دهید.",
+"instances": 
+[{"input":let rec fibonacci n =
+  match n with
+"output":let rec fibonacci n =
+  match n with
+  | 0 -> 0
+  | 1 -> 1
+  | _ -> fibonacci (n - 1) + fibonacci (n - 2)
+}]
+
+
+//  (24)
+"instruction": " این برنامه ای است که تابعی را تعریف می کند که یک رشته را معکوس می کند. برای کد Elixir زیر یک تکمیل را پیشنهاد کنید."
+"instances": 
+[{"input":def reverse_string(str) do
+  str
+"output":def reverse_string(str) do
+  str
+  |> String.graphemes()
+  |> Enum.reverse()
+  |> Enum.join()
+end
+}]
+
+
+//  (25)
+"instruction": "این برنامه ای است که کلاسی را تعریف می کند که ساختار داده پشته ای را پیاده سازی می کند. برای کد TypeScript زیر یک تکمیل پیشنهاد دهید.",
+"instances":
+[{"input":class Stack<T> {
+  private items: T[];
+
+  constructor() {
+    this.items = [];
+  }
+"output":class Stack<T> {
+  private items: T[];
+
+  constructor() {
+    this.items = [];
+  }
+
+  push(item: T): void {
+    this.items.push(item);
+  }
+
+  pop(): T | undefined {
+    return this.items.pop();
+  }
+
+  peek(): T | undefined {
+    return this.items[this.items.length - 1];
+  }
+
+  isEmpty(): boolean {
+    return this.items.length == 0;
+  }
+
+  size(): number {
+    return this.items.length;
+  }
+}
+}]
+
+
+//  (26)
+"instruction": "یک گیت AND را در VHDL، یک زبان توصیف سخت افزاری، توصیف می کند، درگاه های ورودی (A و B) و پورت خروجی (Y) را به همراه عملیات منطقی مشخص می کند. برای کد VHDL زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":entity AND_GATE is port(A, 
+"output":entity AND_GATE is port(A, B: in bit; Y: out bit); end entity AND_GATE; architecture behavior of AND_GATE is begin Y <= A and B; end architecture behavior;
+}]
+
+
+//  (27)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که بررسی می کند آیا یک عدد اول است یا نه. پیشنهاد تکمیل کد راکت زیر."،
+"instances":
+[{"input":(define (prime? n)
+  (cond
+    [(<= n 1) #f]
+    [(= n 2) #t]
+    [(even? n) #f]
+    [else
+     (let loop ([i 3])
+"output":(define (prime? n)
+  (cond
+    [(<= n 1) #f]
+    [(= n 2) #t]
+    [(even? n) #f]
+    [else
+     (let loop ([i 3])
+       (cond
+         [(> (* i i) n) #t]
+         [(zero? (modulo n i)) #f]
+         [else (loop (+ i 2))]))]))
+}]
+
+
+//  (28)
+"instruction":"این برنامه ای است که تابعی را تعریف می کند که یک آرایه را با استفاده از مرتب سازی درج مرتب می کند. یک تکمیل برای کد کریستال زیر پیشنهاد کنید."،
+"instances":
+[{"input":def insertion_sort(arr : Array(Int32))
+  (1...arr.size).each do |i|
+    key = arr[i]
+"output":def insertion_sort(arr : Array(Int32))
+  (1...arr.size).each do |i|
+    key = arr[i]
+    j = i - 1
+    while j >= 0 && arr[j] > key
+      arr[j + 1] = arr[j]
+      j -= 1
+    end
+    arr[j + 1] = key
+  end
+end
+}]
+
+
+//  (29)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که طولانی ترین دنباله مشترک دو رشته را برمی گرداند. برای کد Nim زیر یک تکمیل پیشنهاد دهید."
+"instances": 
+[{"input":func lcs(s1, s2: string): string =
+  var m = s1.len
+  var n = s2.len
+  var dp = newSeqWith(m + 1, newSeqint)
+  for i in 1..m:
+    for j in 1..n:
+      if s1[i - 1] == s2[j - 1]:
+        dp[i][j] = dp[i - 1][j - 1] + 1
+      else:
+"output":func lcs(s1, s2: string): string =
+  var m = s1.len
+  var n = s2.len
+  var dp = newSeqWith(m + 1, newSeqint)
+  for i in 1..m:
+    for j in 1..n:
+      if s1[i - 1] == s2[j - 1]:
+        dp[i][j] = dp[i - 1][j - 1] + 1
+      else:
+        dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+  var len = dp[m][n]
+  var i = m
+  var j = n
+  var res = ""
+  while i > 0 and j > 0:
+    if s1[i - 1] == s2[j - 1]:
+      res = s1[i - 1] & res
+      i -= 1
+      j -= 1
+      len -= 1
+    elif dp[i - 1][j] > dp[i][j - 1]:
+      i -= 1
+    else:
+      j -= 1
+  return res
+}]
+
+
+//  (30)
+"instruction": "این برنامه ای است که تابعی را تعریف می کند که فاکتورهای اول یک عدد صحیح مثبت را برمی گرداند. برای کد D زیر یک تکمیل پیشنهاد دهید.",
+"instances":
+[{"input":import std.array : array;
+import std.algorithm : filter;
+
+int[] primeFactors(int n) {
+  int[] factors;
+  int d = 2;
+"output":import std.array : array;
+import std.algorithm : filter;
+
+int[] primeFactors(int n) {
+  int[] factors;
+  int d = 2;
+  while (n > 1) {
+    while (n % d == 0) {
+      factors ~= d;
+      n /= d;
+    }
+    d++;
+  }
+  return factors;
+}
+}]
+
+
+
+//  (31)
+"instruction": "این برنامه ای است که رویه ای را تعریف می کند که "Hello World" را در خروجی استاندارد چاپ می کند. برای کد Ada زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":with Ada.Text_IO;
+procedure Hello_World is
+"output":with Ada.Text_IO;
+procedure Hello_World is
+begin
+  Ada.Text_IO.Put_Line("Hello World");
+end Hello_World;
+}]
+
+
+
+//  (32)
+"instruction": "از چارچوب اجرایی جاوا برای نشان دادن اجرای ناهمزمان با یک Thread Pool و Future استفاده می کند. برای کد جاوا زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":import java.util.concurrent.*;
+
+public class ConcurrentExample {
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+        Future<Integer> future = executor.submit(() -> {
+            TimeUnit.SECONDS.sleep(2);
+            return 42;
+        });
+"output":import java.util.concurrent.*;
+
+public class ConcurrentExample {
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+        Future<Integer> future = executor.submit(() -> {
+            TimeUnit.SECONDS.sleep(2);
+            return 42;
+        });
+
+        System.out.println("Result: " + future.get());
+        executor.shutdown();
+    }
+}
+}]
+
+
+//  (33)
+"instruction": "یک تابع الگوی متغیر را برای چاپ چندین مقدار از انواع مختلف در C++ پیاده‌سازی می‌کند. پیشنهاد تکمیل کد C++ زیر."،
+"instances": 
+[{"input":#include <iostream>
+
+template <typename T>
+void print(const T& value) {
+    std::cout << value << std::endl;
+}
+
+template <typename T, typename... Args>
+void print(const T& first, const Args&... args) {
+    std::cout << first << " ";
+    print(args...);
+}
+"output":#include <iostream>
+
+template <typename T>
+void print(const T& value) {
+    std::cout << value << std::endl;
+}
+
+template <typename T, typename... Args>
+void print(const T& first, const Args&... args) {
+    std::cout << first << " ";
+    print(args...);
+}
+
+int main() {
+    print(1, "Hello", 3.14, 'A');
+    return 0;
+}
+}]
+
+
+//  (34)
+"instruction": "استفاده از Promises و Async/Await را در جاوا اسکریپت برای مدیریت عملیات ناهمزمان نشان می دهد. برای کد جاوا اسکریپت زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":function asyncFunction(value) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (value) {
+                resolve(`Resolved: ${value}`);
+            } else {
+                reject('Rejected');
+            }
+        }, 1000);
+    });
+}
+"output":function asyncFunction(value) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (value) {
+                resolve(`Resolved: ${value}`);
+            } else {
+                reject('Rejected');
+            }
+        }, 1000);
+    });
+}
+
+async function exampleAsync() {
+    try {
+        const result = await asyncFunction('Hello');
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+exampleAsync();
+}]
+
+
+//  (35)
+"instruction": "از تعریف متد پویا در Ruby برای اضافه کردن یک متد به کلاس در زمان اجرا استفاده می کند. برای کد روبی زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":class MyClass
+  define_method :dynamic_method do
+    puts "This is a dynamic method."
+  end
+end
+"output":class MyClass
+  define_method :dynamic_method do
+    puts "This is a dynamic method."
+  end
+end
+
+obj = MyClass.new
+obj.dynamic_method
+}]
+
+
+//  (36)
+"instruction": "یک تابع عمومی را در Swift برای جابجایی مقادیر دو متغیر پیاده‌سازی می‌کند. برای کد سوئیفت زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+"output":func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+
+var x = 5, y = 10
+swapTwoValues(&x, &y)
+print("Swapped values: \(x), \(y)")
+}]
+
+
+//  (37)
+"instruction": " استفاده از کوروتین های Kotlin را برای چاپ ناهمزمان "Hello" و "World!" با تاخیر. تکمیل کد کاتلین زیر را پیشنهاد دهید."،
+"instances":
+[{"input":import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val job = launch {
+        delay(1000)
+        println("World!")
+    }
+"output":import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val job = launch {
+        delay(1000)
+        println("World!")
+    }
+    print("Hello, ")
+    job.join()
+}
+}]
+
+
+//  (38)
+"instruction": "از کانال‌های Go برای انجام یک عملیات انتخابی غیرمسدود، چاپ پیام دریافتی یا پیام مهلت زمانی استفاده می‌کند. برای کد GO زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	ch := make(chan string)
+
+	go func() {
+		time.Sleep(2 * time.Second)
+		ch <- "Hello, Go!"
+	}()
+"output":package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	ch := make(chan string)
+
+	go func() {
+		time.Sleep(2 * time.Second)
+		ch <- "Hello, Go!"
+	}()
+
+	select {
+	case msg := <-ch:
+		fmt.Println(msg)
+	case <-time.After(1 * time.Second):
+		fmt.Println("Timeout")
+	}
+}
+}]
+
+
+//  (39)
+"instruction": "یک نوع ترکیبی از خصوصیات را از دو واسط با استفاده از انواع نگاشت شده در TypeScript تعریف می کند. برای کد TypeScript زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":type Combine<T, U> = {
+    [K in keyof T]: K extends keyof U ? U[K] : T[K];
+};
+
+interface Person {
+    name: string;
+    age: number;
+}
+"output":type Combine<T, U> = {
+    [K in keyof T]: K extends keyof U ? U[K] : T[K];
+};
+
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Address {
+    city: string;
+}
+
+const combined: Combine<Person, Address> = {
+    name: "John",
+    age: 30,
+    city: "New York",
+};
+}]
+
+
+//  (40)
+"instruction": "مالکیت و سیستم قرض گیری Rust را با ساختاری نشان می دهد که یک رشته را قرض می گیرد و ارزش آن را چاپ می کند. برای کد Rust زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":struct MyStruct<'a> {
+    value: &'a str,
+}
+
+impl<'a> MyStruct<'a> {
+    fn new(value: &'a str) -> MyStruct<'a> {
+        MyStruct { value }
+    }
+
+    fn print_value(&self) {
+        println!("{}", self.value);
+    }
+}
+"output":struct MyStruct<'a> {
+    value: &'a str,
+}
+
+impl<'a> MyStruct<'a> {
+    fn new(value: &'a str) -> MyStruct<'a> {
+        MyStruct { value }
+    }
+
+    fn print_value(&self) {
+        println!("{}", self.value);
+    }
+}
+
+fn main() {
+    let s = String::from("Hello, Rust!");
+    let my_struct = MyStruct::new(&s);
+    my_struct.print_value();
+}
+}]
+
+
+
+//  (41)
+"instruction": "عملیات ماتریس را در متلب انجام می دهد، مربع جادویی ایجاد می کند، آن را مربع می کند و نتیجه را نمایش می دهد."
+"instances":
+[{"input":A = magic(3);
+"output":A = magic(3); B = A^2; disp(B);
+}]
+
+
+
+//  (42)
+"instruction": "برای هر عنصر یک بردار در R یک تابع را اعمال می کند و مربع ها را محاسبه و چاپ می کند. برای کد R زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":numbers <- 1:10;
+"output":numbers <- 1:10; squares <- sapply(numbers, function(x) x^2); print(squares);
+}]
+
+
+//  (43)
+"instruction": "از تطبیق الگو در Scala برای تعیین اینکه آیا یک رشته "نارنجی" است استفاده می کند و نتیجه مربوطه را چاپ می کند. برای کد اسکالا زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":val result = "apple" match
+"output":val result = "apple" match { case "orange" => "fruit"; case _ => "unknown" }; println(result)
+}]
+
+
+//  (44)
+"instruction": در یک اسکریپت Bash، با تغییر پسوند به ".bak"، نام تمام فایل های متنی موجود در فهرست فعلی را تغییر می دهد.
+"instances": 
+[{"input":for file in *.txt;
+"output":for file in *.txt; do mv "$file" "${file%.txt}.bak"; done
+}]
+
+
+//  (45)
+"instruction": "وراثت شی در PHP را نشان می دهد، یک کلاس پایه و یک کلاس مشتق شده با متد overrid شده ایجاد می کند. برای کد PHP زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":class Animal { public function speak() { echo "Generic Animal Sound\n"; } }
+class Dog extends Animal
+"output":class Animal { public function speak() { echo "Generic Animal Sound\n"; } }
+class Dog extends Animal { public function speak() { echo "Bark Bark!\n"; } }
+$dog = new Dog(); $dog->speak();
+}]
+
+
+//  (46)
+"instruction": "از ارسال چندگانه در جولیا استفاده می‌کند، تابعی را با رفتارهای متفاوت بر اساس نوع آرگومان تعریف می‌کند. برای کد جولیا زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":function greet(name::String)
+"output":function greet(name::String) println("Hello, $name!") end; greet("Julia")
+}]
+
+
+//  (47)
+"instruction": "در Groovy، یک اسکریپت زبان مخصوص دامنه (DSL) را برای تعریف و چاپ جزئیات یک شخص می سازد. برای کد Groovy زیر یک تکمیل پیشنهاد دهید."،
+"instances": 
+[{"input":def person = [:];
+"output":def person = [:]; person.with { name = "John"; age = 30; }; println("Name: ${person.name}, Age: ${person.age}")
+}]
+
+
+//  (48)
+"instruction": "برنامه‌نویسی ناهمزمان را در دارت نشان می‌دهد، اجرای یک تابع را با استفاده از Future و async/await به تأخیر می‌اندازد. برای کد دارت زیر تکمیلی را پیشنهاد دهید."،
+"instances":
+[{"input":Future<void> printDelayed(String message) async {
+  await Future.delayed(Duration(seconds: 2));
+  print(message);
+}
+"output":Future<void> printDelayed(String message) async {
+  await Future.delayed(Duration(seconds: 2));
+  print(message);
+}
+void main() { printDelayed("Delayed Hello!"); }
+}]
+
+
+//  (49)
+"instruction": "یک ماتریس 3x3 در فرترن با استفاده از سازنده آرایه ایجاد می کند و مقادیر آن را چاپ می کند. برای کد فرترن زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":real, dimension(3,3) ::
+"output":real, dimension(3,3) :: matrix = reshape([(i, i=1,9)], [3,3])
+write(*,*) matrix
+}]
+
+
+//  (50)
+"instruction": "یک برنامه ساده "Hello, World!" را در COBOL، یک زبان برنامه نویسی ساختاریافته و رویه ای تعریف می کند. برای کد COBOL زیر یک تکمیل پیشنهاد دهید."،
+"instances":
+[{"input":IDENTIFICATION DIVISION.
+PROGRAM-ID. HelloWorld.
+PROCEDURE DIVISION.
+"output":IDENTIFICATION DIVISION.
+PROGRAM-ID. HelloWorld.
+PROCEDURE DIVISION.
+    DISPLAY "Hello, World!".
+    STOP RUN.
+}]
